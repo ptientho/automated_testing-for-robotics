@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="1" disabled="0" errors="0" time="16.368" timestamp="2024-10-01T02:52:31" name="AllTests">
+  <testsuite name="WaypointActionServerTest" tests="2" failures="1" disabled="0" errors="0" time="16.307" timestamp="2024-10-01T02:52:31">
+    <testcase name="ErrorTest" status="run" result="completed" time="15.915" timestamp="2024-10-01T02:52:31" classname="tortoisebot_waypoints.WaypointActionServerTest" />
+    <testcase name="CancelGoal" status="run" result="completed" time="0.391" timestamp="2024-10-01T02:52:47" classname="tortoisebot_waypoints.WaypointActionServerTest">
+      <failure message="/home/user/ros2_ws/src/tortoisebot_waypoints/test/tortoisebot_waypoints_test.cpp:201&#x0A;Value of: false&#x0A;  Actual: false&#x0A;Expected: true" type=""><![CDATA[/home/user/ros2_ws/src/tortoisebot_waypoints/test/tortoisebot_waypoints_test.cpp:201
+Value of: false
+  Actual: false
+Expected: true]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

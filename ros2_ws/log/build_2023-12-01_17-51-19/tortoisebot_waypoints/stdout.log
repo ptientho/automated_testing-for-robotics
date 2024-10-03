@@ -1,0 +1,32 @@
+[ 18%] Built target gtest
+[ 36%] Built target gtest_main
+[ 54%] Built target tortoisebot_action_server_node
+[ 72%] Built target tortoisebot_waypoints_lib
+[100%] Built target tortoisebot_waypoints_test
+-- Install configuration: ""
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/environment/library_path.sh
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/environment/library_path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/lib/tortoisebot_waypoints/tortoisebot_action_server_node
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/include
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/include/tortoisebot_waypoints
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/include/tortoisebot_waypoints/tortoisebot_action_server.hpp
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/lib/libtortoisebot_waypoints_lib.a
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/lib/tortoisebot_waypoints/tortoisebot_waypoints_test
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/ament_index/resource_index/package_run_dependencies/tortoisebot_waypoints
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/ament_index/resource_index/parent_prefix_path/tortoisebot_waypoints
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/environment/ament_prefix_path.sh
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/environment/path.sh
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/environment/path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/local_setup.bash
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/local_setup.sh
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/local_setup.zsh
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/package.dsv
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/ament_index/resource_index/packages/tortoisebot_waypoints
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/cmake/tortoisebot_waypoints_libExport.cmake
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/cmake/tortoisebot_waypoints_libExport-noconfig.cmake
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/cmake/tortoisebot_waypointsConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/cmake/tortoisebot_waypointsConfig-version.cmake
+-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/package.xml

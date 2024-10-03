@@ -1,0 +1,39 @@
+UpdateCTestConfiguration  from :/home/user/ros2_ws/build/tortoisebot_waypoints/CTestConfiguration.ini
+Parse Config file:/home/user/ros2_ws/build/tortoisebot_waypoints/CTestConfiguration.ini
+   Site: 1_xterm
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+Create new tag: 20241001-0226 - Experimental
+UpdateCTestConfiguration  from :/home/user/ros2_ws/build/tortoisebot_waypoints/CTestConfiguration.ini
+Parse Config file:/home/user/ros2_ws/build/tortoisebot_waypoints/CTestConfiguration.ini
+Test project /home/user/ros2_ws/build/tortoisebot_waypoints
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: tortoisebot_waypoints_test
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/galactic/share/ament_cmake_test/cmake/run_test.py" "/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml" "--package-name" "tortoisebot_waypoints" "--output-file" "/home/user/ros2_ws/build/tortoisebot_waypoints/ament_cmake_gtest/tortoisebot_waypoints_test.txt" "--command" "/home/user/ros2_ws/build/tortoisebot_waypoints/tortoisebot_waypoints_test" "--gtest_output=xml:/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml"
+1: Test timeout computed to be: 300
+1: -- run_test.py: invoking following command in '/home/user/ros2_ws/build/tortoisebot_waypoints':
+1:  - /home/user/ros2_ws/build/tortoisebot_waypoints/tortoisebot_waypoints_test --gtest_output=xml:/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml
+1: [==========] Running 2 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 2 tests from WaypointActionServerTest
+1: [ RUN      ] WaypointActionServerTest.ErrorTest
+1/1 Test #1: tortoisebot_waypoints_test .......***Timeout 300.10 sec
+
+0% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 1
+
+Label Time Summary:
+gtest    = 300.10 sec*proc (1 test)
+
+Total Test time (real) = 300.10 sec
+
+The following tests FAILED:
+	[0;31m  1 - tortoisebot_waypoints_test (Timeout)[0;0m
+Errors while running CTest

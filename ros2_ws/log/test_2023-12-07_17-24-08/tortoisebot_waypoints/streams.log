@@ -1,0 +1,69 @@
+[0.099s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_waypoints': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/tortoisebot_waypoints:/home/user/ros2_ws/install/tortoisebot_waypoints_interface:/home/user/simulation_ws/devel:/opt/ros/noetic:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ydlidar:/home/user/ros2_ws/install/tortoisebot_slam:/home/user/ros2_ws/install/tortoisebot_navigation:/home/user/ros2_ws/install/tortoisebot_gazebo:/home/user/ros2_ws/install/tortoisebot_firmware:/home/user/ros2_ws/install/tortoisebot_description:/home/user/ros2_ws/install/tortoisebot_bringup LD_LIBRARY_PATH=/home/user/ros2_ws/install/tortoisebot_waypoints_interface/lib:/opt/ros/latest/opt/yaml_cpp_vendor/lib:/opt/ros/latest/opt/rviz_ogre_vendor/lib:/opt/ros/latest/lib/x86_64-linux-gnu:/opt/ros/latest/lib:/home/user/simulation_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/home/user/ros2_ws/install/ydlidar/lib:/home/user/ros2_ws/install/tortoisebot_firmware/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/home/user/ros2_ws/install/tortoisebot_waypoints/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/user/ros2_ws/install/tortoisebot_waypoints_interface/lib/python3.8/site-packages:/opt/ros/latest/lib/python/site-packages:/opt/ros/latest/lib/python3.8/site-packages:/home/user/simulation_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/home/user/ros2_ws/install/tortoisebot_firmware/lib/python3.8/site-packages:/opt/ros/galactic/lib/python/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics _=/usr/bin/env /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.133s] UpdateCTestConfiguration  from :/home/user/ros2_ws/build/tortoisebot_waypoints/CTestConfiguration.ini
+[0.134s] Parse Config file:/home/user/ros2_ws/build/tortoisebot_waypoints/CTestConfiguration.ini
+[0.134s]    Site: 1_xterm
+[0.134s]    Build name: (empty)
+[0.134s]  Add coverage exclude regular expressions.
+[0.135s] SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+[0.135s] Create new tag: 20231207-1724 - Experimental
+[0.135s] UpdateCTestConfiguration  from :/home/user/ros2_ws/build/tortoisebot_waypoints/CTestConfiguration.ini
+[0.135s] Parse Config file:/home/user/ros2_ws/build/tortoisebot_waypoints/CTestConfiguration.ini
+[0.135s] Test project /home/user/ros2_ws/build/tortoisebot_waypoints
+[0.135s] Constructing a list of tests
+[0.135s] Done constructing a list of tests
+[0.136s] Updating test list for fixtures
+[0.136s] Added 0 tests to meet fixture requirements
+[0.136s] Checking test dependency graph...
+[0.136s] Checking test dependency graph end
+[0.136s] test 1
+[0.137s]     Start 1: tortoisebot_waypoints_test
+[0.137s] 
+[0.137s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/galactic/share/ament_cmake_test/cmake/run_test.py" "/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml" "--package-name" "tortoisebot_waypoints" "--output-file" "/home/user/ros2_ws/build/tortoisebot_waypoints/ament_cmake_gtest/tortoisebot_waypoints_test.txt" "--command" "/home/user/ros2_ws/build/tortoisebot_waypoints/tortoisebot_waypoints_test" "--gtest_output=xml:/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml"
+[0.137s] 1: Test timeout computed to be: 300
+[0.239s] 1: -- run_test.py: invoking following command in '/home/user/ros2_ws/build/tortoisebot_waypoints':
+[0.240s] 1:  - /home/user/ros2_ws/build/tortoisebot_waypoints/tortoisebot_waypoints_test --gtest_output=xml:/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml
+[0.260s] 1: [==========] Running 2 tests from 1 test suite.
+[0.261s] 1: [----------] Global test environment set-up.
+[0.261s] 1: [----------] 2 tests from WaypointActionServerTest
+[0.261s] 1: [ RUN      ] WaypointActionServerTest.ErrorTest
+[0.298s] 1: [INFO] [1701969849.281261983] [waypoint_action_client]: Sending goal
+[0.299s] 1: [INFO] [1701969849.282935090] [waypoint_action_client]: Goal accepted by server, waiting for result
+[0.300s] 1: [INFO] [1701969849.283758129] [waypoint_action_client]: result: true
+[0.300s] 1: /home/user/ros2_ws/src/tortoisebot_waypoints/test/tortoisebot_waypoints_test.cpp:188: Failure
+[0.300s] 1: Expected: (err_pos) <= (0.1), actual: 0.707107 vs 0.1
+[0.301s] 1: /home/user/ros2_ws/src/tortoisebot_waypoints/test/tortoisebot_waypoints_test.cpp:189: Failure
+[0.301s] 1: Expected: (std::abs(err_yaw)) <= (0.5), actual: 4.07068e+233 vs 0.5
+[0.516s] 1: [  FAILED  ] WaypointActionServerTest.ErrorTest (253 ms)
+[0.516s] 1: [ RUN      ] WaypointActionServerTest.CancelGoal
+[0.546s] 1: [INFO] [1701969849.529255413] [waypoint_action_client]: Sending goal
+[0.547s] 1: /home/user/ros2_ws/src/tortoisebot_waypoints/test/tortoisebot_waypoints_test.cpp:201: Failure
+[0.547s] 1: Value of: false
+[0.547s] 1:   Actual: false
+[0.547s] 1: Expected: true
+[0.748s] 1: [  FAILED  ] WaypointActionServerTest.CancelGoal (234 ms)
+[0.748s] 1: [----------] 2 tests from WaypointActionServerTest (487 ms total)
+[0.748s] 1: 
+[0.749s] 1: [----------] Global test environment tear-down
+[0.749s] 1: [==========] 2 tests from 1 test suite ran. (487 ms total)
+[0.749s] 1: [  PASSED  ] 0 tests.
+[0.749s] 1: [  FAILED  ] 2 tests, listed below:
+[0.750s] 1: [  FAILED  ] WaypointActionServerTest.ErrorTest
+[0.750s] 1: [  FAILED  ] WaypointActionServerTest.CancelGoal
+[0.750s] 1: 
+[0.750s] 1:  2 FAILED TESTS
+[0.759s] 1: -- run_test.py: return code 1
+[0.759s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml'
+[0.759s] 1: -- run_test.py: verify result file '/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml'
+[0.775s] 1/1 Test #1: tortoisebot_waypoints_test .......***Failed    0.64 sec
+[0.775s] 
+[0.775s] 0% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 1
+[0.776s] 
+[0.776s] Label Time Summary:
+[0.776s] gtest    =   0.64 sec*proc (1 test)
+[0.776s] 
+[0.776s] Total Test time (real) =   0.64 sec
+[0.776s] 
+[0.777s] The following tests FAILED:
+[0.777s] 	[0;31m  1 - tortoisebot_waypoints_test (Failed)[0;0m
+[0.777s] Errors while running CTest
+[0.782s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_waypoints' returned '8': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/tortoisebot_waypoints:/home/user/ros2_ws/install/tortoisebot_waypoints_interface:/home/user/simulation_ws/devel:/opt/ros/noetic:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ydlidar:/home/user/ros2_ws/install/tortoisebot_slam:/home/user/ros2_ws/install/tortoisebot_navigation:/home/user/ros2_ws/install/tortoisebot_gazebo:/home/user/ros2_ws/install/tortoisebot_firmware:/home/user/ros2_ws/install/tortoisebot_description:/home/user/ros2_ws/install/tortoisebot_bringup LD_LIBRARY_PATH=/home/user/ros2_ws/install/tortoisebot_waypoints_interface/lib:/opt/ros/latest/opt/yaml_cpp_vendor/lib:/opt/ros/latest/opt/rviz_ogre_vendor/lib:/opt/ros/latest/lib/x86_64-linux-gnu:/opt/ros/latest/lib:/home/user/simulation_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/home/user/ros2_ws/install/ydlidar/lib:/home/user/ros2_ws/install/tortoisebot_firmware/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/home/user/ros2_ws/install/tortoisebot_waypoints/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/user/ros2_ws/install/tortoisebot_waypoints_interface/lib/python3.8/site-packages:/opt/ros/latest/lib/python/site-packages:/opt/ros/latest/lib/python3.8/site-packages:/home/user/simulation_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/home/user/ros2_ws/install/tortoisebot_firmware/lib/python3.8/site-packages:/opt/ros/galactic/lib/python/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics _=/usr/bin/env /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

@@ -1,0 +1,11 @@
+[1.102s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test-result', '--verbose']
+[1.102s] DEBUG:colcon:Parsed command line arguments: Namespace(all=False, delete=False, delete_yes=False, log_base=None, log_level=None, main=<bound method TestResultVerb.main of <colcon_test_result.verb.test_result.TestResultVerb object at 0x7f0703348e20>>, mixin=None, mixin_files=None, mixin_verb=('test-result',), result_files_only=False, test_result_base='build', verb_extension=<colcon_test_result.verb.test_result.TestResultVerb object at 0x7f0703348e20>, verb_name='test-result', verb_parser=<colcon_alias.argument_parser.alias.AliasArgumentDecorator object at 0x7f07031e9b80>, verbose=True)
+[1.167s] Level 1:colcon.colcon_test_result.test_result:get_test_results(ctest)
+[1.187s] Level 1:colcon.colcon_test_result.test_result:get_test_results(xunit)
+[1.195s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/tortoisebot_waypoints/Testing/20231201-1801/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[1.196s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/tortoisebot_waypoints/Testing/20231201-1804/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[1.197s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/tortoisebot_waypoints/Testing/20231207-1720/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[1.198s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/tortoisebot_waypoints/Testing/20231207-1724/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[1.198s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/tortoisebot_waypoints/Testing/20241001-0226/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[1.199s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/tortoisebot_waypoints/Testing/20241001-0239/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[1.266s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/tortoisebot_waypoints/Testing/20241001-0243/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'

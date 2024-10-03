@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20231207-1720-Experimental"
+	Name="1_xterm"
+	Generator="ctest-3.16.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="9.4.0"
+	OSName="Linux"
+	Hostname="1_xterm"
+	OSRelease="4.15.0-1009-aws"
+	OSVersion="#9-Ubuntu SMP Wed May 16 15:22:54 UTC 2018"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="63"
+	ProcessorCacheSize="25600"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="15031"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2899.99"
+	>
+	<Testing>
+		<StartDateTime>Dec 07 17:20 UTC</StartDateTime>
+		<StartTestTime>1701969634</StartTestTime>
+		<TestList>
+			<Test>./tortoisebot_waypoints_test</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>tortoisebot_waypoints_test</Name>
+			<Path>.</Path>
+			<FullName>./tortoisebot_waypoints_test</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/galactic/share/ament_cmake_test/cmake/run_test.py" "/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml" "--package-name" "tortoisebot_waypoints" "--output-file" "/home/user/ros2_ws/build/tortoisebot_waypoints/ament_cmake_gtest/tortoisebot_waypoints_test.txt" "--command" "/home/user/ros2_ws/build/tortoisebot_waypoints/tortoisebot_waypoints_test" "--gtest_output=xml:/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>17.2915</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/galactic/share/ament_cmake_test/cmake/run_test.py" "/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml" "--package-name" "tortoisebot_waypoints" "--output-file" "/home/user/ros2_ws/build/tortoisebot_waypoints/ament_cmake_gtest/tortoisebot_waypoints_test.txt" "--command" "/home/user/ros2_ws/build/tortoisebot_waypoints/tortoisebot_waypoints_test" "--gtest_output=xml:/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/user/ros2_ws/build/tortoisebot_waypoints':
+ - /home/user/ros2_ws/build/tortoisebot_waypoints/tortoisebot_waypoints_test --gtest_output=xml:/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from WaypointActionServerTest
+[ RUN      ] WaypointActionServerTest.ErrorTest
+[INFO] [1701969634.299288818] [waypoint_action_client]: Sending goal
+[INFO] [1701969634.306983161] [waypoint_action_client]: Goal accepted by server, waiting for result
+[INFO] [1701969634.321847039] [waypoint_action_client]: current position: [x: -0.006420, y: 0.001739, z: 0.000027]
+[INFO] [1701969634.321895216] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969634.362884723] [waypoint_action_client]: current position: [x: -0.006420, y: 0.001769, z: 0.000028]
+[INFO] [1701969634.362952745] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969634.404237643] [waypoint_action_client]: current position: [x: -0.006423, y: 0.002072, z: 0.000024]
+[INFO] [1701969634.404300794] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969634.449814376] [waypoint_action_client]: current position: [x: -0.006396, y: 0.002444, z: 0.000021]
+[INFO] [1701969634.449890180] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969634.483726764] [waypoint_action_client]: current position: [x: -0.006378, y: 0.002864, z: 0.000028]
+[INFO] [1701969634.483794675] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969634.523687327] [waypoint_action_client]: current position: [x: -0.006381, y: 0.003063, z: 0.000028]
+[INFO] [1701969634.523741205] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969634.563688996] [waypoint_action_client]: current position: [x: -0.006351, y: 0.003449, z: 0.000027]
+[INFO] [1701969634.563752449] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969634.603647364] [waypoint_action_client]: current position: [x: -0.006324, y: 0.003642, z: 0.000027]
+[INFO] [1701969634.603710254] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969634.651729483] [waypoint_action_client]: current position: [x: -0.006254, y: 0.004042, z: 0.000023]
+[INFO] [1701969634.651792066] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969634.684026554] [waypoint_action_client]: current position: [x: -0.006200, y: 0.004639, z: 0.000031]
+[INFO] [1701969634.684087681] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969634.723882844] [waypoint_action_client]: current position: [x: -0.006102, y: 0.005240, z: 0.000028]
+[INFO] [1701969634.723959101] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969634.763636422] [waypoint_action_client]: current position: [x: -0.006042, y: 0.005651, z: 0.000023]
+[INFO] [1701969634.763694724] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969634.805927359] [waypoint_action_client]: current position: [x: -0.005974, y: 0.006259, z: 0.000028]
+[INFO] [1701969634.805983800] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969634.843538999] [waypoint_action_client]: current position: [x: -0.005847, y: 0.006867, z: 0.000018]
+[INFO] [1701969634.843590387] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969634.884078930] [waypoint_action_client]: current position: [x: -0.005764, y: 0.007256, z: 0.000027]
+[INFO] [1701969634.884142684] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969634.923605447] [waypoint_action_client]: current position: [x: -0.005687, y: 0.007636, z: 0.000029]
+[INFO] [1701969634.923660222] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969634.963623496] [waypoint_action_client]: current position: [x: -0.005538, y: 0.008220, z: 0.000029]
+[INFO] [1701969634.963680030] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.003628026] [waypoint_action_client]: current position: [x: -0.005427, y: 0.008615, z: 0.000020]
+[INFO] [1701969635.003685180] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.043672604] [waypoint_action_client]: current position: [x: -0.005368, y: 0.009026, z: 0.000028]
+[INFO] [1701969635.043744305] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.083529032] [waypoint_action_client]: current position: [x: -0.005269, y: 0.009412, z: 0.000027]
+[INFO] [1701969635.083596268] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.131055666] [waypoint_action_client]: current position: [x: -0.005161, y: 0.009798, z: 0.000028]
+[INFO] [1701969635.131153071] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.162668606] [waypoint_action_client]: current position: [x: -0.005094, y: 0.009994, z: 0.000025]
+[INFO] [1701969635.162725889] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.203560565] [waypoint_action_client]: current position: [x: -0.004901, y: 0.010768, z: 0.000027]
+[INFO] [1701969635.203627471] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.243630240] [waypoint_action_client]: current position: [x: -0.004783, y: 0.011154, z: 0.000029]
+[INFO] [1701969635.243701798] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.283552175] [waypoint_action_client]: current position: [x: -0.004618, y: 0.011733, z: 0.000028]
+[INFO] [1701969635.283638319] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.324172684] [waypoint_action_client]: current position: [x: -0.004500, y: 0.012122, z: 0.000022]
+[INFO] [1701969635.324229816] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.363628739] [waypoint_action_client]: current position: [x: -0.004275, y: 0.012669, z: 0.000028]
+[INFO] [1701969635.363684753] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.403393156] [waypoint_action_client]: current position: [x: -0.004186, y: 0.012857, z: 0.000028]
+[INFO] [1701969635.403451540] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.443672230] [waypoint_action_client]: current position: [x: -0.004014, y: 0.013215, z: 0.000025]
+[INFO] [1701969635.443728239] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.483739484] [waypoint_action_client]: current position: [x: -0.003868, y: 0.013581, z: 0.000026]
+[INFO] [1701969635.483954916] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.524245072] [waypoint_action_client]: current position: [x: -0.003741, y: 0.013991, z: 0.000021]
+[INFO] [1701969635.524309385] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.563643549] [waypoint_action_client]: current position: [x: -0.003512, y: 0.014569, z: 0.000024]
+[INFO] [1701969635.563701351] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.603611610] [waypoint_action_client]: current position: [x: -0.003364, y: 0.014957, z: 0.000024]
+[INFO] [1701969635.603664486] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.643549743] [waypoint_action_client]: current position: [x: -0.003186, y: 0.015323, z: 0.000023]
+[INFO] [1701969635.643601747] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.683577151] [waypoint_action_client]: current position: [x: -0.003019, y: 0.015713, z: 0.000027]
+[INFO] [1701969635.683635441] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.724508755] [waypoint_action_client]: current position: [x: -0.002848, y: 0.016065, z: 0.000025]
+[INFO] [1701969635.724573184] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.763924838] [waypoint_action_client]: current position: [x: -0.002583, y: 0.016600, z: 0.000028]
+[INFO] [1701969635.764048399] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.803704837] [waypoint_action_client]: current position: [x: -0.002399, y: 0.016954, z: 0.000026]
+[INFO] [1701969635.803774653] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.843696853] [waypoint_action_client]: current position: [x: -0.002225, y: 0.017305, z: 0.000021]
+[INFO] [1701969635.843756460] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.883635645] [waypoint_action_client]: current position: [x: -0.001989, y: 0.017663, z: 0.000025]
+[INFO] [1701969635.883717027] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.923800408] [waypoint_action_client]: current position: [x: -0.001807, y: 0.018009, z: 0.000029]
+[INFO] [1701969635.923867567] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969635.963598470] [waypoint_action_client]: current position: [x: -0.001459, y: 0.018493, z: 0.000029]
+[INFO] [1701969635.963679749] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969636.002777973] [waypoint_action_client]: current position: [x: -0.001132, y: 0.018995, z: 0.000024]
+[INFO] [1701969636.002842373] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969636.043628078] [waypoint_action_client]: current position: [x: -0.000777, y: 0.019481, z: 0.000028]
+[INFO] [1701969636.043689551] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969636.084300275] [waypoint_action_client]: current position: [x: -0.000640, y: 0.019651, z: 0.000027]
+[INFO] [1701969636.084361585] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969636.123637876] [waypoint_action_client]: current position: [x: -0.000412, y: 0.019975, z: 0.000029]
+[INFO] [1701969636.123700277] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969636.164629338] [waypoint_action_client]: current position: [x: -0.000291, y: 0.020141, z: 0.000028]
+[INFO] [1701969636.164690799] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969636.203358819] [waypoint_action_client]: current position: [x: -0.000037, y: 0.020458, z: 0.000028]
+[INFO] [1701969636.203421017] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969636.244100471] [waypoint_action_client]: current position: [x: 0.000336, y: 0.020949, z: 0.000029]
+[INFO] [1701969636.244159252] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969636.283569720] [waypoint_action_client]: current position: [x: 0.000592, y: 0.021268, z: 0.000025]
+[INFO] [1701969636.283635020] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969636.323908116] [waypoint_action_client]: current position: [x: 0.000834, y: 0.021585, z: 0.000026]
+[INFO] [1701969636.323969127] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969636.363647470] [waypoint_action_client]: current position: [x: 0.001101, y: 0.021880, z: 0.000030]
+[INFO] [1701969636.363700421] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969636.403695573] [waypoint_action_client]: current position: [x: 0.001502, y: 0.022346, z: 0.000028]
+[INFO] [1701969636.403762497] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969636.443565362] [waypoint_action_client]: current position: [x: 0.001799, y: 0.022643, z: 0.000028]
+[INFO] [1701969636.443631821] [waypoint_action_client]: current state: go to point
+[INFO] [1701969636.487746166] [waypoint_action_client]: current position: [x: 0.002102, y: 0.022878, z: 0.000027]
+[INFO] [1701969636.487812464] [waypoint_action_client]: current state: go to point
+[INFO] [1701969636.523586718] [waypoint_action_client]: current position: [x: 0.003102, y: 0.022673, z: 0.000027]
+[INFO] [1701969636.523645381] [waypoint_action_client]: current state: go to point
+[INFO] [1701969636.563589646] [waypoint_action_client]: current position: [x: 0.004699, y: 0.021848, z: 0.000028]
+[INFO] [1701969636.563650876] [waypoint_action_client]: current state: go to point
+[INFO] [1701969636.603781500] [waypoint_action_client]: current position: [x: 0.006936, y: 0.020337, z: 0.000028]
+[INFO] [1701969636.603847287] [waypoint_action_client]: current state: go to point
+[INFO] [1701969636.643624431] [waypoint_action_client]: current position: [x: 0.009722, y: 0.018135, z: 0.000029]
+[INFO] [1701969636.643699447] [waypoint_action_client]: current state: go to point
+[INFO] [1701969636.683876202] [waypoint_action_client]: current position: [x: 0.013091, y: 0.015191, z: 0.000030]
+[INFO] [1701969636.684490057] [waypoint_action_client]: current state: go to point
+[INFO] [1701969636.721998024] [waypoint_action_client]: current position: [x: 0.015612, y: 0.012858, z: 0.000027]
+[INFO] [1701969636.722050721] [waypoint_action_client]: current state: go to point
+[INFO] [1701969636.763739004] [waypoint_action_client]: current position: [x: 0.018379, y: 0.010176, z: 0.000028]
+[INFO] [1701969636.763793620] [waypoint_action_client]: current state: go to point
+[INFO] [1701969636.804124497] [waypoint_action_client]: current position: [x: 0.021360, y: 0.007166, z: 0.000028]
+[INFO] [1701969636.804195303] [waypoint_action_client]: current state: go to point
+[INFO] [1701969636.845715914] [waypoint_action_client]: current position: [x: 0.022929, y: 0.005550, z: 0.000029]
+[INFO] [1701969636.845801109] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969636.883887531] [waypoint_action_client]: current position: [x: 0.027645, y: 0.000551, z: 0.000023]
+[INFO] [1701969636.883955016] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969636.923759097] [waypoint_action_client]: current position: [x: 0.030432, y: -0.002448, z: 0.000030]
+[INFO] [1701969636.923830780] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969636.962117804] [waypoint_action_client]: current position: [x: 0.034110, y: -0.006388, z: 0.000029]
+[INFO] [1701969636.962171260] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969637.003219712] [waypoint_action_client]: current position: [x: 0.036230, y: -0.008633, z: 0.000027]
+[INFO] [1701969637.003282491] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969637.043595338] [waypoint_action_client]: current position: [x: 0.038943, y: -0.011482, z: 0.000024]
+[INFO] [1701969637.043686878] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969637.082626063] [waypoint_action_client]: current position: [x: 0.040440, y: -0.013029, z: 0.000028]
+[INFO] [1701969637.082693435] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969637.123580339] [waypoint_action_client]: current position: [x: 0.042333, y: -0.015106, z: 0.000028]
+[INFO] [1701969637.123638629] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969637.163627367] [waypoint_action_client]: current position: [x: 0.043368, y: -0.016345, z: 0.000026]
+[INFO] [1701969637.163691242] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969637.205086809] [waypoint_action_client]: current position: [x: 0.044593, y: -0.017974, z: 0.000025]
+[INFO] [1701969637.205164473] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969637.244045680] [waypoint_action_client]: current position: [x: 0.045431, y: -0.019323, z: 0.000022]
+[INFO] [1701969637.244104185] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969637.283170725] [waypoint_action_client]: current position: [x: 0.045774, y: -0.020060, z: 0.000028]
+[INFO] [1701969637.283226716] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969637.323561929] [waypoint_action_client]: current position: [x: 0.045979, y: -0.020909, z: 0.000027]
+[INFO] [1701969637.323615561] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969637.363680085] [waypoint_action_client]: current position: [x: 0.045981, y: -0.021151, z: 0.000028]
+[INFO] [1701969637.363748223] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969637.403610288] [waypoint_action_client]: current position: [x: 0.045939, y: -0.021360, z: 0.000028]
+[INFO] [1701969637.403676037] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969637.444237860] [waypoint_action_client]: current position: [x: 0.045708, y: -0.021658, z: 0.000028]
+[INFO] [1701969637.444307217] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969637.483590857] [waypoint_action_client]: current position: [x: 0.045386, y: -0.021895, z: 0.000028]
+[INFO] [1701969637.483658048] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969637.524010230] [waypoint_action_client]: current position: [x: 0.044869, y: -0.022229, z: 0.000025]
+[INFO] [1701969637.524079852] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969637.563764172] [waypoint_action_client]: current position: [x: 0.044540, y: -0.022463, z: 0.000021]
+[INFO] [1701969637.563826063] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969637.603060556] [waypoint_action_client]: current position: [x: 0.044377, y: -0.022586, z: 0.000025]
+[INFO] [1701969637.603196259] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969637.643890299] [waypoint_action_client]: current position: [x: 0.044064, y: -0.022830, z: 0.000028]
+[INFO] [1701969637.643976412] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969637.683585253] [waypoint_action_client]: current position: [x: 0.043582, y: -0.023194, z: 0.000021]
+[INFO] [1701969637.683654175] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969637.723586278] [waypoint_action_client]: current position: [x: 0.043103, y: -0.023582, z: 0.000027]
+[INFO] [1701969637.723641976] [waypoint_action_client]: current state: go to point
+[INFO] [1701969637.762011774] [waypoint_action_client]: current position: [x: 0.042880, y: -0.023904, z: 0.000027]
+[INFO] [1701969637.762078603] [waypoint_action_client]: current state: go to point
+[INFO] [1701969637.803611835] [waypoint_action_client]: current position: [x: 0.043074, y: -0.024989, z: 0.000020]
+[INFO] [1701969637.803674110] [waypoint_action_client]: current state: go to point
+[INFO] [1701969637.843621481] [waypoint_action_client]: current position: [x: 0.043584, y: -0.026125, z: 0.000022]
+[INFO] [1701969637.843684257] [waypoint_action_client]: current state: go to point
+[INFO] [1701969637.883044362] [waypoint_action_client]: current position: [x: 0.044337, y: -0.027501, z: 0.000025]
+[INFO] [1701969637.883099968] [waypoint_action_client]: current state: go to point
+[INFO] [1701969637.923822979] [waypoint_action_client]: current position: [x: 0.045990, y: -0.030032, z: 0.000027]
+[INFO] [1701969637.923877127] [waypoint_action_client]: current state: go to point
+[INFO] [1701969637.963018050] [waypoint_action_client]: current position: [x: 0.046712, y: -0.031027, z: 0.000029]
+[INFO] [1701969637.963072987] [waypoint_action_client]: current state: go to point
+[INFO] [1701969638.002981416] [waypoint_action_client]: current position: [x: 0.049274, y: -0.034354, z: 0.000028]
+[INFO] [1701969638.003043544] [waypoint_action_client]: current state: go to point
+[INFO] [1701969638.045674889] [waypoint_action_client]: current position: [x: 0.052543, y: -0.038233, z: 0.000021]
+[INFO] [1701969638.045735881] [waypoint_action_client]: current state: go to point
+[INFO] [1701969638.083789131] [waypoint_action_client]: current position: [x: 0.056614, y: -0.042726, z: 0.000030]
+[INFO] [1701969638.083850636] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969638.123686198] [waypoint_action_client]: current position: [x: 0.058091, y: -0.044320, z: 0.000025]
+[INFO] [1701969638.123754700] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969638.163627540] [waypoint_action_client]: current position: [x: 0.062283, y: -0.048722, z: 0.000023]
+[INFO] [1701969638.163694273] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969638.206204927] [waypoint_action_client]: current position: [x: 0.064754, y: -0.051297, z: 0.000030]
+[INFO] [1701969638.206276250] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969638.243188861] [waypoint_action_client]: current position: [x: 0.066956, y: -0.053608, z: 0.000024]
+[INFO] [1701969638.243256950] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969638.283447688] [waypoint_action_client]: current position: [x: 0.068851, y: -0.055623, z: 0.000024]
+[INFO] [1701969638.283500034] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969638.323565958] [waypoint_action_client]: current position: [x: 0.071177, y: -0.058154, z: 0.000026]
+[INFO] [1701969638.323617178] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969638.363434177] [waypoint_action_client]: current position: [x: 0.073197, y: -0.060248, z: 0.000026]
+[INFO] [1701969638.363501037] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969638.403559546] [waypoint_action_client]: current position: [x: 0.074403, y: -0.061390, z: 0.000025]
+[INFO] [1701969638.403622036] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969638.443996601] [waypoint_action_client]: current position: [x: 0.075505, y: -0.062350, z: 0.000029]
+[INFO] [1701969638.444079765] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969638.483442216] [waypoint_action_client]: current position: [x: 0.076937, y: -0.063459, z: 0.000028]
+[INFO] [1701969638.483518497] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969638.523800538] [waypoint_action_client]: current position: [x: 0.077752, y: -0.063987, z: 0.000027]
+[INFO] [1701969638.523868119] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969638.563590240] [waypoint_action_client]: current position: [x: 0.078112, y: -0.064185, z: 0.000026]
+[INFO] [1701969638.563662558] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969638.603779663] [waypoint_action_client]: current position: [x: 0.079023, y: -0.064503, z: 0.000023]
+[INFO] [1701969638.603838567] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969638.646220856] [waypoint_action_client]: current position: [x: 0.079657, y: -0.064427, z: 0.000027]
+[INFO] [1701969638.646281301] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969638.683637143] [waypoint_action_client]: current position: [x: 0.079953, y: -0.064168, z: 0.000029]
+[INFO] [1701969638.683694192] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969638.724159918] [waypoint_action_client]: current position: [x: 0.080326, y: -0.063703, z: 0.000028]
+[INFO] [1701969638.724220639] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969638.763760797] [waypoint_action_client]: current position: [x: 0.080696, y: -0.063227, z: 0.000027]
+[INFO] [1701969638.763824368] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969638.806875417] [waypoint_action_client]: current position: [x: 0.080959, y: -0.062917, z: 0.000029]
+[INFO] [1701969638.806947749] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969638.844116159] [waypoint_action_client]: current position: [x: 0.081228, y: -0.062611, z: 0.000028]
+[INFO] [1701969638.844178531] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969638.884773547] [waypoint_action_client]: current position: [x: 0.081642, y: -0.062142, z: 0.000028]
+[INFO] [1701969638.884832677] [waypoint_action_client]: current state: go to point
+[INFO] [1701969638.923864287] [waypoint_action_client]: current position: [x: 0.082254, y: -0.061932, z: 0.000029]
+[INFO] [1701969638.923923356] [waypoint_action_client]: current state: go to point
+[INFO] [1701969638.963797790] [waypoint_action_client]: current position: [x: 0.083529, y: -0.062320, z: 0.000028]
+[INFO] [1701969638.963852664] [waypoint_action_client]: current state: go to point
+[INFO] [1701969639.003619431] [waypoint_action_client]: current position: [x: 0.084659, y: -0.062909, z: 0.000028]
+[INFO] [1701969639.003685165] [waypoint_action_client]: current state: go to point
+[INFO] [1701969639.052328152] [waypoint_action_client]: current position: [x: 0.086912, y: -0.064376, z: 0.000029]
+[INFO] [1701969639.052397515] [waypoint_action_client]: current state: go to point
+[INFO] [1701969639.083602060] [waypoint_action_client]: current position: [x: 0.087798, y: -0.065022, z: 0.000029]
+[INFO] [1701969639.083664290] [waypoint_action_client]: current state: go to point
+[INFO] [1701969639.123613436] [waypoint_action_client]: current position: [x: 0.089762, y: -0.066534, z: 0.000028]
+[INFO] [1701969639.123679484] [waypoint_action_client]: current state: go to point
+[INFO] [1701969639.163550542] [waypoint_action_client]: current position: [x: 0.091951, y: -0.068382, z: 0.000026]
+[INFO] [1701969639.163612360] [waypoint_action_client]: current state: go to point
+[INFO] [1701969639.203602372] [waypoint_action_client]: current position: [x: 0.095648, y: -0.071721, z: 0.000021]
+[INFO] [1701969639.203700147] [waypoint_action_client]: current state: go to point
+[INFO] [1701969639.243610304] [waypoint_action_client]: current position: [x: 0.097041, y: -0.073046, z: 0.000029]
+[INFO] [1701969639.243708900] [waypoint_action_client]: current state: go to point
+[INFO] [1701969639.283505291] [waypoint_action_client]: current position: [x: 0.099924, y: -0.075897, z: 0.000029]
+[INFO] [1701969639.283568353] [waypoint_action_client]: current state: go to point
+[INFO] [1701969639.323831152] [waypoint_action_client]: current position: [x: 0.101467, y: -0.077468, z: 0.000027]
+[INFO] [1701969639.323952464] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969639.363746712] [waypoint_action_client]: current position: [x: 0.103057, y: -0.079116, z: 0.000026]
+[INFO] [1701969639.363812012] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969639.411536796] [waypoint_action_client]: current position: [x: 0.108763, y: -0.085074, z: 0.000024]
+[INFO] [1701969639.411612135] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969639.442393573] [waypoint_action_client]: current position: [x: 0.111197, y: -0.087650, z: 0.000025]
+[INFO] [1701969639.442447758] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969639.484270106] [waypoint_action_client]: current position: [x: 0.114351, y: -0.090954, z: 0.000030]
+[INFO] [1701969639.484401860] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969639.523175327] [waypoint_action_client]: current position: [x: 0.116130, y: -0.092773, z: 0.000028]
+[INFO] [1701969639.523237013] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969639.563603798] [waypoint_action_client]: current position: [x: 0.118379, y: -0.095087, z: 0.000028]
+[INFO] [1701969639.563665094] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969639.603937304] [waypoint_action_client]: current position: [x: 0.120202, y: -0.097132, z: 0.000027]
+[INFO] [1701969639.604000603] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969639.644207103] [waypoint_action_client]: current position: [x: 0.120715, y: -0.097745, z: 0.000029]
+[INFO] [1701969639.644263036] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969639.684511316] [waypoint_action_client]: current position: [x: 0.122012, y: -0.099446, z: 0.000028]
+[INFO] [1701969639.684572503] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969639.723809489] [waypoint_action_client]: current position: [x: 0.122656, y: -0.100416, z: 0.000028]
+[INFO] [1701969639.723866317] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969639.762343180] [waypoint_action_client]: current position: [x: 0.122912, y: -0.100840, z: 0.000024]
+[INFO] [1701969639.762400411] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969639.803071814] [waypoint_action_client]: current position: [x: 0.123417, y: -0.101944, z: 0.000029]
+[INFO] [1701969639.803133143] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969639.843698203] [waypoint_action_client]: current position: [x: 0.123564, y: -0.102512, z: 0.000027]
+[INFO] [1701969639.843752235] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969639.883600606] [waypoint_action_client]: current position: [x: 0.123543, y: -0.102964, z: 0.000028]
+[INFO] [1701969639.883656047] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969639.923829755] [waypoint_action_client]: current position: [x: 0.123345, y: -0.103285, z: 0.000028]
+[INFO] [1701969639.923895191] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969639.963704240] [waypoint_action_client]: current position: [x: 0.123345, y: -0.103285, z: 0.000028]
+[INFO] [1701969639.963771213] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969640.003579158] [waypoint_action_client]: current position: [x: 0.122880, y: -0.103640, z: 0.000028]
+[INFO] [1701969640.003648477] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969640.043598499] [waypoint_action_client]: current position: [x: 0.122386, y: -0.103976, z: 0.000029]
+[INFO] [1701969640.043669005] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969640.083605935] [waypoint_action_client]: current position: [x: 0.121908, y: -0.104356, z: 0.000028]
+[INFO] [1701969640.083663111] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969640.123777585] [waypoint_action_client]: current position: [x: 0.121591, y: -0.104590, z: 0.000028]
+[INFO] [1701969640.123870054] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969640.163231946] [waypoint_action_client]: current position: [x: 0.121274, y: -0.104846, z: 0.000028]
+[INFO] [1701969640.163314736] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969640.203588900] [waypoint_action_client]: current position: [x: 0.120949, y: -0.105114, z: 0.000028]
+[INFO] [1701969640.203648453] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969640.243653963] [waypoint_action_client]: current position: [x: 0.120483, y: -0.105523, z: 0.000028]
+[INFO] [1701969640.243708806] [waypoint_action_client]: current state: go to point
+[INFO] [1701969640.283570194] [waypoint_action_client]: current position: [x: 0.120229, y: -0.105833, z: 0.000024]
+[INFO] [1701969640.283628973] [waypoint_action_client]: current state: go to point
+[INFO] [1701969640.322925642] [waypoint_action_client]: current position: [x: 0.120276, y: -0.106483, z: 0.000029]
+[INFO] [1701969640.322987342] [waypoint_action_client]: current state: go to point
+[INFO] [1701969640.366520443] [waypoint_action_client]: current position: [x: 0.120816, y: -0.107947, z: 0.000024]
+[INFO] [1701969640.366577200] [waypoint_action_client]: current state: go to point
+[INFO] [1701969640.403615460] [waypoint_action_client]: current position: [x: 0.122025, y: -0.110098, z: 0.000028]
+[INFO] [1701969640.403678427] [waypoint_action_client]: current state: go to point
+[INFO] [1701969640.443571528] [waypoint_action_client]: current position: [x: 0.123168, y: -0.111829, z: 0.000029]
+[INFO] [1701969640.443635569] [waypoint_action_client]: current state: go to point
+[INFO] [1701969640.483581616] [waypoint_action_client]: current position: [x: 0.125433, y: -0.114916, z: 0.000027]
+[INFO] [1701969640.483644135] [waypoint_action_client]: current state: go to point
+[INFO] [1701969640.523638868] [waypoint_action_client]: current position: [x: 0.127363, y: -0.117277, z: 0.000028]
+[INFO] [1701969640.523692499] [waypoint_action_client]: current state: go to point
+[INFO] [1701969640.563760947] [waypoint_action_client]: current position: [x: 0.130887, y: -0.121312, z: 0.000028]
+[INFO] [1701969640.563817286] [waypoint_action_client]: current state: go to point
+[INFO] [1701969640.603666433] [waypoint_action_client]: current position: [x: 0.133646, y: -0.124337, z: 0.000027]
+[INFO] [1701969640.603737551] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969640.643713807] [waypoint_action_client]: current position: [x: 0.136622, y: -0.127449, z: 0.000028]
+[INFO] [1701969640.643771638] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969640.683816132] [waypoint_action_client]: current position: [x: 0.138022, y: -0.128908, z: 0.000028]
+[INFO] [1701969640.683870895] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969640.722884206] [waypoint_action_client]: current position: [x: 0.140601, y: -0.131596, z: 0.000028]
+[INFO] [1701969640.722940134] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969640.763573810] [waypoint_action_client]: current position: [x: 0.143931, y: -0.135094, z: 0.000028]
+[INFO] [1701969640.763637163] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969640.803598611] [waypoint_action_client]: current position: [x: 0.146650, y: -0.138007, z: 0.000027]
+[INFO] [1701969640.803656848] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969640.843580233] [waypoint_action_client]: current position: [x: 0.148848, y: -0.140376, z: 0.000023]
+[INFO] [1701969640.843642819] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969640.883617044] [waypoint_action_client]: current position: [x: 0.150185, y: -0.141702, z: 0.000028]
+[INFO] [1701969640.883682473] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969640.923551382] [waypoint_action_client]: current position: [x: 0.150816, y: -0.142304, z: 0.000029]
+[INFO] [1701969640.923605879] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969640.964025228] [waypoint_action_client]: current position: [x: 0.152518, y: -0.143788, z: 0.000022]
+[INFO] [1701969640.964091242] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969641.003913509] [waypoint_action_client]: current position: [x: 0.153507, y: -0.144558, z: 0.000024]
+[INFO] [1701969641.004004302] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969641.044005977] [waypoint_action_client]: current position: [x: 0.154772, y: -0.145381, z: 0.000028]
+[INFO] [1701969641.044074732] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969641.082778385] [waypoint_action_client]: current position: [x: 0.155457, y: -0.145723, z: 0.000029]
+[INFO] [1701969641.082833144] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969641.123706759] [waypoint_action_client]: current position: [x: 0.156256, y: -0.145924, z: 0.000028]
+[INFO] [1701969641.123770995] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969641.164658652] [waypoint_action_client]: current position: [x: 0.156649, y: -0.145847, z: 0.000028]
+[INFO] [1701969641.164719732] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969641.203664110] [waypoint_action_client]: current position: [x: 0.157069, y: -0.145430, z: 0.000026]
+[INFO] [1701969641.203728095] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969641.243854062] [waypoint_action_client]: current position: [x: 0.157197, y: -0.145266, z: 0.000023]
+[INFO] [1701969641.243909122] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969641.283631643] [waypoint_action_client]: current position: [x: 0.157555, y: -0.144762, z: 0.000023]
+[INFO] [1701969641.283696261] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969641.323852550] [waypoint_action_client]: current position: [x: 0.157949, y: -0.144285, z: 0.000028]
+[INFO] [1701969641.323920037] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969641.363630874] [waypoint_action_client]: current position: [x: 0.158342, y: -0.143810, z: 0.000024]
+[INFO] [1701969641.363905510] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969641.403655004] [waypoint_action_client]: current position: [x: 0.158773, y: -0.143353, z: 0.000028]
+[INFO] [1701969641.403706496] [waypoint_action_client]: current state: go to point
+[INFO] [1701969641.443552198] [waypoint_action_client]: current position: [x: 0.159091, y: -0.143077, z: 0.000029]
+[INFO] [1701969641.443607059] [waypoint_action_client]: current state: go to point
+[INFO] [1701969641.483649416] [waypoint_action_client]: current position: [x: 0.159377, y: -0.143074, z: 0.000028]
+[INFO] [1701969641.483718050] [waypoint_action_client]: current state: go to point
+[INFO] [1701969641.523722020] [waypoint_action_client]: current position: [x: 0.160117, y: -0.143232, z: 0.000025]
+[INFO] [1701969641.523800909] [waypoint_action_client]: current state: go to point
+[INFO] [1701969641.563589011] [waypoint_action_client]: current position: [x: 0.161149, y: -0.143674, z: 0.000028]
+[INFO] [1701969641.563642385] [waypoint_action_client]: current state: go to point
+[INFO] [1701969641.603658386] [waypoint_action_client]: current position: [x: 0.162476, y: -0.144429, z: 0.000022]
+[INFO] [1701969641.603720433] [waypoint_action_client]: current state: go to point
+[INFO] [1701969641.643626011] [waypoint_action_client]: current position: [x: 0.164063, y: -0.145497, z: 0.000025]
+[INFO] [1701969641.643691785] [waypoint_action_client]: current state: go to point
+[INFO] [1701969641.683594622] [waypoint_action_client]: current position: [x: 0.166931, y: -0.147668, z: 0.000029]
+[INFO] [1701969641.683656190] [waypoint_action_client]: current state: go to point
+[INFO] [1701969641.724357909] [waypoint_action_client]: current position: [x: 0.169135, y: -0.149515, z: 0.000022]
+[INFO] [1701969641.724429436] [waypoint_action_client]: current state: go to point
+[INFO] [1701969641.766110910] [waypoint_action_client]: current position: [x: 0.170335, y: -0.150556, z: 0.000022]
+[INFO] [1701969641.766174113] [waypoint_action_client]: current state: go to point
+[INFO] [1701969641.803557694] [waypoint_action_client]: current position: [x: 0.172880, y: -0.152888, z: 0.000021]
+[INFO] [1701969641.803627968] [waypoint_action_client]: current state: go to point
+[INFO] [1701969641.842950071] [waypoint_action_client]: current position: [x: 0.174257, y: -0.154202, z: 0.000028]
+[INFO] [1701969641.843022327] [waypoint_action_client]: current state: go to point
+[INFO] [1701969641.883785435] [waypoint_action_client]: current position: [x: 0.177133, y: -0.157027, z: 0.000027]
+[INFO] [1701969641.883853475] [waypoint_action_client]: current state: go to point
+[INFO] [1701969641.923648035] [waypoint_action_client]: current position: [x: 0.180260, y: -0.160220, z: 0.000025]
+[INFO] [1701969641.923710186] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969641.963652562] [waypoint_action_client]: current position: [x: 0.183477, y: -0.163633, z: 0.000028]
+[INFO] [1701969641.963724634] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.003716140] [waypoint_action_client]: current position: [x: 0.187807, y: -0.168263, z: 0.000023]
+[INFO] [1701969642.003774831] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.043693482] [waypoint_action_client]: current position: [x: 0.191497, y: -0.172249, z: 0.000018]
+[INFO] [1701969642.043763147] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.083729859] [waypoint_action_client]: current position: [x: 0.191497, y: -0.172249, z: 0.000018]
+[INFO] [1701969642.083964321] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.123644075] [waypoint_action_client]: current position: [x: 0.194604, y: -0.175570, z: 0.000028]
+[INFO] [1701969642.123713938] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.163277523] [waypoint_action_client]: current position: [x: 0.196367, y: -0.177422, z: 0.000028]
+[INFO] [1701969642.163338264] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.203731947] [waypoint_action_client]: current position: [x: 0.198610, y: -0.179759, z: 0.000026]
+[INFO] [1701969642.203792568] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.243569051] [waypoint_action_client]: current position: [x: 0.200449, y: -0.181864, z: 0.000028]
+[INFO] [1701969642.243637296] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.284096375] [waypoint_action_client]: current position: [x: 0.201424, y: -0.183096, z: 0.000028]
+[INFO] [1701969642.284162497] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.324229172] [waypoint_action_client]: current position: [x: 0.202557, y: -0.184698, z: 0.000028]
+[INFO] [1701969642.324297358] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.364414251] [waypoint_action_client]: current position: [x: 0.203110, y: -0.185612, z: 0.000024]
+[INFO] [1701969642.364668053] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.407756391] [waypoint_action_client]: current position: [x: 0.203472, y: -0.186378, z: 0.000028]
+[INFO] [1701969642.407822106] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.443791504] [waypoint_action_client]: current position: [x: 0.203692, y: -0.187033, z: 0.000024]
+[INFO] [1701969642.443854284] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.483802325] [waypoint_action_client]: current position: [x: 0.203747, y: -0.187538, z: 0.000028]
+[INFO] [1701969642.483861397] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.523562043] [waypoint_action_client]: current position: [x: 0.203639, y: -0.187913, z: 0.000026]
+[INFO] [1701969642.523625847] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.563600828] [waypoint_action_client]: current position: [x: 0.203187, y: -0.188272, z: 0.000028]
+[INFO] [1701969642.563661212] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.606357572] [waypoint_action_client]: current position: [x: 0.202704, y: -0.188618, z: 0.000028]
+[INFO] [1701969642.606418775] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.642972498] [waypoint_action_client]: current position: [x: 0.202202, y: -0.188937, z: 0.000027]
+[INFO] [1701969642.643036492] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.683564556] [waypoint_action_client]: current position: [x: 0.202045, y: -0.189063, z: 0.000022]
+[INFO] [1701969642.683631968] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.723698473] [waypoint_action_client]: current position: [x: 0.201705, y: -0.189302, z: 0.000030]
+[INFO] [1701969642.723752776] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.763642297] [waypoint_action_client]: current position: [x: 0.201186, y: -0.189619, z: 0.000028]
+[INFO] [1701969642.764059244] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.803662540] [waypoint_action_client]: current position: [x: 0.200840, y: -0.189852, z: 0.000027]
+[INFO] [1701969642.803717922] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969642.846087971] [waypoint_action_client]: current position: [x: 0.200492, y: -0.190071, z: 0.000024]
+[INFO] [1701969642.846144776] [waypoint_action_client]: current state: go to point
+[INFO] [1701969642.883982706] [waypoint_action_client]: current position: [x: 0.200336, y: -0.190198, z: 0.000023]
+[INFO] [1701969642.884062142] [waypoint_action_client]: current state: go to point
+[INFO] [1701969642.922360130] [waypoint_action_client]: current position: [x: 0.200200, y: -0.190651, z: 0.000026]
+[INFO] [1701969642.922422457] [waypoint_action_client]: current state: go to point
+[INFO] [1701969642.963743940] [waypoint_action_client]: current position: [x: 0.200374, y: -0.191458, z: 0.000028]
+[INFO] [1701969642.963809497] [waypoint_action_client]: current state: go to point
+[INFO] [1701969643.003530439] [waypoint_action_client]: current position: [x: 0.200801, y: -0.192532, z: 0.000025]
+[INFO] [1701969643.003594078] [waypoint_action_client]: current state: go to point
+[INFO] [1701969643.043768034] [waypoint_action_client]: current position: [x: 0.201512, y: -0.193900, z: 0.000028]
+[INFO] [1701969643.043822454] [waypoint_action_client]: current state: go to point
+[INFO] [1701969643.086878941] [waypoint_action_client]: current position: [x: 0.203053, y: -0.196408, z: 0.000026]
+[INFO] [1701969643.086932238] [waypoint_action_client]: current state: go to point
+[INFO] [1701969643.124405547] [waypoint_action_client]: current position: [x: 0.204469, y: -0.198430, z: 0.000028]
+[INFO] [1701969643.124470061] [waypoint_action_client]: current state: go to point
+[INFO] [1701969643.163736540] [waypoint_action_client]: current position: [x: 0.207156, y: -0.201935, z: 0.000022]
+[INFO] [1701969643.163794685] [waypoint_action_client]: current state: go to point
+[INFO] [1701969643.203674541] [waypoint_action_client]: current position: [x: 0.209414, y: -0.204640, z: 0.000027]
+[INFO] [1701969643.203742274] [waypoint_action_client]: current state: go to point
+[INFO] [1701969643.245689908] [waypoint_action_client]: current position: [x: 0.211930, y: -0.207545, z: 0.000029]
+[INFO] [1701969643.245758508] [waypoint_action_client]: current state: go to point
+[INFO] [1701969643.283806050] [waypoint_action_client]: current position: [x: 0.216380, y: -0.212298, z: 0.000021]
+[INFO] [1701969643.284044748] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969643.325429066] [waypoint_action_client]: current position: [x: 0.221206, y: -0.217252, z: 0.000030]
+[INFO] [1701969643.325544610] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969643.368653988] [waypoint_action_client]: current position: [x: 0.224103, y: -0.220200, z: 0.000024]
+[INFO] [1701969643.368715378] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969643.404129035] [waypoint_action_client]: current position: [x: 0.226728, y: -0.222863, z: 0.000021]
+[INFO] [1701969643.404189806] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969643.443858374] [waypoint_action_client]: current position: [x: 0.230112, y: -0.226314, z: 0.000029]
+[INFO] [1701969643.443915216] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969643.482216130] [waypoint_action_client]: current position: [x: 0.232014, y: -0.228276, z: 0.000028]
+[INFO] [1701969643.482276758] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969643.524473025] [waypoint_action_client]: current position: [x: 0.234364, y: -0.230753, z: 0.000021]
+[INFO] [1701969643.524563319] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969643.563759616] [waypoint_action_client]: current position: [x: 0.235752, y: -0.232140, z: 0.000024]
+[INFO] [1701969643.563823060] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969643.603577463] [waypoint_action_client]: current position: [x: 0.237053, y: -0.233357, z: 0.000028]
+[INFO] [1701969643.603641867] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969643.643569383] [waypoint_action_client]: current position: [x: 0.238235, y: -0.234385, z: 0.000026]
+[INFO] [1701969643.643631610] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969643.683616090] [waypoint_action_client]: current position: [x: 0.239305, y: -0.235233, z: 0.000025]
+[INFO] [1701969643.683678691] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969643.723645096] [waypoint_action_client]: current position: [x: 0.240255, y: -0.235912, z: 0.000021]
+[INFO] [1701969643.723812443] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969643.764196451] [waypoint_action_client]: current position: [x: 0.241080, y: -0.236415, z: 0.000027]
+[INFO] [1701969643.764435554] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969643.803605387] [waypoint_action_client]: current position: [x: 0.242081, y: -0.236849, z: 0.000028]
+[INFO] [1701969643.803667407] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969643.842482813] [waypoint_action_client]: current position: [x: 0.242785, y: -0.236904, z: 0.000026]
+[INFO] [1701969643.842540444] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969643.887445674] [waypoint_action_client]: current position: [x: 0.243097, y: -0.236712, z: 0.000028]
+[INFO] [1701969643.887517395] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969643.923617065] [waypoint_action_client]: current position: [x: 0.243360, y: -0.236401, z: 0.000026]
+[INFO] [1701969643.923685487] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969643.963771910] [waypoint_action_client]: current position: [x: 0.243598, y: -0.236077, z: 0.000028]
+[INFO] [1701969643.963839451] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969644.003115666] [waypoint_action_client]: current position: [x: 0.243938, y: -0.235579, z: 0.000028]
+[INFO] [1701969644.003180520] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969644.043645645] [waypoint_action_client]: current position: [x: 0.244171, y: -0.235250, z: 0.000029]
+[INFO] [1701969644.043714733] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969644.083660229] [waypoint_action_client]: current position: [x: 0.244562, y: -0.234784, z: 0.000028]
+[INFO] [1701969644.083727865] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969644.127051111] [waypoint_action_client]: current position: [x: 0.244818, y: -0.234484, z: 0.000028]
+[INFO] [1701969644.127117295] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969644.163739162] [waypoint_action_client]: current position: [x: 0.245096, y: -0.234180, z: 0.000028]
+[INFO] [1701969644.163796315] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969644.203550719] [waypoint_action_client]: current position: [x: 0.245501, y: -0.233732, z: 0.000026]
+[INFO] [1701969644.203608368] [waypoint_action_client]: current state: go to point
+[INFO] [1701969644.243598309] [waypoint_action_client]: current position: [x: 0.245647, y: -0.233586, z: 0.000028]
+[INFO] [1701969644.243665877] [waypoint_action_client]: current state: go to point
+[INFO] [1701969644.283668879] [waypoint_action_client]: current position: [x: 0.246459, y: -0.233539, z: 0.000028]
+[INFO] [1701969644.283727022] [waypoint_action_client]: current state: go to point
+[INFO] [1701969644.323662337] [waypoint_action_client]: current position: [x: 0.247402, y: -0.233897, z: 0.000028]
+[INFO] [1701969644.323747767] [waypoint_action_client]: current state: go to point
+[INFO] [1701969644.363784093] [waypoint_action_client]: current position: [x: 0.248579, y: -0.234528, z: 0.000029]
+[INFO] [1701969644.363871942] [waypoint_action_client]: current state: go to point
+[INFO] [1701969644.403779365] [waypoint_action_client]: current position: [x: 0.250830, y: -0.236011, z: 0.000024]
+[INFO] [1701969644.403836292] [waypoint_action_client]: current state: go to point
+[INFO] [1701969644.443856542] [waypoint_action_client]: current position: [x: 0.251728, y: -0.236689, z: 0.000024]
+[INFO] [1701969644.443911638] [waypoint_action_client]: current state: go to point
+[INFO] [1701969644.483657010] [waypoint_action_client]: current position: [x: 0.253699, y: -0.238254, z: 0.000027]
+[INFO] [1701969644.483722782] [waypoint_action_client]: current state: go to point
+[INFO] [1701969644.523642840] [waypoint_action_client]: current position: [x: 0.257086, y: -0.241180, z: 0.000028]
+[INFO] [1701969644.523696374] [waypoint_action_client]: current state: go to point
+[INFO] [1701969644.563622065] [waypoint_action_client]: current position: [x: 0.260967, y: -0.244825, z: 0.000030]
+[INFO] [1701969644.563685709] [waypoint_action_client]: current state: go to point
+[INFO] [1701969644.603545777] [waypoint_action_client]: current position: [x: 0.263830, y: -0.247666, z: 0.000029]
+[INFO] [1701969644.603602965] [waypoint_action_client]: current state: go to point
+[INFO] [1701969644.643616969] [waypoint_action_client]: current position: [x: 0.266923, y: -0.250854, z: 0.000027]
+[INFO] [1701969644.643684349] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969644.683651487] [waypoint_action_client]: current position: [x: 0.271638, y: -0.255896, z: 0.000028]
+[INFO] [1701969644.683707806] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969644.722412193] [waypoint_action_client]: current position: [x: 0.274425, y: -0.258917, z: 0.000024]
+[INFO] [1701969644.722476127] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969644.762712031] [waypoint_action_client]: current position: [x: 0.276929, y: -0.261647, z: 0.000028]
+[INFO] [1701969644.762771295] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969644.803622924] [waypoint_action_client]: current position: [x: 0.279168, y: -0.264078, z: 0.000025]
+[INFO] [1701969644.803674313] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969644.842851020] [waypoint_action_client]: current position: [x: 0.281163, y: -0.266230, z: 0.000026]
+[INFO] [1701969644.842918029] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969644.883496151] [waypoint_action_client]: current position: [x: 0.283679, y: -0.268879, z: 0.000026]
+[INFO] [1701969644.883546173] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969644.923626407] [waypoint_action_client]: current position: [x: 0.285731, y: -0.271105, z: 0.000026]
+[INFO] [1701969644.923725046] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969644.963557956] [waypoint_action_client]: current position: [x: 0.287403, y: -0.273117, z: 0.000028]
+[INFO] [1701969644.963613022] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969645.003706461] [waypoint_action_client]: current position: [x: 0.288661, y: -0.274817, z: 0.000028]
+[INFO] [1701969645.003777030] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969645.043575746] [waypoint_action_client]: current position: [x: 0.289301, y: -0.275803, z: 0.000028]
+[INFO] [1701969645.043636539] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969645.083403794] [waypoint_action_client]: current position: [x: 0.289768, y: -0.276654, z: 0.000028]
+[INFO] [1701969645.083468199] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969645.123643584] [waypoint_action_client]: current position: [x: 0.290068, y: -0.277376, z: 0.000028]
+[INFO] [1701969645.123705508] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969645.164200200] [waypoint_action_client]: current position: [x: 0.290159, y: -0.277685, z: 0.000022]
+[INFO] [1701969645.164256539] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969645.203614913] [waypoint_action_client]: current position: [x: 0.290220, y: -0.278209, z: 0.000028]
+[INFO] [1701969645.203712944] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969645.243918074] [waypoint_action_client]: current position: [x: 0.289985, y: -0.278729, z: 0.000028]
+[INFO] [1701969645.244240923] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969645.283619994] [waypoint_action_client]: current position: [x: 0.289483, y: -0.279050, z: 0.000024]
+[INFO] [1701969645.283674875] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969645.323636438] [waypoint_action_client]: current position: [x: 0.289168, y: -0.279317, z: 0.000024]
+[INFO] [1701969645.323698131] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969645.370047408] [waypoint_action_client]: current position: [x: 0.289001, y: -0.279421, z: 0.000027]
+[INFO] [1701969645.370123089] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969645.404045451] [waypoint_action_client]: current position: [x: 0.288676, y: -0.279663, z: 0.000028]
+[INFO] [1701969645.404106234] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969645.443867193] [waypoint_action_client]: current position: [x: 0.288344, y: -0.279919, z: 0.000021]
+[INFO] [1701969645.443927102] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969645.483614325] [waypoint_action_client]: current position: [x: 0.288018, y: -0.280161, z: 0.000027]
+[INFO] [1701969645.483677938] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969645.522625959] [waypoint_action_client]: current position: [x: 0.287553, y: -0.280526, z: 0.000028]
+[INFO] [1701969645.522695102] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969645.563605917] [waypoint_action_client]: current position: [x: 0.287071, y: -0.280910, z: 0.000025]
+[INFO] [1701969645.563669266] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969645.603566746] [waypoint_action_client]: current position: [x: 0.286623, y: -0.281317, z: 0.000022]
+[INFO] [1701969645.603629740] [waypoint_action_client]: current state: go to point
+[INFO] [1701969645.643708990] [waypoint_action_client]: current position: [x: 0.286374, y: -0.281648, z: 0.000025]
+[INFO] [1701969645.643766426] [waypoint_action_client]: current state: go to point
+[INFO] [1701969645.683600191] [waypoint_action_client]: current position: [x: 0.286416, y: -0.282294, z: 0.000026]
+[INFO] [1701969645.683655690] [waypoint_action_client]: current state: go to point
+[INFO] [1701969645.723572497] [waypoint_action_client]: current position: [x: 0.286704, y: -0.283201, z: 0.000027]
+[INFO] [1701969645.723636805] [waypoint_action_client]: current state: go to point
+[INFO] [1701969645.763868302] [waypoint_action_client]: current position: [x: 0.287656, y: -0.285084, z: 0.000028]
+[INFO] [1701969645.763928611] [waypoint_action_client]: current state: go to point
+[INFO] [1701969645.810174795] [waypoint_action_client]: current position: [x: 0.289280, y: -0.287582, z: 0.000024]
+[INFO] [1701969645.810239594] [waypoint_action_client]: current state: go to point
+[INFO] [1701969645.843845640] [waypoint_action_client]: current position: [x: 0.291642, y: -0.290729, z: 0.000021]
+[INFO] [1701969645.843914238] [waypoint_action_client]: current state: go to point
+[INFO] [1701969645.883636587] [waypoint_action_client]: current position: [x: 0.292611, y: -0.291928, z: 0.000024]
+[INFO] [1701969645.883704773] [waypoint_action_client]: current state: go to point
+[INFO] [1701969645.928442369] [waypoint_action_client]: current position: [x: 0.295941, y: -0.295821, z: 0.000027]
+[INFO] [1701969645.928511681] [waypoint_action_client]: current state: go to point
+[INFO] [1701969645.963651986] [waypoint_action_client]: current position: [x: 0.297209, y: -0.297227, z: 0.000022]
+[INFO] [1701969645.963718019] [waypoint_action_client]: current state: go to point
+[INFO] [1701969646.003729542] [waypoint_action_client]: current position: [x: 0.299965, y: -0.300205, z: 0.000028]
+[INFO] [1701969646.003787469] [waypoint_action_client]: current state: go to point
+[INFO] [1701969646.043649348] [waypoint_action_client]: current position: [x: 0.303098, y: -0.303437, z: 0.000027]
+[INFO] [1701969646.043743318] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.082960531] [waypoint_action_client]: current position: [x: 0.306446, y: -0.306779, z: 0.000029]
+[INFO] [1701969646.083025614] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.122500098] [waypoint_action_client]: current position: [x: 0.309536, y: -0.309830, z: 0.000031]
+[INFO] [1701969646.122561894] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.163234183] [waypoint_action_client]: current position: [x: 0.312365, y: -0.312597, z: 0.000031]
+[INFO] [1701969646.163287764] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.205040193] [waypoint_action_client]: current position: [x: 0.314904, y: -0.315084, z: 0.000022]
+[INFO] [1701969646.205105226] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.243769419] [waypoint_action_client]: current position: [x: 0.318123, y: -0.318265, z: 0.000030]
+[INFO] [1701969646.243836182] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.283580420] [waypoint_action_client]: current position: [x: 0.320717, y: -0.320898, z: 0.000029]
+[INFO] [1701969646.283646343] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.323676197] [waypoint_action_client]: current position: [x: 0.322206, y: -0.322362, z: 0.000026]
+[INFO] [1701969646.323738077] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.363629309] [waypoint_action_client]: current position: [x: 0.324233, y: -0.324214, z: 0.000027]
+[INFO] [1701969646.363842676] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.403475373] [waypoint_action_client]: current position: [x: 0.325986, y: -0.325660, z: 0.000027]
+[INFO] [1701969646.403540254] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.443299737] [waypoint_action_client]: current position: [x: 0.327013, y: -0.326417, z: 0.000024]
+[INFO] [1701969646.443355710] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.484622631] [waypoint_action_client]: current position: [x: 0.328295, y: -0.327199, z: 0.000026]
+[INFO] [1701969646.484690750] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.526705049] [waypoint_action_client]: current position: [x: 0.328656, y: -0.327371, z: 0.000025]
+[INFO] [1701969646.526777474] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.563471744] [waypoint_action_client]: current position: [x: 0.329555, y: -0.327664, z: 0.000029]
+[INFO] [1701969646.563533386] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.602481591] [waypoint_action_client]: current position: [x: 0.330014, y: -0.327647, z: 0.000027]
+[INFO] [1701969646.602544182] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.642950840] [waypoint_action_client]: current position: [x: 0.330489, y: -0.327306, z: 0.000028]
+[INFO] [1701969646.643015599] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.691733083] [waypoint_action_client]: current position: [x: 0.330607, y: -0.327139, z: 0.000026]
+[INFO] [1701969646.691803199] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.723642374] [waypoint_action_client]: current position: [x: 0.330847, y: -0.326801, z: 0.000028]
+[INFO] [1701969646.723706427] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.763625031] [waypoint_action_client]: current position: [x: 0.331174, y: -0.326309, z: 0.000026]
+[INFO] [1701969646.763693996] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.803599956] [waypoint_action_client]: current position: [x: 0.331550, y: -0.325834, z: 0.000028]
+[INFO] [1701969646.803662162] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.843648373] [waypoint_action_client]: current position: [x: 0.331786, y: -0.325516, z: 0.000025]
+[INFO] [1701969646.843707346] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.883729235] [waypoint_action_client]: current position: [x: 0.331786, y: -0.325516, z: 0.000025]
+[INFO] [1701969646.883813652] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.923630040] [waypoint_action_client]: current position: [x: 0.332180, y: -0.325044, z: 0.000023]
+[INFO] [1701969646.923687877] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969646.962890570] [waypoint_action_client]: current position: [x: 0.332448, y: -0.324733, z: 0.000028]
+[INFO] [1701969646.963238075] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969647.003536864] [waypoint_action_client]: current position: [x: 0.332729, y: -0.324415, z: 0.000027]
+[INFO] [1701969647.003592902] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969647.047653202] [waypoint_action_client]: current position: [x: 0.332988, y: -0.324118, z: 0.000029]
+[INFO] [1701969647.047714072] [waypoint_action_client]: current state: go to point
+[INFO] [1701969647.082766873] [waypoint_action_client]: current position: [x: 0.333341, y: -0.323890, z: 0.000029]
+[INFO] [1701969647.082829058] [waypoint_action_client]: current state: go to point
+[INFO] [1701969647.123699136] [waypoint_action_client]: current position: [x: 0.334430, y: -0.324141, z: 0.000028]
+[INFO] [1701969647.123763240] [waypoint_action_client]: current state: go to point
+[INFO] [1701969647.164194625] [waypoint_action_client]: current position: [x: 0.336080, y: -0.324965, z: 0.000028]
+[INFO] [1701969647.164256667] [waypoint_action_client]: current state: go to point
+[INFO] [1701969647.203265025] [waypoint_action_client]: current position: [x: 0.337505, y: -0.325852, z: 0.000027]
+[INFO] [1701969647.203334092] [waypoint_action_client]: current state: go to point
+[INFO] [1701969647.243753220] [waypoint_action_client]: current position: [x: 0.340118, y: -0.327764, z: 0.000029]
+[INFO] [1701969647.243808784] [waypoint_action_client]: current state: go to point
+[INFO] [1701969647.283632883] [waypoint_action_client]: current position: [x: 0.342204, y: -0.329467, z: 0.000028]
+[INFO] [1701969647.283694842] [waypoint_action_client]: current state: go to point
+[INFO] [1701969647.323764969] [waypoint_action_client]: current position: [x: 0.345801, y: -0.332629, z: 0.000027]
+[INFO] [1701969647.323828195] [waypoint_action_client]: current state: go to point
+[INFO] [1701969647.366385076] [waypoint_action_client]: current position: [x: 0.349926, y: -0.336580, z: 0.000028]
+[INFO] [1701969647.366451630] [waypoint_action_client]: current state: go to point
+[INFO] [1701969647.403615995] [waypoint_action_client]: current position: [x: 0.354519, y: -0.341282, z: 0.000027]
+[INFO] [1701969647.403692059] [waypoint_action_client]: current state: go to point
+[INFO] [1701969647.443620419] [waypoint_action_client]: current position: [x: 0.357840, y: -0.344836, z: 0.000030]
+[INFO] [1701969647.443682765] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969647.483665659] [waypoint_action_client]: current position: [x: 0.361263, y: -0.348628, z: 0.000027]
+[INFO] [1701969647.483720294] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969647.523594814] [waypoint_action_client]: current position: [x: 0.365872, y: -0.353791, z: 0.000024]
+[INFO] [1701969647.523657699] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969647.563613676] [waypoint_action_client]: current position: [x: 0.368604, y: -0.356867, z: 0.000027]
+[INFO] [1701969647.563675818] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969647.603621652] [waypoint_action_client]: current position: [x: 0.369863, y: -0.358306, z: 0.000029]
+[INFO] [1701969647.603693835] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969647.646033708] [waypoint_action_client]: current position: [x: 0.373247, y: -0.362156, z: 0.000029]
+[INFO] [1701969647.646100294] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969647.683695857] [waypoint_action_client]: current position: [x: 0.376103, y: -0.365357, z: 0.000029]
+[INFO] [1701969647.683757763] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969647.723707404] [waypoint_action_client]: current position: [x: 0.378379, y: -0.367850, z: 0.000028]
+[INFO] [1701969647.723800635] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969647.763660587] [waypoint_action_client]: current position: [x: 0.379043, y: -0.368610, z: 0.000029]
+[INFO] [1701969647.763723147] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969647.803683243] [waypoint_action_client]: current position: [x: 0.380791, y: -0.370727, z: 0.000030]
+[INFO] [1701969647.803746951] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969647.843858061] [waypoint_action_client]: current position: [x: 0.382146, y: -0.372561, z: 0.000020]
+[INFO] [1701969647.843918804] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969647.886460173] [waypoint_action_client]: current position: [x: 0.383107, y: -0.374094, z: 0.000026]
+[INFO] [1701969647.886528781] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969647.923602845] [waypoint_action_client]: current position: [x: 0.383536, y: -0.374943, z: 0.000028]
+[INFO] [1701969647.923668254] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969647.963638967] [waypoint_action_client]: current position: [x: 0.383896, y: -0.375971, z: 0.000026]
+[INFO] [1701969647.963727014] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969648.003953855] [waypoint_action_client]: current position: [x: 0.383934, y: -0.376488, z: 0.000028]
+[INFO] [1701969648.004024567] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969648.043630153] [waypoint_action_client]: current position: [x: 0.383839, y: -0.376888, z: 0.000025]
+[INFO] [1701969648.043692213] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969648.082511877] [waypoint_action_client]: current position: [x: 0.383559, y: -0.377145, z: 0.000028]
+[INFO] [1701969648.082578731] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969648.128042382] [waypoint_action_client]: current position: [x: 0.383052, y: -0.377447, z: 0.000029]
+[INFO] [1701969648.128108372] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969648.166534261] [waypoint_action_client]: current position: [x: 0.382702, y: -0.377659, z: 0.000027]
+[INFO] [1701969648.166600703] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969648.203538773] [waypoint_action_client]: current position: [x: 0.382199, y: -0.377990, z: 0.000026]
+[INFO] [1701969648.203600197] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969648.243581691] [waypoint_action_client]: current position: [x: 0.381681, y: -0.378320, z: 0.000029]
+[INFO] [1701969648.243649226] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969648.283562275] [waypoint_action_client]: current position: [x: 0.381366, y: -0.378539, z: 0.000028]
+[INFO] [1701969648.283630995] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969648.323713250] [waypoint_action_client]: current position: [x: 0.380879, y: -0.378909, z: 0.000024]
+[INFO] [1701969648.323777816] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969648.364197784] [waypoint_action_client]: current position: [x: 0.380570, y: -0.379159, z: 0.000025]
+[INFO] [1701969648.364262489] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969648.402847926] [waypoint_action_client]: current position: [x: 0.380570, y: -0.379159, z: 0.000025]
+[INFO] [1701969648.402905623] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969648.443622895] [waypoint_action_client]: current position: [x: 0.380254, y: -0.379403, z: 0.000029]
+[INFO] [1701969648.443687839] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969648.484231097] [waypoint_action_client]: current position: [x: 0.379771, y: -0.379763, z: 0.000028]
+[INFO] [1701969648.484292296] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969648.523771772] [waypoint_action_client]: current position: [x: 0.379454, y: -0.380037, z: 0.000026]
+[INFO] [1701969648.523824768] [waypoint_action_client]: current state: go to point
+[INFO] [1701969648.563599156] [waypoint_action_client]: current position: [x: 0.379207, y: -0.380363, z: 0.000027]
+[INFO] [1701969648.563695138] [waypoint_action_client]: current state: go to point
+[INFO] [1701969648.603667606] [waypoint_action_client]: current position: [x: 0.379254, y: -0.381008, z: 0.000025]
+[INFO] [1701969648.603728004] [waypoint_action_client]: current state: go to point
+[INFO] [1701969648.643715879] [waypoint_action_client]: current position: [x: 0.379569, y: -0.381942, z: 0.000027]
+[INFO] [1701969648.643789007] [waypoint_action_client]: current state: go to point
+[INFO] [1701969648.683686120] [waypoint_action_client]: current position: [x: 0.380181, y: -0.383143, z: 0.000028]
+[INFO] [1701969648.683753705] [waypoint_action_client]: current state: go to point
+[INFO] [1701969648.723565099] [waypoint_action_client]: current position: [x: 0.381635, y: -0.385455, z: 0.000027]
+[INFO] [1701969648.723622624] [waypoint_action_client]: current state: go to point
+[INFO] [1701969648.763587662] [waypoint_action_client]: current position: [x: 0.383756, y: -0.388384, z: 0.000025]
+[INFO] [1701969648.763650409] [waypoint_action_client]: current state: go to point
+[INFO] [1701969648.803762706] [waypoint_action_client]: current position: [x: 0.386623, y: -0.391890, z: 0.000028]
+[INFO] [1701969648.803829790] [waypoint_action_client]: current state: go to point
+[INFO] [1701969648.843470026] [waypoint_action_client]: current position: [x: 0.388945, y: -0.394511, z: 0.000025]
+[INFO] [1701969648.843533160] [waypoint_action_client]: current state: go to point
+[INFO] [1701969648.883592331] [waypoint_action_client]: current position: [x: 0.393020, y: -0.398902, z: 0.000027]
+[INFO] [1701969648.883659401] [waypoint_action_client]: current state: go to point
+[INFO] [1701969648.923528629] [waypoint_action_client]: current position: [x: 0.396172, y: -0.402120, z: 0.000021]
+[INFO] [1701969648.923591151] [waypoint_action_client]: current state: go to point
+[INFO] [1701969648.963604041] [waypoint_action_client]: current position: [x: 0.399632, y: -0.405525, z: 0.000030]
+[INFO] [1701969648.963670442] [waypoint_action_client]: current state: go to point
+[INFO] [1701969649.003640324] [waypoint_action_client]: current position: [x: 0.403454, y: -0.409134, z: 0.000028]
+[INFO] [1701969649.003733111] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.043826716] [waypoint_action_client]: current position: [x: 0.407507, y: -0.412848, z: 0.000027]
+[INFO] [1701969649.043883097] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.084024860] [waypoint_action_client]: current position: [x: 0.413122, y: -0.417906, z: 0.000030]
+[INFO] [1701969649.084091440] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.123312379] [waypoint_action_client]: current position: [x: 0.418078, y: -0.422293, z: 0.000029]
+[INFO] [1701969649.123387741] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.163703462] [waypoint_action_client]: current position: [x: 0.421014, y: -0.424867, z: 0.000028]
+[INFO] [1701969649.163758342] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.203638023] [waypoint_action_client]: current position: [x: 0.422404, y: -0.426090, z: 0.000029]
+[INFO] [1701969649.203701247] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.243564112] [waypoint_action_client]: current position: [x: 0.424928, y: -0.428311, z: 0.000026]
+[INFO] [1701969649.243625653] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.282355186] [waypoint_action_client]: current position: [x: 0.427127, y: -0.430265, z: 0.000030]
+[INFO] [1701969649.282422033] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.323578252] [waypoint_action_client]: current position: [x: 0.429839, y: -0.432728, z: 0.000029]
+[INFO] [1701969649.323643041] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.363998034] [waypoint_action_client]: current position: [x: 0.431392, y: -0.434108, z: 0.000028]
+[INFO] [1701969649.364074876] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.403591745] [waypoint_action_client]: current position: [x: 0.432843, y: -0.435309, z: 0.000028]
+[INFO] [1701969649.403705530] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.443609206] [waypoint_action_client]: current position: [x: 0.433512, y: -0.435843, z: 0.000029]
+[INFO] [1701969649.443669093] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.483707825] [waypoint_action_client]: current position: [x: 0.434766, y: -0.436795, z: 0.000028]
+[INFO] [1701969649.483766581] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.522132642] [waypoint_action_client]: current position: [x: 0.435895, y: -0.437564, z: 0.000023]
+[INFO] [1701969649.522194894] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.563626101] [waypoint_action_client]: current position: [x: 0.436893, y: -0.438172, z: 0.000027]
+[INFO] [1701969649.563693887] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.603893136] [waypoint_action_client]: current position: [x: 0.438122, y: -0.438771, z: 0.000029]
+[INFO] [1701969649.603957484] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.643668891] [waypoint_action_client]: current position: [x: 0.438787, y: -0.438982, z: 0.000028]
+[INFO] [1701969649.643733804] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.683609129] [waypoint_action_client]: current position: [x: 0.439528, y: -0.438998, z: 0.000023]
+[INFO] [1701969649.683676053] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.723579425] [waypoint_action_client]: current position: [x: 0.439855, y: -0.438805, z: 0.000028]
+[INFO] [1701969649.723645138] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.763586511] [waypoint_action_client]: current position: [x: 0.440191, y: -0.438298, z: 0.000024]
+[INFO] [1701969649.763658280] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.803688227] [waypoint_action_client]: current position: [x: 0.440420, y: -0.437958, z: 0.000028]
+[INFO] [1701969649.803759436] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.843188645] [waypoint_action_client]: current position: [x: 0.440759, y: -0.437452, z: 0.000024]
+[INFO] [1701969649.843248397] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.883662850] [waypoint_action_client]: current position: [x: 0.440983, y: -0.437128, z: 0.000023]
+[INFO] [1701969649.883727091] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.924046840] [waypoint_action_client]: current position: [x: 0.441198, y: -0.436788, z: 0.000028]
+[INFO] [1701969649.924103613] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969649.963635654] [waypoint_action_client]: current position: [x: 0.441441, y: -0.436471, z: 0.000028]
+[INFO] [1701969649.963706330] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969650.003799497] [waypoint_action_client]: current position: [x: 0.441705, y: -0.436148, z: 0.000028]
+[INFO] [1701969650.003866313] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969650.043614365] [waypoint_action_client]: current position: [x: 0.441937, y: -0.435818, z: 0.000027]
+[INFO] [1701969650.043682730] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969650.083550444] [waypoint_action_client]: current position: [x: 0.442182, y: -0.435487, z: 0.000025]
+[INFO] [1701969650.083613580] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969650.123563898] [waypoint_action_client]: current position: [x: 0.442553, y: -0.435005, z: 0.000028]
+[INFO] [1701969650.123635336] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969650.163045456] [waypoint_action_client]: current position: [x: 0.442818, y: -0.434690, z: 0.000028]
+[INFO] [1701969650.163104830] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969650.204226432] [waypoint_action_client]: current position: [x: 0.443087, y: -0.434385, z: 0.000030]
+[INFO] [1701969650.204291283] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969650.243744911] [waypoint_action_client]: current position: [x: 0.443508, y: -0.433949, z: 0.000021]
+[INFO] [1701969650.243835084] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969650.283964929] [waypoint_action_client]: current position: [x: 0.443920, y: -0.433497, z: 0.000025]
+[INFO] [1701969650.284036778] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969650.322501185] [waypoint_action_client]: current position: [x: 0.444345, y: -0.433059, z: 0.000028]
+[INFO] [1701969650.322565058] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969650.363645866] [waypoint_action_client]: current position: [x: 0.444479, y: -0.432897, z: 0.000025]
+[INFO] [1701969650.363731754] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969650.403800489] [waypoint_action_client]: current position: [x: 0.444885, y: -0.432471, z: 0.000028]
+[INFO] [1701969650.403865681] [waypoint_action_client]: current state: fix yaw
+[INFO] [1701969650.443591029] [waypoint_action_client]: current position: [x: 0.445174, y: -0.432190, z: 0.000028]
+[INFO] [1701969650.443658137] [waypoint_action_client]: current state: go to point
+[INFO] [1701969650.487628788] [waypoint_action_client]: current position: [x: 0.445480, y: -0.431964, z: 0.000029]
+[INFO] [1701969650.487706572] [waypoint_action_client]: current state: go to point
+[INFO] [1701969650.524057368] [waypoint_action_client]: current position: [x: 0.446499, y: -0.432185, z: 0.000028]
+[INFO] [1701969650.524123432] [waypoint_action_client]: current state: go to point
+[INFO] [1701969650.567813843] [waypoint_action_client]: current position: [x: 0.448067, y: -0.433057, z: 0.000026]
+[INFO] [1701969650.567874940] [waypoint_action_client]: current state: go to point
+[INFO] [1701969650.603725241] [waypoint_action_client]: current position: [x: 0.449449, y: -0.434082, z: 0.000028]
+[INFO] [1701969650.603791987] [waypoint_action_client]: current state: go to point
+[INFO] [1701969650.644063976] [waypoint_action_client]: current position: [x: 0.451941, y: -0.436202, z: 0.000030]
+[INFO] [1701969650.644124517] [waypoint_action_client]: current state: go to point
+[INFO] [1701969650.683657257] [waypoint_action_client]: current position: [x: 0.453910, y: -0.438078, z: 0.000023]
+[INFO] [1701969650.683727746] [waypoint_action_client]: current state: go to point
+[INFO] [1701969650.723568416] [waypoint_action_client]: current position: [x: 0.457255, y: -0.441551, z: 0.000029]
+[INFO] [1701969650.723641201] [waypoint_action_client]: current state: go to point
+[INFO] [1701969650.763602212] [waypoint_action_client]: current position: [x: 0.459735, y: -0.444288, z: 0.000030]
+[INFO] [1701969650.763656725] [waypoint_action_client]: current state: go to point
+[INFO] [1701969650.803674562] [waypoint_action_client]: current position: [x: 0.462382, y: -0.447344, z: 0.000027]
+[INFO] [1701969650.803735689] [waypoint_action_client]: current state: go to point
+[INFO] [1701969650.845710632] [waypoint_action_client]: current position: [x: 0.466741, y: -0.452648, z: 0.000025]
+[INFO] [1701969650.845778027] [waypoint_action_client]: current state: go to point
+[INFO] [1701969650.883593225] [waypoint_action_client]: current position: [x: 0.471496, y: -0.458790, z: 0.000029]
+[INFO] [1701969650.883660140] [waypoint_action_client]: current state: go to point
+[INFO] [1701969650.923718001] [waypoint_action_client]: current position: [x: 0.474868, y: -0.463335, z: 0.000022]
+[INFO] [1701969650.923782536] [waypoint_action_client]: current state: go to point
+[INFO] [1701969650.963047735] [waypoint_action_client]: result: true
+[       OK ] WaypointActionServerTest.ErrorTest (16916 ms)
+[ RUN      ] WaypointActionServerTest.CancelGoal
+[INFO] [1701969651.195782678] [waypoint_action_client]: Sending goal
+/home/user/ros2_ws/src/tortoisebot_waypoints/test/tortoisebot_waypoints_test.cpp:201: Failure
+Value of: false
+  Actual: false
+Expected: true
+[  FAILED  ] WaypointActionServerTest.CancelGoal (233 ms)
+[----------] 2 tests from WaypointActionServerTest (17149 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (17149 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] WaypointActionServerTest.CancelGoal
+
+ 1 FAILED TEST
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml'
+-- run_test.py: verify result file '/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gtest</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Dec 07 17:20 UTC</EndDateTime>
+		<EndTestTime>1701969651</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

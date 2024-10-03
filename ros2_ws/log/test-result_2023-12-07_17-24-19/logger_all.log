@@ -1,0 +1,8 @@
+[0.304s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test-result', '--verbose']
+[0.304s] DEBUG:colcon:Parsed command line arguments: Namespace(all=False, delete=False, delete_yes=False, log_base=None, log_level=None, main=<bound method TestResultVerb.main of <colcon_test_result.verb.test_result.TestResultVerb object at 0x7fd51bbe2e20>>, mixin=None, mixin_files=None, mixin_verb=('test-result',), result_files_only=False, test_result_base='build', verb_extension=<colcon_test_result.verb.test_result.TestResultVerb object at 0x7fd51bbe2e20>, verb_name='test-result', verb_parser=<colcon_alias.argument_parser.alias.AliasArgumentDecorator object at 0x7fd51b211b20>, verbose=True)
+[0.310s] Level 1:colcon.colcon_test_result.test_result:get_test_results(ctest)
+[0.323s] Level 1:colcon.colcon_test_result.test_result:get_test_results(xunit)
+[0.329s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/tortoisebot_waypoints/Testing/20231201-1801/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.330s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/tortoisebot_waypoints/Testing/20231201-1804/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.332s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/tortoisebot_waypoints/Testing/20231207-1720/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.332s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/tortoisebot_waypoints/Testing/20231207-1724/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'

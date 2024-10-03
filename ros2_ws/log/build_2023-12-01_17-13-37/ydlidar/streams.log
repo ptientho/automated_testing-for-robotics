@@ -1,0 +1,468 @@
+[0.054s] Invoking command in '/home/user/ros2_ws/build/ydlidar': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/tortoisebot/ydlidar-ros2 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/ydlidar
+[8.550s] -- The C compiler identification is GNU 9.4.0
+[8.551s] -- The CXX compiler identification is GNU 9.4.0
+[8.551s] -- Check for working C compiler: /usr/bin/cc
+[8.552s] -- Check for working C compiler: /usr/bin/cc -- works
+[8.554s] -- Detecting C compiler ABI info
+[8.554s] -- Detecting C compiler ABI info - done
+[8.554s] -- Detecting C compile features
+[8.554s] -- Detecting C compile features - done
+[8.555s] -- Check for working CXX compiler: /usr/bin/c++
+[8.555s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[8.555s] -- Detecting CXX compiler ABI info
+[8.555s] -- Detecting CXX compiler ABI info - done
+[8.555s] -- Detecting CXX compile features
+[8.556s] -- Detecting CXX compile features - done
+[8.556s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[8.556s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[8.556s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.556s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[8.558s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.558s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[9.189s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.257s] -- Found FastRTPS: /opt/ros/galactic/include  
+[9.568s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.764s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[9.779s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[9.830s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[9.832s] -- Looking for pthread.h
+[9.935s] -- Looking for pthread.h - found
+[9.935s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.042s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.042s] -- Looking for pthread_create in pthreads
+[10.132s] -- Looking for pthread_create in pthreads - not found
+[10.133s] -- Looking for pthread_create in pthread
+[10.265s] -- Looking for pthread_create in pthread - found
+[10.267s] -- Found Threads: TRUE  
+[10.567s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[10.761s] -- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+[10.945s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[11.126s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.179s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.179s] -- Configured cppcheck include dirs: /home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src;/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include;/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src
+[11.179s] -- Configured cppcheck exclude dirs and/or files: 
+[11.223s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.223s] -- Configured cpplint exclude dirs and/or files: 
+[11.228s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.240s] -- Added test 'lint_cmake' to check CMake code style
+[11.246s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[11.292s] -- Added test 'uncrustify' to check C / C++ code style
+[11.292s] -- Configured uncrustify additional arguments: 
+[11.298s] -- Added test 'xmllint' to check XML markup files
+[11.306s] -- Configuring done
+[11.339s] -- Generating done
+[11.342s] -- Build files have been written to: /home/user/ros2_ws/build/ydlidar
+[11.358s] Invoked command in '/home/user/ros2_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/tortoisebot/ydlidar-ros2 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/ydlidar
+[11.362s] Invoking command in '/home/user/ros2_ws/build/ydlidar': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/ydlidar -- -j8 -l8
+[11.426s] [35m[1mScanning dependencies of target ydlidar_client[0m
+[11.426s] [35m[1mScanning dependencies of target ydlidar_node[0m
+[12.118s] [  9%] [32mBuilding CXX object CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o[0m
+[12.149s] [ 18%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o[0m
+[12.151s] [ 27%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o[0m
+[12.154s] [ 36%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_serial.cpp.o[0m
+[12.154s] [ 45%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/list_ports_linux.cpp.o[0m
+[12.182s] [ 54%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_timer.cpp.o[0m
+[12.217s] [ 63%] [32mBuilding C object CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.o[0m
+[12.249s] [ 72%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o[0m
+[12.444s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/lock.c:[m[K In function '[01m[Kfhs_lock[m[K':
+[12.444s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/lock.c:199:40:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kpid[m[K' [[01;35m[K-Wunused-parameter[m[K]
+[12.444s]   199 | int fhs_lock(const char *filename, [01;35m[Kint pid[m[K) {
+[12.444s]       |                                    [01;35m[K~~~~^~~[m[K
+[12.444s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/lock.c:[m[K In function '[01m[Kuucp_lock[m[K':
+[12.444s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/lock.c:281:41:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kpid[m[K' [[01;35m[K-Wunused-parameter[m[K]
+[12.445s]   281 | int uucp_lock(const char *filename, [01;35m[Kint pid[m[K) {
+[12.445s]       |                                     [01;35m[K~~~~^~~[m[K
+[12.515s] [ 81%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o[0m
+[12.724s] In file included from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/timer.h:2[m[K,
+[12.725s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/impl/unix/unix_timer.cpp:2[m[K:
+[12.725s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:[m[K In function '[01m[Kbool ydlidar::fileExists(std::string)[m[K':
+[12.725s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_ino[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.725s]   240 |   struct stat info = {0[01;35m[K}[m[K;
+[12.725s]       |                        [01;35m[K^[m[K
+[12.725s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_nlink[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.725s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_mode[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.725s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_uid[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.726s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_gid[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.726s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::__pad0[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.726s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_rdev[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.726s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_size[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.726s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_blksize[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.727s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_blocks[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.727s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_atim[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.727s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_mtim[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.727s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_ctim[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.728s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::__glibc_reserved[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.950s] In file included from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/serial.h:9[m[K,
+[12.950s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/impl/unix/list_ports_linux.cpp:26[m[K:
+[12.950s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:[m[K In function '[01m[Kbool ydlidar::fileExists(std::string)[m[K':
+[12.951s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_ino[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.951s]   240 |   struct stat info = {0[01;35m[K}[m[K;
+[12.951s]       |                        [01;35m[K^[m[K
+[12.951s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_nlink[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.951s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_mode[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.951s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_uid[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.951s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_gid[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.951s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::__pad0[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.951s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_rdev[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.952s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_size[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.952s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_blksize[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.952s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_blocks[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.952s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_atim[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.952s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_mtim[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.952s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_ctim[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.952s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::__glibc_reserved[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.958s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/impl/unix/list_ports_linux.cpp:[m[K In function '[01m[Kstd::vector<std::__cxx11::basic_string<char> > glob(const std::vector<std::__cxx11::basic_string<char> >&)[m[K':
+[12.959s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/impl/unix/list_ports_linux.cpp:58:7:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kglob_retval[m[K' set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[12.959s]    58 |   int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+[12.959s]       |       [01;35m[K^~~~~~~~~~~[m[K
+[13.249s] In file included from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/serial.h:9[m[K,
+[13.249s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/ydlidar_driver.h:54[m[K,
+[13.249s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/ydlidar_driver.cpp:34[m[K:
+[13.249s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:[m[K In function '[01m[Kbool ydlidar::fileExists(std::string)[m[K':
+[13.249s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_ino[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.249s]   240 |   struct stat info = {0[01;35m[K}[m[K;
+[13.249s]       |                        [01;35m[K^[m[K
+[13.249s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_nlink[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.250s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_mode[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.250s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_uid[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.250s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_gid[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.250s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::__pad0[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.251s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_rdev[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.251s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_size[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.251s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_blksize[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.251s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_blocks[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.252s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_atim[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.252s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_mtim[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.252s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_ctim[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.252s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::__glibc_reserved[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.260s] In file included from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/ydlidar_driver.h:56[m[K,
+[13.260s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/ydlidar_driver.cpp:34[m[K:
+[13.260s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/thread.h:[m[K In static member function '[01m[Kstatic Thread Thread::createThread(thread_proc_t, void*)[m[K':
+[13.261s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/thread.h:43:76:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from '[01m[Kthread_proc_t[m[K' {aka '[01m[Klong unsigned int (*)(void*)[m[K'} to '[01m[Kvoid* (*)(void*)[m[K' [[01;35m[K-Wcast-function-type[m[K]
+[13.261s]    43 |     pthread_create((pthread_t *)&thread_._handle, NULL, (void *(*)(void *))[01;35m[Kproc[m[K,
+[13.261s]       |                                                                            [01;35m[K^~~~[m[K
+[13.287s] In file included from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/serial.h:9[m[K,
+[13.287s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/serial.cpp:11[m[K:
+[13.287s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:[m[K In function '[01m[Kbool ydlidar::fileExists(std::string)[m[K':
+[13.287s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_ino[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.287s]   240 |   struct stat info = {0[01;35m[K}[m[K;
+[13.287s]       |                        [01;35m[K^[m[K
+[13.287s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_nlink[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.287s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_mode[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.287s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_uid[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.288s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_gid[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.288s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::__pad0[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.288s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_rdev[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.288s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_size[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.288s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_blksize[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.288s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_blocks[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.288s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_atim[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.288s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_mtim[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.288s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_ctim[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.289s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::__glibc_reserved[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.293s] In file included from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/ydlidar_driver.h:58[m[K,
+[13.293s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/ydlidar_driver.cpp:34[m[K:
+[13.294s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/help_info.h:[m[K In function '[01m[Kbool ydlidar::isSupportMotorCtrl(int)[m[K':
+[13.294s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/help_info.h:414:8:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kret[m[K' set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[13.294s]   414 |   bool [01;35m[Kret[m[K = false;
+[13.294s]       |        [01;35m[K^~~[m[K
+[13.328s] In file included from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/serial.h:9[m[K,
+[13.328s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/ydlidar_driver.h:54[m[K,
+[13.328s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/CYdLidar.h:36[m[K,
+[13.328s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/CYdLidar.cpp:34[m[K:
+[13.328s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:[m[K In function '[01m[Kbool ydlidar::fileExists(std::string)[m[K':
+[13.329s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_ino[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.329s]   240 |   struct stat info = {0[01;35m[K}[m[K;
+[13.329s]       |                        [01;35m[K^[m[K
+[13.329s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_nlink[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.329s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_mode[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.329s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_uid[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.330s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_gid[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.330s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::__pad0[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.330s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_rdev[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.331s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_size[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.331s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_blksize[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.331s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_blocks[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.331s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_atim[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.332s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_mtim[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.332s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_ctim[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.332s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::__glibc_reserved[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.337s] In file included from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/serial.h:9[m[K,
+[13.337s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/impl/unix/unix_serial.h:9[m[K,
+[13.337s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/impl/unix/unix_serial.cpp:39[m[K:
+[13.337s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:[m[K In function '[01m[Kbool ydlidar::fileExists(std::string)[m[K':
+[13.337s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_ino[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.337s]   240 |   struct stat info = {0[01;35m[K}[m[K;
+[13.337s]       |                        [01;35m[K^[m[K
+[13.337s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_nlink[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.337s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_mode[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.338s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_uid[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.338s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_gid[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.338s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::__pad0[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.338s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_rdev[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.338s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_size[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.338s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_blksize[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.338s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_blocks[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.338s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_atim[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.339s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_mtim[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.339s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_ctim[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.339s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::__glibc_reserved[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[13.340s] In file included from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/ydlidar_driver.h:56[m[K,
+[13.340s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/CYdLidar.h:36[m[K,
+[13.340s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/CYdLidar.cpp:34[m[K:
+[13.340s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/thread.h:[m[K In static member function '[01m[Kstatic Thread Thread::createThread(thread_proc_t, void*)[m[K':
+[13.340s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/thread.h:43:76:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from '[01m[Kthread_proc_t[m[K' {aka '[01m[Klong unsigned int (*)(void*)[m[K'} to '[01m[Kvoid* (*)(void*)[m[K' [[01;35m[K-Wcast-function-type[m[K]
+[13.340s]    43 |     pthread_create((pthread_t *)&thread_._handle, NULL, (void *(*)(void *))[01;35m[Kproc[m[K,
+[13.340s]       |                                                                            [01;35m[K^~~~[m[K
+[13.353s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/impl/unix/unix_serial.cpp:[m[K In member function '[01m[Kbool serial::Serial::SerialImpl::setCustomBaudRate(long unsigned int)[m[K':
+[13.354s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/impl/unix/unix_serial.cpp:1235:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Klong unsigned int[m[K' and '[01m[Kint[m[K' [[01;35m[K-Wsign-compare[m[K]
+[13.354s]  1235 |   if ([01;35m[Kserial.custom_divisor * baudrate != serial.baud_base[m[K) {
+[13.354s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[13.359s] In file included from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/ydlidar_driver.h:58[m[K,
+[13.359s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/CYdLidar.h:36[m[K,
+[13.359s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/CYdLidar.cpp:34[m[K:
+[13.360s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/help_info.h:[m[K In function '[01m[Kbool ydlidar::isSupportMotorCtrl(int)[m[K':
+[13.360s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/help_info.h:414:8:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kret[m[K' set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[13.360s]   414 |   bool [01;35m[Kret[m[K = false;
+[13.360s]       |        [01;35m[K^~~[m[K
+[13.364s] In file included from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/common.h:47[m[K,
+[13.364s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/serial.cpp:12[m[K:
+[13.364s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/thread.h:[m[K In static member function '[01m[Kstatic Thread Thread::createThread(thread_proc_t, void*)[m[K':
+[13.364s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/thread.h:43:76:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from '[01m[Kthread_proc_t[m[K' {aka '[01m[Klong unsigned int (*)(void*)[m[K'} to '[01m[Kvoid* (*)(void*)[m[K' [[01;35m[K-Wcast-function-type[m[K]
+[13.364s]    43 |     pthread_create((pthread_t *)&thread_._handle, NULL, (void *(*)(void *))[01;35m[Kproc[m[K,
+[13.364s]       |                                                                            [01;35m[K^~~~[m[K
+[13.405s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/ydlidar_driver.cpp:[m[K In member function '[01m[Kresult_t ydlidar::YDlidarDriver::waitPackage(node_info*, uint32_t)[m[K':
+[13.405s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/ydlidar_driver.cpp:992:95:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around arithmetic in operand of '[01m[K|[m[K' [[01;35m[K-Wparentheses[m[K]
+[13.406s]   992 |                                          [01;35m[Kpackages.packageSampleDistance[package_Sample_Index] &[m[K
+[13.406s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[13.406s]   993 | [01;35m[K                                         0x0003[m[K)) << LIDAR_RESP_MEASUREMENT_QUALITY_SHIFT;
+[13.406s]       |                                          [01;35m[K~~~~~~[m[K                                                
+[13.630s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/CYdLidar.cpp:[m[K In member function '[01m[Kbool CYdLidar::doProcessSimple(LaserScan&, bool&)[m[K':
+[13.630s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/src/CYdLidar.cpp:216:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Kint[m[K' and '[01m[Ksize_t[m[K' {aka '[01m[Klong unsigned int[m[K'} [[01;35m[K-Wsign-compare[m[K]
+[13.630s]   216 |     for (int i = 0; [01;35m[Ki < count[m[K; i++) {
+[13.630s]       |                     [01;35m[K~~^~~~~~~[m[K
+[15.293s] In file included from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/serial.h:9[m[K,
+[15.293s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/ydlidar_driver.h:54[m[K,
+[15.293s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/CYdLidar.h:36[m[K,
+[15.293s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:26[m[K:
+[15.293s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:[m[K In function '[01m[Kbool ydlidar::fileExists(std::string)[m[K':
+[15.293s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_ino[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[15.293s]   240 |   struct stat info = {0[01;35m[K}[m[K;
+[15.293s]       |                        [01;35m[K^[m[K
+[15.294s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_nlink[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[15.294s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_mode[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[15.294s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_uid[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[15.294s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_gid[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[15.294s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::__pad0[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[15.294s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_rdev[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[15.294s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_size[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[15.294s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_blksize[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[15.294s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_blocks[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[15.295s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_atim[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[15.295s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_mtim[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[15.295s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::st_ctim[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[15.295s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/v8stdint.h:240:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member '[01m[Kstat::__glibc_reserved[m[K' [[01;35m[K-Wmissing-field-initializers[m[K]
+[15.299s] In file included from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/ydlidar_driver.h:56[m[K,
+[15.299s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/CYdLidar.h:36[m[K,
+[15.299s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:26[m[K:
+[15.300s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/thread.h:[m[K In static member function '[01m[Kstatic Thread Thread::createThread(thread_proc_t, void*)[m[K':
+[15.300s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/thread.h:43:76:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from '[01m[Kthread_proc_t[m[K' {aka '[01m[Klong unsigned int (*)(void*)[m[K'} to '[01m[Kvoid* (*)(void*)[m[K' [[01;35m[K-Wcast-function-type[m[K]
+[15.300s]    43 |     pthread_create((pthread_t *)&thread_._handle, NULL, (void *(*)(void *))[01;35m[Kproc[m[K,
+[15.300s]       |                                                                            [01;35m[K^~~~[m[K
+[15.317s] In file included from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/ydlidar_driver.h:58[m[K,
+[15.317s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/CYdLidar.h:36[m[K,
+[15.318s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:26[m[K:
+[15.318s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/help_info.h:[m[K In function '[01m[Kbool ydlidar::isSupportMotorCtrl(int)[m[K':
+[15.318s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/sdk/include/help_info.h:414:8:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kret[m[K' set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[15.318s]   414 |   bool [01;35m[Kret[m[K = false;
+[15.318s]       |        [01;35m[K^~~[m[K
+[15.337s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[15.337s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:78:33:[m[K [01;35m[Kwarning: [m[K'[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K' is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[15.337s]    78 |   node->declare_parameter("port"[01;35m[K)[m[K;
+[15.337s]       |                                 [01;35m[K^[m[K
+[15.338s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[15.338s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[15.338s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[15.338s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:23[m[K:
+[15.339s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.339s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[15.339s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[15.339s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:81:37:[m[K [01;35m[Kwarning: [m[K'[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K' is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[15.339s]    81 |   node->declare_parameter("frame_id"[01;35m[K)[m[K;
+[15.339s]       |                                     [01;35m[K^[m[K
+[15.339s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[15.339s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[15.340s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[15.340s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:23[m[K:
+[15.340s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.340s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[15.340s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[15.341s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:84:41:[m[K [01;35m[Kwarning: [m[K'[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K' is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[15.341s]    84 |   node->declare_parameter("ignore_array"[01;35m[K)[m[K;
+[15.341s]       |                                         [01;35m[K^[m[K
+[15.341s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[15.341s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[15.341s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[15.342s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:23[m[K:
+[15.342s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.342s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[15.342s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[15.342s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:87:37:[m[K [01;35m[Kwarning: [m[K'[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K' is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[15.342s]    87 |   node->declare_parameter("baudrate"[01;35m[K)[m[K;
+[15.342s]       |                                     [01;35m[K^[m[K
+[15.343s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[15.343s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[15.343s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[15.343s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:23[m[K:
+[15.343s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.343s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[15.343s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[15.343s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:90:38:[m[K [01;35m[Kwarning: [m[K'[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K' is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[15.344s]    90 |   node->declare_parameter("samp_rate"[01;35m[K)[m[K;
+[15.344s]       |                                      [01;35m[K^[m[K
+[15.344s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[15.344s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[15.344s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[15.344s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:23[m[K:
+[15.344s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.344s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[15.344s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[15.345s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:93:45:[m[K [01;35m[Kwarning: [m[K'[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K' is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[15.345s]    93 |   node->declare_parameter("resolution_fixed"[01;35m[K)[m[K;
+[15.345s]       |                                             [01;35m[K^[m[K
+[15.345s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[15.345s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[15.345s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[15.345s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:23[m[K:
+[15.346s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.346s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[15.346s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[15.346s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:96:42:[m[K [01;35m[Kwarning: [m[K'[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K' is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[15.346s]    96 |   node->declare_parameter("singleChannel"[01;35m[K)[m[K;
+[15.347s]       |                                          [01;35m[K^[m[K
+[15.347s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[15.347s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[15.347s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[15.347s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:23[m[K:
+[15.347s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.347s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[15.347s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[15.347s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:99:43:[m[K [01;35m[Kwarning: [m[K'[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K' is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[15.348s]    99 |   node->declare_parameter("auto_reconnect"[01;35m[K)[m[K;
+[15.348s]       |                                           [01;35m[K^[m[K
+[15.348s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[15.348s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[15.348s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[15.348s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:23[m[K:
+[15.348s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.348s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[15.348s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[15.349s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:102:38:[m[K [01;35m[Kwarning: [m[K'[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K' is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[15.349s]   102 |   node->declare_parameter("reversion"[01;35m[K)[m[K;
+[15.349s]       |                                      [01;35m[K^[m[K
+[15.349s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[15.349s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[15.349s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[15.349s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:23[m[K:
+[15.349s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.349s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[15.350s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[15.350s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:105:39:[m[K [01;35m[Kwarning: [m[K'[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K' is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[15.350s]   105 |   node->declare_parameter("isToFLidar"[01;35m[K)[m[K;
+[15.350s]       |                                       [01;35m[K^[m[K
+[15.350s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[15.350s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[15.350s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[15.351s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:23[m[K:
+[15.351s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.351s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[15.351s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[15.351s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:108:38:[m[K [01;35m[Kwarning: [m[K'[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K' is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[15.351s]   108 |   node->declare_parameter("angle_max"[01;35m[K)[m[K;
+[15.351s]       |                                      [01;35m[K^[m[K
+[15.351s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[15.351s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[15.352s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[15.352s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:23[m[K:
+[15.352s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.352s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[15.352s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[15.352s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:111:38:[m[K [01;35m[Kwarning: [m[K'[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K' is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[15.352s]   111 |   node->declare_parameter("angle_min"[01;35m[K)[m[K;
+[15.352s]       |                                      [01;35m[K^[m[K
+[15.352s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[15.353s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[15.353s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[15.353s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:23[m[K:
+[15.353s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.353s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[15.353s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[15.353s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:114:38:[m[K [01;35m[Kwarning: [m[K'[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K' is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[15.353s]   114 |   node->declare_parameter("max_range"[01;35m[K)[m[K;
+[15.353s]       |                                      [01;35m[K^[m[K
+[15.358s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[15.358s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[15.358s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[15.358s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:23[m[K:
+[15.358s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.358s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[15.358s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[15.358s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:117:38:[m[K [01;35m[Kwarning: [m[K'[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K' is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[15.358s]   117 |   node->declare_parameter("min_range"[01;35m[K)[m[K;
+[15.365s]       |                                      [01;35m[K^[m[K
+[15.365s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[15.365s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[15.365s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[15.365s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:23[m[K:
+[15.365s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.365s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[15.365s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[15.366s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:120:38:[m[K [01;35m[Kwarning: [m[K'[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K' is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[15.366s]   120 |   node->declare_parameter("frequency"[01;35m[K)[m[K;
+[15.366s]       |                                      [01;35m[K^[m[K
+[15.366s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[15.366s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[15.366s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[15.366s]                  from [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:23[m[K:
+[15.366s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.366s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[15.366s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[15.367s] [01m[K/home/user/ros2_ws/src/tortoisebot/ydlidar-ros2/src/ydlidar_node.cpp:208:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Kint[m[K' and '[01m[Kstd::vector<LaserPoint>::size_type[m[K' {aka '[01m[Klong unsigned int[m[K'} [[01;35m[K-Wsign-compare[m[K]
+[15.367s]   208 |       for(int i=0; [01;35m[Ki < scan.points.size()[m[K; i++) {
+[15.367s]       |                    [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[18.159s] [ 90%] [32m[1mLinking CXX executable ydlidar_node[0m
+[18.947s] [ 90%] Built target ydlidar_node
+[21.691s] [100%] [32m[1mLinking CXX executable ydlidar_client[0m
+[22.019s] [100%] Built target ydlidar_client
+[22.033s] Invoked command in '/home/user/ros2_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/ydlidar -- -j8 -l8
+[22.118s] Invoking command in '/home/user/ros2_ws/build/ydlidar': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/ydlidar
+[22.128s] -- Install configuration: ""
+[22.128s] -- Installing: /home/user/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_node
+[22.131s] -- Set runtime path of "/home/user/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_node" to ""
+[22.131s] -- Installing: /home/user/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_client
+[22.136s] -- Set runtime path of "/home/user/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_client" to ""
+[22.137s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/launch
+[22.137s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/launch/x4_ydlidar_launch.py
+[22.137s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/launch/x2_ydlidar_launch.py
+[22.137s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/launch/ydlidar.py
+[22.137s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/params
+[22.137s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/params/ydlidar_x2.yaml
+[22.137s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/params/ydlidar_x4.yaml
+[22.138s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/startup
+[22.138s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/startup/initenv.sh
+[22.138s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ament_index/resource_index/package_run_dependencies/ydlidar
+[22.138s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ament_index/resource_index/parent_prefix_path/ydlidar
+[22.139s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.sh
+[22.139s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.dsv
+[22.139s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/environment/path.sh
+[22.140s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/environment/path.dsv
+[22.140s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/local_setup.bash
+[22.140s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/local_setup.sh
+[22.140s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/local_setup.zsh
+[22.140s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/local_setup.dsv
+[22.141s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/package.dsv
+[22.141s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ament_index/resource_index/packages/ydlidar
+[22.141s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake
+[22.142s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake
+[22.142s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/package.xml
+[22.147s] Invoked command in '/home/user/ros2_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/ydlidar

@@ -1,0 +1,70 @@
+[0.093s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_description': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/tortoisebot/tortoisebot_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/tortoisebot_description
+[6.250s] -- The C compiler identification is GNU 9.4.0
+[6.449s] -- The CXX compiler identification is GNU 9.4.0
+[6.548s] -- Check for working C compiler: /usr/bin/cc
+[6.676s] -- Check for working C compiler: /usr/bin/cc -- works
+[6.678s] -- Detecting C compiler ABI info
+[6.820s] -- Detecting C compiler ABI info - done
+[6.846s] -- Detecting C compile features
+[6.958s] -- Detecting C compile features - done
+[6.967s] -- Check for working CXX compiler: /usr/bin/c++
+[7.129s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[7.130s] -- Detecting CXX compiler ABI info
+[7.325s] -- Detecting CXX compiler ABI info - done
+[7.344s] -- Detecting CXX compile features
+[7.345s] -- Detecting CXX compile features - done
+[7.355s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[7.759s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.759s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.160s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[8.570s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.577s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.578s] -- Added test 'lint_cmake' to check CMake code style
+[8.580s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[8.583s] -- Added test 'xmllint' to check XML markup files
+[8.588s] -- Configuring done
+[8.592s] -- Generating done
+[8.593s] -- Build files have been written to: /home/user/ros2_ws/build/tortoisebot_description
+[8.627s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/tortoisebot/tortoisebot_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/tortoisebot_description
+[8.627s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_description': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tortoisebot_description -- -j8 -l8
+[8.672s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tortoisebot_description -- -j8 -l8
+[8.747s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_description': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tortoisebot_description
+[8.765s] -- Install configuration: ""
+[8.767s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/launch
+[8.769s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/launch/rviz.launch.py
+[8.770s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/launch/state_publisher.launch.py
+[8.770s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/launch/display.launch.py
+[8.771s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models
+[8.771s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/urdf
+[8.776s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/urdf/tortoisebot.xacro
+[8.776s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/urdf/materials.xacro
+[8.776s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes
+[8.777s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/lidar_motorend.stl
+[8.777s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/camera.stl
+[8.777s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/imu.stl
+[8.780s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/caster.stl
+[8.780s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/lidar_bottom.stl
+[8.780s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/base_link.stl
+[8.784s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/lidar_top.stl
+[8.784s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/lidar_body.stl
+[8.785s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/wheel_right.stl
+[8.786s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/wheel_left.stl
+[8.788s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/rviz
+[8.789s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/rviz/tortoisebot_navigation.rviz
+[8.789s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/rviz/sensors.rviz
+[8.789s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/ament_index/resource_index/package_run_dependencies/tortoisebot_description
+[8.789s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/ament_index/resource_index/parent_prefix_path/tortoisebot_description
+[8.790s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/environment/ament_prefix_path.sh
+[8.790s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/environment/ament_prefix_path.dsv
+[8.791s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/environment/path.sh
+[8.791s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/environment/path.dsv
+[8.791s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/local_setup.bash
+[8.792s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/local_setup.sh
+[8.793s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/local_setup.zsh
+[8.793s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/local_setup.dsv
+[8.793s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/package.dsv
+[8.793s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/ament_index/resource_index/packages/tortoisebot_description
+[8.794s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/cmake/tortoisebot_descriptionConfig.cmake
+[8.794s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/cmake/tortoisebot_descriptionConfig-version.cmake
+[8.797s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/package.xml
+[8.845s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tortoisebot_description

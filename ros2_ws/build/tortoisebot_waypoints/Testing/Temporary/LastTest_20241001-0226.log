@@ -1,0 +1,27 @@
+Start testing: Oct 01 02:26 UTC
+----------------------------------------------------------
+1/1 Testing: tortoisebot_waypoints_test
+1/1 Test: tortoisebot_waypoints_test
+Command: "/usr/bin/python3" "-u" "/opt/ros/galactic/share/ament_cmake_test/cmake/run_test.py" "/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml" "--package-name" "tortoisebot_waypoints" "--output-file" "/home/user/ros2_ws/build/tortoisebot_waypoints/ament_cmake_gtest/tortoisebot_waypoints_test.txt" "--command" "/home/user/ros2_ws/build/tortoisebot_waypoints/tortoisebot_waypoints_test" "--gtest_output=xml:/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml"
+Directory: /home/user/ros2_ws/build/tortoisebot_waypoints
+"tortoisebot_waypoints_test" start time: Oct 01 02:26 UTC
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/user/ros2_ws/build/tortoisebot_waypoints':
+ - /home/user/ros2_ws/build/tortoisebot_waypoints/tortoisebot_waypoints_test --gtest_output=xml:/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from WaypointActionServerTest
+[ RUN      ] WaypointActionServerTest.ErrorTest
+<end of output>
+Test time = 300.10 sec
+----------------------------------------------------------
+Test Failed.
+"tortoisebot_waypoints_test" end time: Oct 01 02:31 UTC
+"tortoisebot_waypoints_test" time elapsed: 00:05:00
+----------------------------------------------------------
+
+End testing: Oct 01 02:31 UTC
+
+gtest = 300.10 sec*proc
+

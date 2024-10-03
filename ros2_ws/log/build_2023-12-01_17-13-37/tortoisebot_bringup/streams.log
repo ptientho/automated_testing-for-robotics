@@ -1,0 +1,54 @@
+[0.102s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_bringup': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/tortoisebot/tortoisebot_bringup -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/tortoisebot_bringup
+[6.263s] -- The C compiler identification is GNU 9.4.0
+[6.468s] -- The CXX compiler identification is GNU 9.4.0
+[6.561s] -- Check for working C compiler: /usr/bin/cc
+[6.736s] -- Check for working C compiler: /usr/bin/cc -- works
+[6.738s] -- Detecting C compiler ABI info
+[6.876s] -- Detecting C compiler ABI info - done
+[6.891s] -- Detecting C compile features
+[6.972s] -- Detecting C compile features - done
+[6.980s] -- Check for working CXX compiler: /usr/bin/c++
+[7.130s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[7.132s] -- Detecting CXX compiler ABI info
+[7.293s] -- Detecting CXX compiler ABI info - done
+[7.329s] -- Detecting CXX compile features
+[7.330s] -- Detecting CXX compile features - done
+[7.348s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[7.774s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.774s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.173s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[8.584s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.589s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.591s] -- Added test 'lint_cmake' to check CMake code style
+[8.593s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[8.595s] -- Added test 'xmllint' to check XML markup files
+[8.602s] -- Configuring done
+[8.605s] -- Generating done
+[8.606s] -- Build files have been written to: /home/user/ros2_ws/build/tortoisebot_bringup
+[8.639s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/tortoisebot/tortoisebot_bringup -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/tortoisebot_bringup
+[8.640s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_bringup': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tortoisebot_bringup -- -j8 -l8
+[8.687s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tortoisebot_bringup -- -j8 -l8
+[8.776s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_bringup': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tortoisebot_bringup
+[8.826s] -- Install configuration: ""
+[8.826s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/launch
+[8.826s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/launch/autobringup.launch.py
+[8.827s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/launch/bringup.launch.py
+[8.827s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/maps
+[8.827s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/maps/room2.yaml
+[8.827s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/maps/room2.pgm
+[8.827s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/ament_index/resource_index/package_run_dependencies/tortoisebot_bringup
+[8.828s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/ament_index/resource_index/parent_prefix_path/tortoisebot_bringup
+[8.828s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/environment/ament_prefix_path.sh
+[8.829s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/environment/ament_prefix_path.dsv
+[8.830s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/environment/path.sh
+[8.830s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/environment/path.dsv
+[8.830s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/local_setup.bash
+[8.831s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/local_setup.sh
+[8.831s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/local_setup.zsh
+[8.831s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/local_setup.dsv
+[8.831s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/package.dsv
+[8.832s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/ament_index/resource_index/packages/tortoisebot_bringup
+[8.832s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/cmake/tortoisebot_bringupConfig.cmake
+[8.832s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/cmake/tortoisebot_bringupConfig-version.cmake
+[8.835s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/package.xml
+[8.876s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tortoisebot_bringup

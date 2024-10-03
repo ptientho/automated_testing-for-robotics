@@ -1,0 +1,50 @@
+Start testing: Oct 01 02:43 UTC
+----------------------------------------------------------
+1/1 Testing: tortoisebot_waypoints_test
+1/1 Test: tortoisebot_waypoints_test
+Command: "/usr/bin/python3" "-u" "/opt/ros/galactic/share/ament_cmake_test/cmake/run_test.py" "/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml" "--package-name" "tortoisebot_waypoints" "--output-file" "/home/user/ros2_ws/build/tortoisebot_waypoints/ament_cmake_gtest/tortoisebot_waypoints_test.txt" "--command" "/home/user/ros2_ws/build/tortoisebot_waypoints/tortoisebot_waypoints_test" "--gtest_output=xml:/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml"
+Directory: /home/user/ros2_ws/build/tortoisebot_waypoints
+"tortoisebot_waypoints_test" start time: Oct 01 02:43 UTC
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/user/ros2_ws/build/tortoisebot_waypoints':
+ - /home/user/ros2_ws/build/tortoisebot_waypoints/tortoisebot_waypoints_test --gtest_output=xml:/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from WaypointActionServerTest
+[ RUN      ] WaypointActionServerTest.ErrorTest
+[INFO] [1727750593.355504491] [waypoint_action_client]: Sending goal
+[INFO] [1727750593.471544235] [waypoint_action_client]: Goal accepted by server, waiting for result
+[INFO] [1727750593.482626855] [waypoint_action_client]: result: true
+[       OK ] WaypointActionServerTest.ErrorTest (725 ms)
+[ RUN      ] WaypointActionServerTest.CancelGoal
+[INFO] [1727750594.057108597] [waypoint_action_client]: Sending goal
+/home/user/ros2_ws/src/tortoisebot_waypoints/test/tortoisebot_waypoints_test.cpp:201: Failure
+Value of: false
+  Actual: false
+Expected: true
+[  FAILED  ] WaypointActionServerTest.CancelGoal (506 ms)
+[----------] 2 tests from WaypointActionServerTest (1231 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (1231 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] WaypointActionServerTest.CancelGoal
+
+ 1 FAILED TEST
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml'
+-- run_test.py: verify result file '/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml'
+<end of output>
+Test time =   1.81 sec
+----------------------------------------------------------
+Test Failed.
+"tortoisebot_waypoints_test" end time: Oct 01 02:43 UTC
+"tortoisebot_waypoints_test" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Oct 01 02:43 UTC
+
+gtest =   1.81 sec*proc
+

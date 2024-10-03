@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.001402] (tortoisebot_waypoints) JobQueued: {'identifier': 'tortoisebot_waypoints', 'dependencies': OrderedDict([('tortoisebot_waypoints_interface', '/home/user/ros2_ws/install/tortoisebot_waypoints_interface'), ('tortoisebot_waypoints', '/home/user/ros2_ws/install/tortoisebot_waypoints')])}
+[0.001482] (tortoisebot_waypoints) JobStarted: {'identifier': 'tortoisebot_waypoints'}
+[0.080182] (-) TimerEvent: {}
+[0.108750] (tortoisebot_waypoints) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/user/ros2_ws/build/tortoisebot_waypoints', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('PKG_CONFIG_PATH', '/home/user/simulation_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('ROS_PACKAGE_PATH', '/home/user/simulation_ws/src:/opt/ros/noetic/share'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/user/simulation_ws/devel/share/common-lisp'), ('PWD', '/home/user/ros2_ws/build/tortoisebot_waypoints'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/latest:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ydlidar:/home/user/ros2_ws/install/tortoisebot_waypoints:/home/user/ros2_ws/install/tortoisebot_waypoints_interface:/home/user/ros2_ws/install/tortoisebot_slam:/home/user/ros2_ws/install/tortoisebot_navigation:/home/user/ros2_ws/install/tortoisebot_gazebo:/home/user/ros2_ws/install/tortoisebot_firmware:/home/user/ros2_ws/install/tortoisebot_description:/home/user/ros2_ws/install/tortoisebot_bringup:/opt/ros/galactic'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/tortoisebot_waypoints:/home/user/ros2_ws/install/tortoisebot_waypoints_interface:/home/user/simulation_ws/devel:/opt/ros/noetic:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ydlidar:/home/user/ros2_ws/install/tortoisebot_slam:/home/user/ros2_ws/install/tortoisebot_navigation:/home/user/ros2_ws/install/tortoisebot_gazebo:/home/user/ros2_ws/install/tortoisebot_firmware:/home/user/ros2_ws/install/tortoisebot_description:/home/user/ros2_ws/install/tortoisebot_bringup'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/tortoisebot_waypoints_interface/lib/python3.8/site-packages:/opt/ros/latest/lib/python/site-packages:/opt/ros/latest/lib/python3.8/site-packages:/home/user/simulation_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/home/user/ros2_ws/install/tortoisebot_firmware/lib/python3.8/site-packages:/opt/ros/galactic/lib/python/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/tortoisebot_waypoints_interface/lib:/opt/ros/latest/opt/yaml_cpp_vendor/lib:/opt/ros/latest/opt/rviz_ogre_vendor/lib:/opt/ros/latest/lib/x86_64-linux-gnu:/opt/ros/latest/lib:/home/user/simulation_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/home/user/ros2_ws/install/tortoisebot_waypoints/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '729906'), ('SLOT_PREFIX', 'e9814e74-6f44-450d-9d20-e2e649235468'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25106'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/latest/bin:/opt/ros/noetic/bin:/opt/ros/galactic/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'galactic'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('ROS_DISTRO', 'galactic'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.143334] (tortoisebot_waypoints) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/user/ros2_ws/build/tortoisebot_waypoints/CTestConfiguration.ini\n'}
+[0.144058] (tortoisebot_waypoints) StdoutLine: {'line': b'Parse Config file:/home/user/ros2_ws/build/tortoisebot_waypoints/CTestConfiguration.ini\n'}
+[0.144272] (tortoisebot_waypoints) StdoutLine: {'line': b'   Site: 1_xterm\n'}
+[0.144452] (tortoisebot_waypoints) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.144591] (tortoisebot_waypoints) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.144729] (tortoisebot_waypoints) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[0.144866] (tortoisebot_waypoints) StdoutLine: {'line': b'Create new tag: 20231201-1804 - Experimental\n'}
+[0.145009] (tortoisebot_waypoints) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/user/ros2_ws/build/tortoisebot_waypoints/CTestConfiguration.ini\n'}
+[0.145318] (tortoisebot_waypoints) StdoutLine: {'line': b'Parse Config file:/home/user/ros2_ws/build/tortoisebot_waypoints/CTestConfiguration.ini\n'}
+[0.145466] (tortoisebot_waypoints) StdoutLine: {'line': b'Test project /home/user/ros2_ws/build/tortoisebot_waypoints\n'}
+[0.145602] (tortoisebot_waypoints) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.145734] (tortoisebot_waypoints) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.145866] (tortoisebot_waypoints) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.146010] (tortoisebot_waypoints) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.146146] (tortoisebot_waypoints) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.146278] (tortoisebot_waypoints) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.146410] (tortoisebot_waypoints) StdoutLine: {'line': b'test 1\n'}
+[0.146543] (tortoisebot_waypoints) StdoutLine: {'line': b'    Start 1: tortoisebot_waypoints_test\n'}
+[0.146677] (tortoisebot_waypoints) StdoutLine: {'line': b'\n'}
+[0.146809] (tortoisebot_waypoints) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/galactic/share/ament_cmake_test/cmake/run_test.py" "/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml" "--package-name" "tortoisebot_waypoints" "--output-file" "/home/user/ros2_ws/build/tortoisebot_waypoints/ament_cmake_gtest/tortoisebot_waypoints_test.txt" "--command" "/home/user/ros2_ws/build/tortoisebot_waypoints/tortoisebot_waypoints_test" "--gtest_output=xml:/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml"\n'}
+[0.146960] (tortoisebot_waypoints) StdoutLine: {'line': b'1: Test timeout computed to be: 300\n'}
+[0.185112] (-) TimerEvent: {}
+[0.287433] (tortoisebot_waypoints) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/user/ros2_ws/build/tortoisebot_waypoints':\n"}
+[0.287835] (-) TimerEvent: {}
+[0.288066] (tortoisebot_waypoints) StdoutLine: {'line': b'1:  - /home/user/ros2_ws/build/tortoisebot_waypoints/tortoisebot_waypoints_test --gtest_output=xml:/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml\n'}
+[0.339071] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [==========] Running 2 tests from 1 test suite.\n'}
+[0.339509] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[0.339799] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [----------] 2 tests from WaypointActionServerTest\n'}
+[0.340079] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [ RUN      ] WaypointActionServerTest.ErrorTest\n'}
+[0.380263] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701453840.268634079] [waypoint_action_client]: Sending goal\n'}
+[0.387598] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701453840.276045144] [waypoint_action_client]: Goal accepted by server, waiting for result\n'}
+[0.387849] (-) TimerEvent: {}
+[0.388837] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701453840.276820576] [waypoint_action_client]: result: true\n'}
+[0.389105] (tortoisebot_waypoints) StdoutLine: {'line': b'1: /home/user/ros2_ws/src/tortoisebot_waypoints/test/tortoisebot_waypoints_test.cpp:188: Failure\n'}
+[0.389260] (tortoisebot_waypoints) StdoutLine: {'line': b'1: Expected: (err_pos) <= (0.1), actual: 0.707107 vs 0.1\n'}
+[0.389398] (tortoisebot_waypoints) StdoutLine: {'line': b'1: /home/user/ros2_ws/src/tortoisebot_waypoints/test/tortoisebot_waypoints_test.cpp:189: Failure\n'}
+[0.389586] (tortoisebot_waypoints) StdoutLine: {'line': b'1: Expected: (std::abs(err_yaw)) <= (0.5), actual: 4.07068e+233 vs 0.5\n'}
+[0.495462] (-) TimerEvent: {}
+[0.591073] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [  FAILED  ] WaypointActionServerTest.ErrorTest (251 ms)\n'}
+[0.591404] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [ RUN      ] WaypointActionServerTest.CancelGoal\n'}
+[0.596099] (-) TimerEvent: {}
+[0.619661] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701453840.507562342] [waypoint_action_client]: Sending goal\n'}
+[0.620200] (tortoisebot_waypoints) StdoutLine: {'line': b'1: /home/user/ros2_ws/src/tortoisebot_waypoints/test/tortoisebot_waypoints_test.cpp:201: Failure\n'}
+[0.620394] (tortoisebot_waypoints) StdoutLine: {'line': b'1: Value of: false\n'}
+[0.620532] (tortoisebot_waypoints) StdoutLine: {'line': b'1:   Actual: false\n'}
+[0.620663] (tortoisebot_waypoints) StdoutLine: {'line': b'1: Expected: true\n'}
+[0.701107] (-) TimerEvent: {}
+[0.802330] (-) TimerEvent: {}
+[0.834513] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [  FAILED  ] WaypointActionServerTest.CancelGoal (243 ms)\n'}
+[0.834947] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [----------] 2 tests from WaypointActionServerTest (494 ms total)\n'}
+[0.835146] (tortoisebot_waypoints) StdoutLine: {'line': b'1: \n'}
+[0.836557] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [----------] Global test environment tear-down\n'}
+[0.836871] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [==========] 2 tests from 1 test suite ran. (495 ms total)\n'}
+[0.837040] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [  PASSED  ] 0 tests.\n'}
+[0.837203] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [  FAILED  ] 2 tests, listed below:\n'}
+[0.837387] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [  FAILED  ] WaypointActionServerTest.ErrorTest\n'}
+[0.837544] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [  FAILED  ] WaypointActionServerTest.CancelGoal\n'}
+[0.837697] (tortoisebot_waypoints) StdoutLine: {'line': b'1: \n'}
+[0.837910] (tortoisebot_waypoints) StdoutLine: {'line': b'1:  2 FAILED TESTS\n'}
+[0.838101] (tortoisebot_waypoints) StdoutLine: {'line': b'1: -- run_test.py: return code 1\n'}
+[0.838544] (tortoisebot_waypoints) StdoutLine: {'line': b"1: -- run_test.py: inject classname prefix into gtest result file '/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml'\n"}
+[0.838741] (tortoisebot_waypoints) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml'\n"}
+[0.850340] (tortoisebot_waypoints) StdoutLine: {'line': b'1/1 Test #1: tortoisebot_waypoints_test .......***Failed    0.71 sec\n'}
+[0.855982] (tortoisebot_waypoints) StdoutLine: {'line': b'\n'}
+[0.856530] (tortoisebot_waypoints) StdoutLine: {'line': b'0% tests passed\x1b[0;0m, \x1b[0;31m1 tests failed\x1b[0;0m out of 1\n'}
+[0.857227] (tortoisebot_waypoints) StdoutLine: {'line': b'\n'}
+[0.860337] (tortoisebot_waypoints) StdoutLine: {'line': b'Label Time Summary:\n'}
+[0.860502] (tortoisebot_waypoints) StdoutLine: {'line': b'gtest    =   0.71 sec*proc (1 test)\n'}
+[0.860632] (tortoisebot_waypoints) StdoutLine: {'line': b'\n'}
+[0.860773] (tortoisebot_waypoints) StdoutLine: {'line': b'Total Test time (real) =   0.71 sec\n'}
+[0.860901] (tortoisebot_waypoints) StdoutLine: {'line': b'\n'}
+[0.861030] (tortoisebot_waypoints) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[0.861147] (tortoisebot_waypoints) StdoutLine: {'line': b'\t\x1b[0;31m  1 - tortoisebot_waypoints_test (Failed)\x1b[0;0m\n'}
+[0.861287] (tortoisebot_waypoints) StderrLine: {'line': b'Errors while running CTest\n'}
+[0.861443] (tortoisebot_waypoints) CommandEnded: {'returncode': 8}
+[0.861990] (tortoisebot_waypoints) TestFailure: {'identifier': 'tortoisebot_waypoints'}
+[0.862044] (tortoisebot_waypoints) JobEnded: {'identifier': 'tortoisebot_waypoints', 'rc': 0}
+[0.862643] (-) EventReactorShutdown: {}

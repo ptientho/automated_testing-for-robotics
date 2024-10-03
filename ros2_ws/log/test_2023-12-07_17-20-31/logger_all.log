@@ -1,0 +1,238 @@
+[2.818s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test', '--packages-select', 'tortoisebot_waypoints', '--event-handler=console_direct+']
+[2.818s] DEBUG:colcon:Parsed command line arguments: Namespace(abort_on_error=False, allow_overriding=[], base_paths=['.'], bazel_args=None, bazel_task=None, build_base='build', ctest_args=None, event_handlers=['console_direct+'], executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method TestVerb.main of <colcon_core.verb.test.TestVerb object at 0x7ff5fc2ef0d0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('test',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['tortoisebot_waypoints'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, pytest_args=None, pytest_with_coverage=False, python_testing=None, retest_until_fail=0, retest_until_pass=0, return_code_on_test_failure=False, test_result_base=None, unittest_args=None, verb_extension=<colcon_core.verb.test.TestVerb object at 0x7ff5fc2ef0d0>, verb_name='test', verb_parser=<colcon_alias.argument_parser.alias.AliasArgumentDecorator object at 0x7ff5fc286a00>)
+[3.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.159s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/ros2_ws'
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['bazel', 'cmake', 'python']
+[3.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'bazel'
+[3.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.165s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extensions ['ignore', 'ignore_ament_install']
+[3.166s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extension 'ignore'
+[3.166s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extension 'ignore_ament_install'
+[3.166s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extensions ['colcon_pkg']
+[3.166s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extension 'colcon_pkg'
+[3.166s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extensions ['colcon_meta']
+[3.166s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extension 'colcon_meta'
+[3.166s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extensions ['ros']
+[3.166s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extension 'ros'
+[3.166s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extensions ['bazel', 'cmake', 'python']
+[3.166s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extension 'bazel'
+[3.166s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extension 'cmake'
+[3.167s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extension 'python'
+[3.167s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extensions ['python_setup_py']
+[3.167s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extension 'python_setup_py'
+[3.167s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extensions ['ignore', 'ignore_ament_install']
+[3.167s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extension 'ignore'
+[3.167s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extension 'ignore_ament_install'
+[3.167s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extensions ['colcon_pkg']
+[3.167s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extension 'colcon_pkg'
+[3.167s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extensions ['colcon_meta']
+[3.167s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extension 'colcon_meta'
+[3.167s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extensions ['ros']
+[3.168s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extension 'ros'
+[3.168s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extensions ['bazel', 'cmake', 'python']
+[3.168s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extension 'bazel'
+[3.168s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extension 'cmake'
+[3.168s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extension 'python'
+[3.168s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extensions ['python_setup_py']
+[3.168s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extension 'python_setup_py'
+[3.168s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.168s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.168s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.169s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.169s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.169s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.169s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.169s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.169s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.170s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.170s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.170s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.170s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.170s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.170s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.170s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.170s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.170s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['bazel', 'cmake', 'python']
+[3.170s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'bazel'
+[3.170s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.170s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[3.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[3.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[3.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[3.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[3.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[3.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[3.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[3.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[3.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extensions ['ignore', 'ignore_ament_install']
+[3.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extension 'ignore'
+[3.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extension 'ignore_ament_install'
+[3.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extensions ['colcon_pkg']
+[3.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extension 'colcon_pkg'
+[3.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extensions ['colcon_meta']
+[3.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extension 'colcon_meta'
+[3.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extensions ['ros']
+[3.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extension 'ros'
+[3.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extensions ['bazel', 'cmake', 'python']
+[3.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extension 'bazel'
+[3.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extension 'cmake'
+[3.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extension 'python'
+[3.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extensions ['python_setup_py']
+[3.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extension 'python_setup_py'
+[3.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[3.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_bringup) by extension 'ignore'
+[3.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_bringup) by extension 'ignore_ament_install'
+[3.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_bringup) by extensions ['colcon_pkg']
+[3.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_bringup) by extension 'colcon_pkg'
+[3.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_bringup) by extensions ['colcon_meta']
+[3.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_bringup) by extension 'colcon_meta'
+[3.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_bringup) by extensions ['ros']
+[3.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_bringup) by extension 'ros'
+[3.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot/tortoisebot_bringup' with type 'ros.ament_cmake' and name 'tortoisebot_bringup'
+[3.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_control) by extensions ['ignore', 'ignore_ament_install']
+[3.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_control) by extension 'ignore'
+[3.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_control) ignored
+[3.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_description) by extensions ['ignore', 'ignore_ament_install']
+[3.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_description) by extension 'ignore'
+[3.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_description) by extension 'ignore_ament_install'
+[3.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_description) by extensions ['colcon_pkg']
+[3.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_description) by extension 'colcon_pkg'
+[3.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_description) by extensions ['colcon_meta']
+[3.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_description) by extension 'colcon_meta'
+[3.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_description) by extensions ['ros']
+[3.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_description) by extension 'ros'
+[3.180s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot/tortoisebot_description' with type 'ros.ament_cmake' and name 'tortoisebot_description'
+[3.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_firmware) by extensions ['ignore', 'ignore_ament_install']
+[3.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_firmware) by extension 'ignore'
+[3.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_firmware) by extension 'ignore_ament_install'
+[3.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_firmware) by extensions ['colcon_pkg']
+[3.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_firmware) by extension 'colcon_pkg'
+[3.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_firmware) by extensions ['colcon_meta']
+[3.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_firmware) by extension 'colcon_meta'
+[3.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_firmware) by extensions ['ros']
+[3.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_firmware) by extension 'ros'
+[3.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot/tortoisebot_firmware' with type 'ros.ament_cmake' and name 'tortoisebot_firmware'
+[3.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[3.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_gazebo) by extension 'ignore'
+[3.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_gazebo) by extension 'ignore_ament_install'
+[3.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_gazebo) by extensions ['colcon_pkg']
+[3.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_gazebo) by extension 'colcon_pkg'
+[3.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_gazebo) by extensions ['colcon_meta']
+[3.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_gazebo) by extension 'colcon_meta'
+[3.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_gazebo) by extensions ['ros']
+[3.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_gazebo) by extension 'ros'
+[3.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot/tortoisebot_gazebo' with type 'ros.ament_cmake' and name 'tortoisebot_gazebo'
+[3.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[3.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_navigation) by extension 'ignore'
+[3.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_navigation) by extension 'ignore_ament_install'
+[3.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_navigation) by extensions ['colcon_pkg']
+[3.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_navigation) by extension 'colcon_pkg'
+[3.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_navigation) by extensions ['colcon_meta']
+[3.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_navigation) by extension 'colcon_meta'
+[3.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_navigation) by extensions ['ros']
+[3.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_navigation) by extension 'ros'
+[3.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot/tortoisebot_navigation' with type 'ros.ament_cmake' and name 'tortoisebot_navigation'
+[3.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_slam) by extensions ['ignore', 'ignore_ament_install']
+[3.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_slam) by extension 'ignore'
+[3.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_slam) by extension 'ignore_ament_install'
+[3.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_slam) by extensions ['colcon_pkg']
+[3.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_slam) by extension 'colcon_pkg'
+[3.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_slam) by extensions ['colcon_meta']
+[3.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_slam) by extension 'colcon_meta'
+[3.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_slam) by extensions ['ros']
+[3.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_slam) by extension 'ros'
+[3.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot/tortoisebot_slam' with type 'ros.ament_cmake' and name 'tortoisebot_slam'
+[3.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/ydlidar-ros2) by extensions ['ignore', 'ignore_ament_install']
+[3.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/ydlidar-ros2) by extension 'ignore'
+[3.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/ydlidar-ros2) by extension 'ignore_ament_install'
+[3.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/ydlidar-ros2) by extensions ['colcon_pkg']
+[3.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/ydlidar-ros2) by extension 'colcon_pkg'
+[3.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/ydlidar-ros2) by extensions ['colcon_meta']
+[3.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/ydlidar-ros2) by extension 'colcon_meta'
+[3.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/ydlidar-ros2) by extensions ['ros']
+[3.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/ydlidar-ros2) by extension 'ros'
+[3.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot/ydlidar-ros2' with type 'ros.ament_cmake' and name 'ydlidar'
+[3.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_waypoints) by extensions ['ignore', 'ignore_ament_install']
+[3.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_waypoints) by extension 'ignore'
+[3.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_waypoints) by extension 'ignore_ament_install'
+[3.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_waypoints) by extensions ['colcon_pkg']
+[3.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_waypoints) by extension 'colcon_pkg'
+[3.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_waypoints) by extensions ['colcon_meta']
+[3.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_waypoints) by extension 'colcon_meta'
+[3.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_waypoints) by extensions ['ros']
+[3.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_waypoints) by extension 'ros'
+[3.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot_waypoints' with type 'ros.ament_cmake' and name 'tortoisebot_waypoints'
+[3.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_waypoints_interface) by extensions ['ignore', 'ignore_ament_install']
+[3.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_waypoints_interface) by extension 'ignore'
+[3.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_waypoints_interface) by extension 'ignore_ament_install'
+[3.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_waypoints_interface) by extensions ['colcon_pkg']
+[3.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_waypoints_interface) by extension 'colcon_pkg'
+[3.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_waypoints_interface) by extensions ['colcon_meta']
+[3.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_waypoints_interface) by extension 'colcon_meta'
+[3.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_waypoints_interface) by extensions ['ros']
+[3.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot_waypoints_interface) by extension 'ros'
+[3.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot_waypoints_interface' with type 'ros.ament_cmake' and name 'tortoisebot_waypoints_interface'
+[3.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.212s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tortoisebot_bringup' in 'src/tortoisebot/tortoisebot_bringup'
+[3.212s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tortoisebot_description' in 'src/tortoisebot/tortoisebot_description'
+[3.212s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tortoisebot_firmware' in 'src/tortoisebot/tortoisebot_firmware'
+[3.212s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tortoisebot_gazebo' in 'src/tortoisebot/tortoisebot_gazebo'
+[3.212s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tortoisebot_navigation' in 'src/tortoisebot/tortoisebot_navigation'
+[3.212s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tortoisebot_slam' in 'src/tortoisebot/tortoisebot_slam'
+[3.212s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tortoisebot_waypoints_interface' in 'src/tortoisebot_waypoints_interface'
+[3.212s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ydlidar' in 'src/tortoisebot/ydlidar-ros2'
+[3.214s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_waypoints' test argument 'bazel_args' from command line to 'None'
+[3.214s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_waypoints' test argument 'bazel_task' from command line to 'None'
+[3.214s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_waypoints' test argument 'ctest_args' from command line to 'None'
+[3.214s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_waypoints' test argument 'python_testing' from command line to 'None'
+[3.214s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_waypoints' test argument 'pytest_args' from command line to 'None'
+[3.214s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_waypoints' test argument 'pytest_with_coverage' from command line to 'False'
+[3.214s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_waypoints' test argument 'unittest_args' from command line to 'None'
+[3.214s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_waypoints' test argument 'retest_until_pass' from command line to '0'
+[3.214s] Level 5:colcon.colcon_core.verb:set package 'tortoisebot_waypoints' test argument 'retest_until_fail' from command line to '0'
+[3.215s] DEBUG:colcon.colcon_core.verb.test:Testing package 'tortoisebot_waypoints' with the following arguments: {'bazel_args': None, 'bazel_task': None, 'build_base': '/home/user/ros2_ws/build/tortoisebot_waypoints', 'ctest_args': None, 'install_base': '/home/user/ros2_ws/install/tortoisebot_waypoints', 'path': '/home/user/ros2_ws/src/tortoisebot_waypoints', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[3.215s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.227s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.227s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/user/ros2_ws/src/tortoisebot_waypoints' with build type 'ament_cmake'
+[3.227s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/user/ros2_ws/src/tortoisebot_waypoints'
+[3.264s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.264s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.264s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.316s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/user/simulation_ws/devel'
+[5.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/tortoisebot_waypoints': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/tortoisebot_waypoints:/home/user/ros2_ws/install/tortoisebot_waypoints_interface:/home/user/simulation_ws/devel:/opt/ros/noetic:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ydlidar:/home/user/ros2_ws/install/tortoisebot_slam:/home/user/ros2_ws/install/tortoisebot_navigation:/home/user/ros2_ws/install/tortoisebot_gazebo:/home/user/ros2_ws/install/tortoisebot_firmware:/home/user/ros2_ws/install/tortoisebot_description:/home/user/ros2_ws/install/tortoisebot_bringup LD_LIBRARY_PATH=/home/user/ros2_ws/install/tortoisebot_waypoints_interface/lib:/opt/ros/latest/opt/yaml_cpp_vendor/lib:/opt/ros/latest/opt/rviz_ogre_vendor/lib:/opt/ros/latest/lib/x86_64-linux-gnu:/opt/ros/latest/lib:/home/user/simulation_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/home/user/ros2_ws/install/ydlidar/lib:/home/user/ros2_ws/install/tortoisebot_firmware/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/home/user/ros2_ws/install/tortoisebot_waypoints/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/user/ros2_ws/install/tortoisebot_waypoints_interface/lib/python3.8/site-packages:/opt/ros/latest/lib/python/site-packages:/opt/ros/latest/lib/python3.8/site-packages:/home/user/simulation_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/home/user/ros2_ws/install/tortoisebot_firmware/lib/python3.8/site-packages:/opt/ros/galactic/lib/python/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics _=/usr/bin/env /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[22.962s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[22.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/tortoisebot_waypoints' returned '8': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/tortoisebot_waypoints:/home/user/ros2_ws/install/tortoisebot_waypoints_interface:/home/user/simulation_ws/devel:/opt/ros/noetic:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ydlidar:/home/user/ros2_ws/install/tortoisebot_slam:/home/user/ros2_ws/install/tortoisebot_navigation:/home/user/ros2_ws/install/tortoisebot_gazebo:/home/user/ros2_ws/install/tortoisebot_firmware:/home/user/ros2_ws/install/tortoisebot_description:/home/user/ros2_ws/install/tortoisebot_bringup LD_LIBRARY_PATH=/home/user/ros2_ws/install/tortoisebot_waypoints_interface/lib:/opt/ros/latest/opt/yaml_cpp_vendor/lib:/opt/ros/latest/opt/rviz_ogre_vendor/lib:/opt/ros/latest/lib/x86_64-linux-gnu:/opt/ros/latest/lib:/home/user/simulation_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/home/user/ros2_ws/install/ydlidar/lib:/home/user/ros2_ws/install/tortoisebot_firmware/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/home/user/ros2_ws/install/tortoisebot_waypoints/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/user/ros2_ws/install/tortoisebot_waypoints_interface/lib/python3.8/site-packages:/opt/ros/latest/lib/python/site-packages:/opt/ros/latest/lib/python3.8/site-packages:/home/user/simulation_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/home/user/ros2_ws/install/tortoisebot_firmware/lib/python3.8/site-packages:/opt/ros/galactic/lib/python/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics _=/usr/bin/env /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[22.963s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[22.963s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[22.964s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[22.998s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[22.998s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[22.998s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[22.998s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[23.015s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[23.015s] DEBUG:colcon.colcon_core.event_reactor:joined thread

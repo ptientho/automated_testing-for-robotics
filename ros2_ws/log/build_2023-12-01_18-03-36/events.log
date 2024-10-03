@@ -1,0 +1,251 @@
+[0.000000] (-) TimerEvent: {}
+[0.000322] (-) JobUnselected: {'identifier': 'tortoisebot_bringup'}
+[0.000394] (-) JobUnselected: {'identifier': 'tortoisebot_description'}
+[0.000441] (-) JobUnselected: {'identifier': 'tortoisebot_firmware'}
+[0.000482] (-) JobUnselected: {'identifier': 'tortoisebot_gazebo'}
+[0.000518] (-) JobUnselected: {'identifier': 'tortoisebot_navigation'}
+[0.000553] (-) JobUnselected: {'identifier': 'tortoisebot_slam'}
+[0.000589] (-) JobUnselected: {'identifier': 'tortoisebot_waypoints_interface'}
+[0.000622] (-) JobUnselected: {'identifier': 'ydlidar'}
+[0.000662] (tortoisebot_waypoints) JobQueued: {'identifier': 'tortoisebot_waypoints', 'dependencies': OrderedDict([('tortoisebot_waypoints_interface', '/home/user/ros2_ws/install/tortoisebot_waypoints_interface')])}
+[0.000708] (tortoisebot_waypoints) JobStarted: {'identifier': 'tortoisebot_waypoints'}
+[0.079268] (-) TimerEvent: {}
+[0.136962] (tortoisebot_waypoints) JobProgress: {'identifier': 'tortoisebot_waypoints', 'progress': 'cmake'}
+[0.142104] (tortoisebot_waypoints) JobProgress: {'identifier': 'tortoisebot_waypoints', 'progress': 'build'}
+[0.142478] (tortoisebot_waypoints) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/tortoisebot_waypoints', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/tortoisebot_waypoints', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('PKG_CONFIG_PATH', '/home/user/simulation_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('PWD', '/home/user/ros2_ws/build/tortoisebot_waypoints'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/latest:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ydlidar:/home/user/ros2_ws/install/tortoisebot_waypoints:/home/user/ros2_ws/install/tortoisebot_waypoints_interface:/home/user/ros2_ws/install/tortoisebot_slam:/home/user/ros2_ws/install/tortoisebot_navigation:/home/user/ros2_ws/install/tortoisebot_gazebo:/home/user/ros2_ws/install/tortoisebot_firmware:/home/user/ros2_ws/install/tortoisebot_description:/home/user/ros2_ws/install/tortoisebot_bringup:/opt/ros/galactic'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/tortoisebot_waypoints_interface:/opt/ros/latest:/opt/ros/galactic:/home/user/simulation_ws/devel:/opt/ros/noetic:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ydlidar:/home/user/ros2_ws/install/tortoisebot_waypoints:/home/user/ros2_ws/install/tortoisebot_slam:/home/user/ros2_ws/install/tortoisebot_navigation:/home/user/ros2_ws/install/tortoisebot_gazebo:/home/user/ros2_ws/install/tortoisebot_firmware:/home/user/ros2_ws/install/tortoisebot_description:/home/user/ros2_ws/install/tortoisebot_bringup'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/tortoisebot_waypoints_interface/lib/python3.8/site-packages:/opt/ros/latest/lib/python/site-packages:/opt/ros/latest/lib/python3.8/site-packages:/home/user/simulation_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/home/user/ros2_ws/install/tortoisebot_firmware/lib/python3.8/site-packages:/opt/ros/galactic/lib/python/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/tortoisebot_waypoints_interface/lib:/opt/ros/latest/opt/yaml_cpp_vendor/lib:/opt/ros/latest/opt/rviz_ogre_vendor/lib:/opt/ros/latest/lib/x86_64-linux-gnu:/opt/ros/latest/lib:/home/user/simulation_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/home/user/ros2_ws/install/tortoisebot_waypoints/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '729906'), ('SLOT_PREFIX', 'e9814e74-6f44-450d-9d20-e2e649235468'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25106'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/latest/bin:/opt/ros/noetic/bin:/opt/ros/galactic/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'galactic'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('ROS_DISTRO', 'galactic'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.179949] (-) TimerEvent: {}
+[0.283928] (-) TimerEvent: {}
+[0.391058] (-) TimerEvent: {}
+[0.407358] (tortoisebot_waypoints) StdoutLine: {'line': b'[ 18%] Built target gtest\n'}
+[0.495948] (-) TimerEvent: {}
+[0.503646] (tortoisebot_waypoints) StdoutLine: {'line': b'[ 36%] Built target tortoisebot_action_server_node\n'}
+[0.571260] (tortoisebot_waypoints) StdoutLine: {'line': b'[ 54%] Built target gtest_main\n'}
+[0.601052] (-) TimerEvent: {}
+[0.705583] (-) TimerEvent: {}
+[0.731921] (tortoisebot_waypoints) StdoutLine: {'line': b'[ 72%] Built target tortoisebot_waypoints_lib\n'}
+[0.791982] (tortoisebot_waypoints) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tortoisebot_waypoints_test\x1b[0m\n'}
+[0.807923] (-) TimerEvent: {}
+[0.914286] (-) TimerEvent: {}
+[0.954340] (tortoisebot_waypoints) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/tortoisebot_waypoints_test.dir/test/tortoisebot_waypoints_test.cpp.o\x1b[0m\n'}
+[1.019293] (-) TimerEvent: {}
+[1.123940] (-) TimerEvent: {}
+[1.231553] (-) TimerEvent: {}
+[1.338614] (-) TimerEvent: {}
+[1.439957] (-) TimerEvent: {}
+[1.545956] (-) TimerEvent: {}
+[1.649949] (-) TimerEvent: {}
+[1.752108] (-) TimerEvent: {}
+[1.855421] (-) TimerEvent: {}
+[1.960732] (-) TimerEvent: {}
+[2.063946] (-) TimerEvent: {}
+[2.168069] (-) TimerEvent: {}
+[2.270007] (-) TimerEvent: {}
+[2.372033] (-) TimerEvent: {}
+[2.477092] (-) TimerEvent: {}
+[2.582179] (-) TimerEvent: {}
+[2.684056] (-) TimerEvent: {}
+[2.789177] (-) TimerEvent: {}
+[2.889890] (-) TimerEvent: {}
+[2.994910] (-) TimerEvent: {}
+[3.097189] (-) TimerEvent: {}
+[3.211502] (-) TimerEvent: {}
+[3.321750] (-) TimerEvent: {}
+[3.423931] (-) TimerEvent: {}
+[3.529204] (-) TimerEvent: {}
+[3.632148] (-) TimerEvent: {}
+[3.735939] (-) TimerEvent: {}
+[3.841223] (-) TimerEvent: {}
+[3.951847] (-) TimerEvent: {}
+[4.054879] (-) TimerEvent: {}
+[4.159959] (-) TimerEvent: {}
+[4.263946] (-) TimerEvent: {}
+[4.367935] (-) TimerEvent: {}
+[4.471947] (-) TimerEvent: {}
+[4.575940] (-) TimerEvent: {}
+[4.681831] (-) TimerEvent: {}
+[4.783944] (-) TimerEvent: {}
+[4.887956] (-) TimerEvent: {}
+[4.991963] (-) TimerEvent: {}
+[5.095937] (-) TimerEvent: {}
+[5.197231] (-) TimerEvent: {}
+[5.299931] (-) TimerEvent: {}
+[5.405935] (-) TimerEvent: {}
+[5.507932] (-) TimerEvent: {}
+[5.613153] (-) TimerEvent: {}
+[5.715945] (-) TimerEvent: {}
+[5.821518] (-) TimerEvent: {}
+[5.926826] (-) TimerEvent: {}
+[6.031937] (-) TimerEvent: {}
+[6.135966] (-) TimerEvent: {}
+[6.239942] (-) TimerEvent: {}
+[6.343942] (-) TimerEvent: {}
+[6.447933] (-) TimerEvent: {}
+[6.553886] (-) TimerEvent: {}
+[6.659911] (-) TimerEvent: {}
+[6.763925] (-) TimerEvent: {}
+[6.867943] (-) TimerEvent: {}
+[6.976530] (-) TimerEvent: {}
+[7.079936] (-) TimerEvent: {}
+[7.183934] (-) TimerEvent: {}
+[7.289784] (-) TimerEvent: {}
+[7.391945] (-) TimerEvent: {}
+[7.498095] (-) TimerEvent: {}
+[7.603112] (-) TimerEvent: {}
+[7.709057] (-) TimerEvent: {}
+[7.815215] (-) TimerEvent: {}
+[7.920041] (-) TimerEvent: {}
+[8.021086] (-) TimerEvent: {}
+[8.126204] (-) TimerEvent: {}
+[8.231449] (-) TimerEvent: {}
+[8.331928] (-) TimerEvent: {}
+[8.435934] (-) TimerEvent: {}
+[8.539941] (-) TimerEvent: {}
+[8.643928] (-) TimerEvent: {}
+[8.747934] (-) TimerEvent: {}
+[8.851935] (-) TimerEvent: {}
+[8.955971] (-) TimerEvent: {}
+[9.061642] (-) TimerEvent: {}
+[9.163934] (-) TimerEvent: {}
+[9.269854] (-) TimerEvent: {}
+[9.373123] (-) TimerEvent: {}
+[9.475468] (-) TimerEvent: {}
+[9.583132] (-) TimerEvent: {}
+[9.683954] (-) TimerEvent: {}
+[9.788036] (-) TimerEvent: {}
+[9.891952] (-) TimerEvent: {}
+[9.997472] (-) TimerEvent: {}
+[10.101956] (-) TimerEvent: {}
+[10.206426] (-) TimerEvent: {}
+[10.311868] (-) TimerEvent: {}
+[10.418295] (-) TimerEvent: {}
+[10.523594] (-) TimerEvent: {}
+[10.628906] (-) TimerEvent: {}
+[10.731941] (-) TimerEvent: {}
+[10.834946] (-) TimerEvent: {}
+[10.940448] (-) TimerEvent: {}
+[11.046376] (-) TimerEvent: {}
+[11.151453] (-) TimerEvent: {}
+[11.256069] (-) TimerEvent: {}
+[11.358964] (-) TimerEvent: {}
+[11.466114] (-) TimerEvent: {}
+[11.567018] (-) TimerEvent: {}
+[11.671936] (-) TimerEvent: {}
+[11.775930] (-) TimerEvent: {}
+[11.883075] (-) TimerEvent: {}
+[11.987954] (-) TimerEvent: {}
+[12.089127] (-) TimerEvent: {}
+[12.194106] (-) TimerEvent: {}
+[12.295934] (-) TimerEvent: {}
+[12.399947] (-) TimerEvent: {}
+[12.506375] (-) TimerEvent: {}
+[12.611646] (-) TimerEvent: {}
+[12.715940] (-) TimerEvent: {}
+[12.822073] (-) TimerEvent: {}
+[12.924039] (-) TimerEvent: {}
+[13.029166] (-) TimerEvent: {}
+[13.131284] (-) TimerEvent: {}
+[13.235961] (-) TimerEvent: {}
+[13.341173] (-) TimerEvent: {}
+[13.446429] (-) TimerEvent: {}
+[13.549443] (-) TimerEvent: {}
+[13.654150] (-) TimerEvent: {}
+[13.763944] (-) TimerEvent: {}
+[13.867946] (-) TimerEvent: {}
+[13.971941] (-) TimerEvent: {}
+[14.077190] (-) TimerEvent: {}
+[14.182422] (-) TimerEvent: {}
+[14.287689] (-) TimerEvent: {}
+[14.391948] (-) TimerEvent: {}
+[14.497234] (-) TimerEvent: {}
+[14.603007] (-) TimerEvent: {}
+[14.705176] (-) TimerEvent: {}
+[14.810186] (-) TimerEvent: {}
+[14.915239] (-) TimerEvent: {}
+[15.020940] (-) TimerEvent: {}
+[15.127068] (-) TimerEvent: {}
+[15.231954] (-) TimerEvent: {}
+[15.338284] (-) TimerEvent: {}
+[15.444035] (-) TimerEvent: {}
+[15.546060] (-) TimerEvent: {}
+[15.652003] (-) TimerEvent: {}
+[15.756073] (-) TimerEvent: {}
+[15.861354] (-) TimerEvent: {}
+[15.970734] (-) TimerEvent: {}
+[16.076418] (-) TimerEvent: {}
+[16.183386] (-) TimerEvent: {}
+[16.284299] (-) TimerEvent: {}
+[16.389357] (-) TimerEvent: {}
+[16.496116] (-) TimerEvent: {}
+[16.601032] (-) TimerEvent: {}
+[16.706091] (-) TimerEvent: {}
+[16.811369] (-) TimerEvent: {}
+[16.915935] (-) TimerEvent: {}
+[17.021808] (-) TimerEvent: {}
+[17.127638] (-) TimerEvent: {}
+[17.231933] (-) TimerEvent: {}
+[17.337865] (-) TimerEvent: {}
+[17.440191] (-) TimerEvent: {}
+[17.546598] (-) TimerEvent: {}
+[17.651935] (-) TimerEvent: {}
+[17.759231] (-) TimerEvent: {}
+[17.865861] (-) TimerEvent: {}
+[17.971713] (-) TimerEvent: {}
+[18.075938] (-) TimerEvent: {}
+[18.180018] (-) TimerEvent: {}
+[18.283949] (-) TimerEvent: {}
+[18.387939] (-) TimerEvent: {}
+[18.491949] (-) TimerEvent: {}
+[18.595954] (-) TimerEvent: {}
+[18.704113] (-) TimerEvent: {}
+[18.735962] (tortoisebot_waypoints) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable tortoisebot_waypoints_test\x1b[0m\n'}
+[18.807956] (-) TimerEvent: {}
+[18.915238] (-) TimerEvent: {}
+[19.022727] (-) TimerEvent: {}
+[19.126887] (-) TimerEvent: {}
+[19.230879] (-) TimerEvent: {}
+[19.335939] (-) TimerEvent: {}
+[19.440376] (-) TimerEvent: {}
+[19.545134] (-) TimerEvent: {}
+[19.606374] (tortoisebot_waypoints) StdoutLine: {'line': b'[100%] Built target tortoisebot_waypoints_test\n'}
+[19.628290] (tortoisebot_waypoints) CommandEnded: {'returncode': 0}
+[19.650342] (-) TimerEvent: {}
+[19.751941] (-) TimerEvent: {}
+[19.855919] (-) TimerEvent: {}
+[19.917759] (tortoisebot_waypoints) JobProgress: {'identifier': 'tortoisebot_waypoints', 'progress': 'install'}
+[19.952349] (tortoisebot_waypoints) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/tortoisebot_waypoints'], 'cwd': '/home/user/ros2_ws/build/tortoisebot_waypoints', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('PKG_CONFIG_PATH', '/home/user/simulation_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('PWD', '/home/user/ros2_ws/build/tortoisebot_waypoints'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/latest:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ydlidar:/home/user/ros2_ws/install/tortoisebot_waypoints:/home/user/ros2_ws/install/tortoisebot_waypoints_interface:/home/user/ros2_ws/install/tortoisebot_slam:/home/user/ros2_ws/install/tortoisebot_navigation:/home/user/ros2_ws/install/tortoisebot_gazebo:/home/user/ros2_ws/install/tortoisebot_firmware:/home/user/ros2_ws/install/tortoisebot_description:/home/user/ros2_ws/install/tortoisebot_bringup:/opt/ros/galactic'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/tortoisebot_waypoints_interface:/opt/ros/latest:/opt/ros/galactic:/home/user/simulation_ws/devel:/opt/ros/noetic:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ydlidar:/home/user/ros2_ws/install/tortoisebot_waypoints:/home/user/ros2_ws/install/tortoisebot_slam:/home/user/ros2_ws/install/tortoisebot_navigation:/home/user/ros2_ws/install/tortoisebot_gazebo:/home/user/ros2_ws/install/tortoisebot_firmware:/home/user/ros2_ws/install/tortoisebot_description:/home/user/ros2_ws/install/tortoisebot_bringup'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/tortoisebot_waypoints_interface/lib/python3.8/site-packages:/opt/ros/latest/lib/python/site-packages:/opt/ros/latest/lib/python3.8/site-packages:/home/user/simulation_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/home/user/ros2_ws/install/tortoisebot_firmware/lib/python3.8/site-packages:/opt/ros/galactic/lib/python/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/tortoisebot_waypoints_interface/lib:/opt/ros/latest/opt/yaml_cpp_vendor/lib:/opt/ros/latest/opt/rviz_ogre_vendor/lib:/opt/ros/latest/lib/x86_64-linux-gnu:/opt/ros/latest/lib:/home/user/simulation_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/home/user/ros2_ws/install/tortoisebot_waypoints/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '729906'), ('SLOT_PREFIX', 'e9814e74-6f44-450d-9d20-e2e649235468'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25106'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/latest/bin:/opt/ros/noetic/bin:/opt/ros/galactic/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'galactic'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('ROS_DISTRO', 'galactic'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[19.959909] (-) TimerEvent: {}
+[20.045713] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.047097] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/environment/library_path.sh\n'}
+[20.047264] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/environment/library_path.dsv\n'}
+[20.047397] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/lib/tortoisebot_waypoints/tortoisebot_action_server_node\n'}
+[20.047619] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/include\n'}
+[20.047769] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/include/tortoisebot_waypoints\n'}
+[20.047974] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/include/tortoisebot_waypoints/tortoisebot_action_server.hpp\n'}
+[20.048156] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/lib/libtortoisebot_waypoints_lib.a\n'}
+[20.051967] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/tortoisebot_waypoints/lib/tortoisebot_waypoints/tortoisebot_waypoints_test\n'}
+[20.063931] (-) TimerEvent: {}
+[20.077665] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/tortoisebot_waypoints/lib/tortoisebot_waypoints/tortoisebot_waypoints_test" to ""\n'}
+[20.078038] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/ament_index/resource_index/package_run_dependencies/tortoisebot_waypoints\n'}
+[20.078250] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/ament_index/resource_index/parent_prefix_path/tortoisebot_waypoints\n'}
+[20.078456] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/environment/ament_prefix_path.sh\n'}
+[20.078685] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/environment/ament_prefix_path.dsv\n'}
+[20.078918] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/environment/path.sh\n'}
+[20.079349] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/environment/path.dsv\n'}
+[20.079730] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/local_setup.bash\n'}
+[20.080106] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/local_setup.sh\n'}
+[20.080457] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/local_setup.zsh\n'}
+[20.080798] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/local_setup.dsv\n'}
+[20.081129] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/package.dsv\n'}
+[20.081740] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/ament_index/resource_index/packages/tortoisebot_waypoints\n'}
+[20.082300] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/cmake/tortoisebot_waypoints_libExport.cmake\n'}
+[20.082670] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/cmake/tortoisebot_waypoints_libExport-noconfig.cmake\n'}
+[20.083026] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[20.083366] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/cmake/tortoisebot_waypointsConfig.cmake\n'}
+[20.083630] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/cmake/tortoisebot_waypointsConfig-version.cmake\n'}
+[20.084015] (tortoisebot_waypoints) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/tortoisebot_waypoints/share/tortoisebot_waypoints/package.xml\n'}
+[20.095125] (tortoisebot_waypoints) CommandEnded: {'returncode': 0}
+[20.168976] (-) TimerEvent: {}
+[20.274335] (-) TimerEvent: {}
+[20.377836] (-) TimerEvent: {}
+[20.444551] (tortoisebot_waypoints) JobEnded: {'identifier': 'tortoisebot_waypoints', 'rc': 0}
+[20.448137] (-) EventReactorShutdown: {}

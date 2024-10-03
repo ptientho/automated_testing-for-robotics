@@ -1,0 +1,980 @@
+[0.000000] (-) TimerEvent: {}
+[0.000256] (tortoisebot_waypoints) JobQueued: {'identifier': 'tortoisebot_waypoints', 'dependencies': OrderedDict([('tortoisebot_waypoints_interface', '/home/user/ros2_ws/install/tortoisebot_waypoints_interface'), ('tortoisebot_waypoints', '/home/user/ros2_ws/install/tortoisebot_waypoints')])}
+[0.000377] (tortoisebot_waypoints) JobStarted: {'identifier': 'tortoisebot_waypoints'}
+[0.078302] (tortoisebot_waypoints) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/user/ros2_ws/build/tortoisebot_waypoints', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('PKG_CONFIG_PATH', '/home/user/simulation_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('ROS_PACKAGE_PATH', '/home/user/simulation_ws/src:/opt/ros/noetic/share'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/user/simulation_ws/devel/share/common-lisp'), ('PWD', '/home/user/ros2_ws/build/tortoisebot_waypoints'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/latest:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ydlidar:/home/user/ros2_ws/install/tortoisebot_waypoints:/home/user/ros2_ws/install/tortoisebot_waypoints_interface:/home/user/ros2_ws/install/tortoisebot_slam:/home/user/ros2_ws/install/tortoisebot_navigation:/home/user/ros2_ws/install/tortoisebot_gazebo:/home/user/ros2_ws/install/tortoisebot_firmware:/home/user/ros2_ws/install/tortoisebot_description:/home/user/ros2_ws/install/tortoisebot_bringup:/opt/ros/galactic'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/tortoisebot_waypoints:/home/user/ros2_ws/install/tortoisebot_waypoints_interface:/home/user/simulation_ws/devel:/opt/ros/noetic:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ydlidar:/home/user/ros2_ws/install/tortoisebot_slam:/home/user/ros2_ws/install/tortoisebot_navigation:/home/user/ros2_ws/install/tortoisebot_gazebo:/home/user/ros2_ws/install/tortoisebot_firmware:/home/user/ros2_ws/install/tortoisebot_description:/home/user/ros2_ws/install/tortoisebot_bringup'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/tortoisebot_waypoints_interface/lib/python3.8/site-packages:/opt/ros/latest/lib/python/site-packages:/opt/ros/latest/lib/python3.8/site-packages:/home/user/simulation_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/home/user/ros2_ws/install/tortoisebot_firmware/lib/python3.8/site-packages:/opt/ros/galactic/lib/python/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/tortoisebot_waypoints_interface/lib:/opt/ros/latest/opt/yaml_cpp_vendor/lib:/opt/ros/latest/opt/rviz_ogre_vendor/lib:/opt/ros/latest/lib/x86_64-linux-gnu:/opt/ros/latest/lib:/home/user/simulation_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/home/user/ros2_ws/install/ydlidar/lib:/home/user/ros2_ws/install/tortoisebot_firmware/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/home/user/ros2_ws/install/tortoisebot_waypoints/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '729906'), ('SLOT_PREFIX', '6db870a7-ee47-42f6-b078-cd96e0773814'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25233'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/latest/bin:/opt/ros/noetic/bin:/opt/ros/galactic/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'galactic'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('ROS_DISTRO', 'galactic'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/simulation_ws'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.084122] (-) TimerEvent: {}
+[0.127535] (tortoisebot_waypoints) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/user/ros2_ws/build/tortoisebot_waypoints/CTestConfiguration.ini\n'}
+[0.127993] (tortoisebot_waypoints) StdoutLine: {'line': b'Parse Config file:/home/user/ros2_ws/build/tortoisebot_waypoints/CTestConfiguration.ini\n'}
+[0.128534] (tortoisebot_waypoints) StdoutLine: {'line': b'   Site: 1_xterm\n'}
+[0.129205] (tortoisebot_waypoints) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.129964] (tortoisebot_waypoints) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.130135] (tortoisebot_waypoints) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[0.130295] (tortoisebot_waypoints) StdoutLine: {'line': b'Create new tag: 20231207-1724 - Experimental\n'}
+[0.130625] (tortoisebot_waypoints) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/user/ros2_ws/build/tortoisebot_waypoints/CTestConfiguration.ini\n'}
+[0.131268] (tortoisebot_waypoints) StdoutLine: {'line': b'Parse Config file:/home/user/ros2_ws/build/tortoisebot_waypoints/CTestConfiguration.ini\n'}
+[0.131872] (tortoisebot_waypoints) StdoutLine: {'line': b'Test project /home/user/ros2_ws/build/tortoisebot_waypoints\n'}
+[0.132454] (tortoisebot_waypoints) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.132627] (tortoisebot_waypoints) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.132987] (tortoisebot_waypoints) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.133712] (tortoisebot_waypoints) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.133873] (tortoisebot_waypoints) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.134015] (tortoisebot_waypoints) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.134149] (tortoisebot_waypoints) StdoutLine: {'line': b'test 1\n'}
+[0.134284] (tortoisebot_waypoints) StdoutLine: {'line': b'    Start 1: tortoisebot_waypoints_test\n'}
+[0.134414] (tortoisebot_waypoints) StdoutLine: {'line': b'\n'}
+[0.134546] (tortoisebot_waypoints) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/galactic/share/ament_cmake_test/cmake/run_test.py" "/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml" "--package-name" "tortoisebot_waypoints" "--output-file" "/home/user/ros2_ws/build/tortoisebot_waypoints/ament_cmake_gtest/tortoisebot_waypoints_test.txt" "--command" "/home/user/ros2_ws/build/tortoisebot_waypoints/tortoisebot_waypoints_test" "--gtest_output=xml:/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml"\n'}
+[0.134721] (tortoisebot_waypoints) StdoutLine: {'line': b'1: Test timeout computed to be: 300\n'}
+[0.185837] (-) TimerEvent: {}
+[0.239037] (tortoisebot_waypoints) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/user/ros2_ws/build/tortoisebot_waypoints':\n"}
+[0.239652] (tortoisebot_waypoints) StdoutLine: {'line': b'1:  - /home/user/ros2_ws/build/tortoisebot_waypoints/tortoisebot_waypoints_test --gtest_output=xml:/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml\n'}
+[0.258654] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [==========] Running 2 tests from 1 test suite.\n'}
+[0.259327] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[0.259602] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [----------] 2 tests from WaypointActionServerTest\n'}
+[0.259794] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [ RUN      ] WaypointActionServerTest.ErrorTest\n'}
+[0.285656] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969882.713206247] [waypoint_action_client]: Sending goal\n'}
+[0.285968] (-) TimerEvent: {}
+[0.287384] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969882.714964908] [waypoint_action_client]: Goal accepted by server, waiting for result\n'}
+[0.294946] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969882.722493097] [waypoint_action_client]: current position: [x: 0.000015, y: 0.000003, z: 0.000028]\n'}
+[0.295307] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969882.722550881] [waypoint_action_client]: current state: fix yaw\n'}
+[0.336965] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969882.763981876] [waypoint_action_client]: current position: [x: 0.000042, y: 0.000046, z: 0.000028]\n'}
+[0.337282] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969882.764048672] [waypoint_action_client]: current state: fix yaw\n'}
+[0.376359] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969882.803949962] [waypoint_action_client]: current position: [x: 0.000137, y: 0.000390, z: 0.000028]\n'}
+[0.376607] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969882.804028110] [waypoint_action_client]: current state: fix yaw\n'}
+[0.387812] (-) TimerEvent: {}
+[0.416885] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969882.844337938] [waypoint_action_client]: current position: [x: 0.000155, y: 0.000975, z: 0.000026]\n'}
+[0.417463] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969882.844398046] [waypoint_action_client]: current state: fix yaw\n'}
+[0.457480] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969882.884872469] [waypoint_action_client]: current position: [x: 0.000155, y: 0.001598, z: 0.000028]\n'}
+[0.458047] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969882.884931869] [waypoint_action_client]: current state: fix yaw\n'}
+[0.487971] (-) TimerEvent: {}
+[0.496856] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969882.924178531] [waypoint_action_client]: current position: [x: 0.000128, y: 0.001990, z: 0.000028]\n'}
+[0.497166] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969882.924233162] [waypoint_action_client]: current state: fix yaw\n'}
+[0.536296] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969882.963780749] [waypoint_action_client]: current position: [x: 0.000140, y: 0.002200, z: 0.000029]\n'}
+[0.536625] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969882.963846736] [waypoint_action_client]: current state: fix yaw\n'}
+[0.576613] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.004008208] [waypoint_action_client]: current position: [x: 0.000187, y: 0.002813, z: 0.000027]\n'}
+[0.576943] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.004079971] [waypoint_action_client]: current state: fix yaw\n'}
+[0.589798] (-) TimerEvent: {}
+[0.615011] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.042358195] [waypoint_action_client]: current position: [x: 0.000227, y: 0.003414, z: 0.000028]\n'}
+[0.615367] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.042411438] [waypoint_action_client]: current state: fix yaw\n'}
+[0.656772] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.084182401] [waypoint_action_client]: current position: [x: 0.000239, y: 0.003619, z: 0.000028]\n'}
+[0.657271] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.084236845] [waypoint_action_client]: current state: fix yaw\n'}
+[0.691624] (-) TimerEvent: {}
+[0.696597] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.124036199] [waypoint_action_client]: current position: [x: 0.000295, y: 0.004227, z: 0.000028]\n'}
+[0.696916] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.124097992] [waypoint_action_client]: current state: fix yaw\n'}
+[0.735931] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.163360676] [waypoint_action_client]: current position: [x: 0.000362, y: 0.004604, z: 0.000029]\n'}
+[0.736261] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.163411257] [waypoint_action_client]: current state: fix yaw\n'}
+[0.776616] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.204067382] [waypoint_action_client]: current position: [x: 0.000415, y: 0.005186, z: 0.000031]\n'}
+[0.776928] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.204117781] [waypoint_action_client]: current state: fix yaw\n'}
+[0.793388] (-) TimerEvent: {}
+[0.816735] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.244191462] [waypoint_action_client]: current position: [x: 0.000498, y: 0.005584, z: 0.000022]\n'}
+[0.817259] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.244244755] [waypoint_action_client]: current state: fix yaw\n'}
+[0.858828] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.286323369] [waypoint_action_client]: current position: [x: 0.000573, y: 0.005983, z: 0.000027]\n'}
+[0.859213] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.286381929] [waypoint_action_client]: current state: fix yaw\n'}
+[0.895214] (-) TimerEvent: {}
+[0.895760] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.322996962] [waypoint_action_client]: current position: [x: 0.000602, y: 0.006185, z: 0.000026]\n'}
+[0.896075] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.323050923] [waypoint_action_client]: current state: fix yaw\n'}
+[0.936809] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.364308626] [waypoint_action_client]: current position: [x: 0.000712, y: 0.006788, z: 0.000028]\n'}
+[0.937618] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.364383679] [waypoint_action_client]: current state: fix yaw\n'}
+[0.976584] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.404128342] [waypoint_action_client]: current position: [x: 0.000807, y: 0.007384, z: 0.000026]\n'}
+[0.976966] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.404194658] [waypoint_action_client]: current state: fix yaw\n'}
+[0.997132] (-) TimerEvent: {}
+[1.017414] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.444854501] [waypoint_action_client]: current position: [x: 0.000902, y: 0.007777, z: 0.000027]\n'}
+[1.017799] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.444909359] [waypoint_action_client]: current state: fix yaw\n'}
+[1.056494] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.484000790] [waypoint_action_client]: current position: [x: 0.001008, y: 0.008172, z: 0.000029]\n'}
+[1.056956] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.484065695] [waypoint_action_client]: current state: fix yaw\n'}
+[1.096479] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.523975957] [waypoint_action_client]: current position: [x: 0.001169, y: 0.008763, z: 0.000019]\n'}
+[1.096802] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.524076018] [waypoint_action_client]: current state: fix yaw\n'}
+[1.098138] (-) TimerEvent: {}
+[1.136642] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.564008101] [waypoint_action_client]: current position: [x: 0.001321, y: 0.009346, z: 0.000028]\n'}
+[1.137025] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.564075836] [waypoint_action_client]: current state: fix yaw\n'}
+[1.176430] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.603905277] [waypoint_action_client]: current position: [x: 0.001497, y: 0.009935, z: 0.000026]\n'}
+[1.176799] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.603962991] [waypoint_action_client]: current state: fix yaw\n'}
+[1.199415] (-) TimerEvent: {}
+[1.216515] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.644070918] [waypoint_action_client]: current position: [x: 0.001690, y: 0.010516, z: 0.000028]\n'}
+[1.216856] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.644141859] [waypoint_action_client]: current state: fix yaw\n'}
+[1.256613] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.684061416] [waypoint_action_client]: current position: [x: 0.001823, y: 0.010898, z: 0.000028]\n'}
+[1.256964] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.684115023] [waypoint_action_client]: current state: fix yaw\n'}
+[1.296909] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.724061851] [waypoint_action_client]: current position: [x: 0.001931, y: 0.011299, z: 0.000026]\n'}
+[1.297275] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.724126860] [waypoint_action_client]: current state: fix yaw\n'}
+[1.300019] (-) TimerEvent: {}
+[1.336164] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.763481066] [waypoint_action_client]: current position: [x: 0.002107, y: 0.011678, z: 0.000025]\n'}
+[1.336498] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.763539492] [waypoint_action_client]: current state: fix yaw\n'}
+[1.376609] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.803979870] [waypoint_action_client]: current position: [x: 0.002208, y: 0.012077, z: 0.000029]\n'}
+[1.376924] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.804053081] [waypoint_action_client]: current state: fix yaw\n'}
+[1.400867] (-) TimerEvent: {}
+[1.416401] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.843955450] [waypoint_action_client]: current position: [x: 0.002405, y: 0.012666, z: 0.000029]\n'}
+[1.416734] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.844009951] [waypoint_action_client]: current state: fix yaw\n'}
+[1.456985] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.884451176] [waypoint_action_client]: current position: [x: 0.002529, y: 0.013068, z: 0.000028]\n'}
+[1.457517] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.884502272] [waypoint_action_client]: current state: fix yaw\n'}
+[1.497004] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.924460531] [waypoint_action_client]: current position: [x: 0.002682, y: 0.013442, z: 0.000026]\n'}
+[1.497470] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.924511441] [waypoint_action_client]: current state: fix yaw\n'}
+[1.502656] (-) TimerEvent: {}
+[1.534980] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.962445979] [waypoint_action_client]: current position: [x: 0.002900, y: 0.014006, z: 0.000026]\n'}
+[1.535594] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969883.962505876] [waypoint_action_client]: current state: fix yaw\n'}
+[1.576836] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.004159441] [waypoint_action_client]: current position: [x: 0.003156, y: 0.014556, z: 0.000028]\n'}
+[1.577147] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.004225352] [waypoint_action_client]: current state: fix yaw\n'}
+[1.603977] (-) TimerEvent: {}
+[1.616586] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.043983327] [waypoint_action_client]: current position: [x: 0.003331, y: 0.014910, z: 0.000027]\n'}
+[1.616958] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.044049136] [waypoint_action_client]: current state: fix yaw\n'}
+[1.659985] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.084050908] [waypoint_action_client]: current position: [x: 0.003579, y: 0.015460, z: 0.000026]\n'}
+[1.660361] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.084112037] [waypoint_action_client]: current state: fix yaw\n'}
+[1.695602] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.123026792] [waypoint_action_client]: current position: [x: 0.003744, y: 0.015827, z: 0.000025]\n'}
+[1.695966] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.123078278] [waypoint_action_client]: current state: fix yaw\n'}
+[1.705764] (-) TimerEvent: {}
+[1.739268] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.166805635] [waypoint_action_client]: current position: [x: 0.003985, y: 0.016344, z: 0.000029]\n'}
+[1.739586] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.166874079] [waypoint_action_client]: current state: fix yaw\n'}
+[1.776468] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.204056817] [waypoint_action_client]: current position: [x: 0.004159, y: 0.016695, z: 0.000023]\n'}
+[1.776967] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.204127694] [waypoint_action_client]: current state: fix yaw\n'}
+[1.807611] (-) TimerEvent: {}
+[1.820111] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.244056628] [waypoint_action_client]: current position: [x: 0.004469, y: 0.017215, z: 0.000028]\n'}
+[1.820479] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.244119536] [waypoint_action_client]: current state: fix yaw\n'}
+[1.860100] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.284070803] [waypoint_action_client]: current position: [x: 0.004681, y: 0.017556, z: 0.000028]\n'}
+[1.860486] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.284124195] [waypoint_action_client]: current state: fix yaw\n'}
+[1.898788] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.323843592] [waypoint_action_client]: current position: [x: 0.004982, y: 0.018088, z: 0.000025]\n'}
+[1.899071] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.323907573] [waypoint_action_client]: current state: fix yaw\n'}
+[1.909215] (-) TimerEvent: {}
+[1.936795] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.364180750] [waypoint_action_client]: current position: [x: 0.005210, y: 0.018434, z: 0.000029]\n'}
+[1.937180] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.364257497] [waypoint_action_client]: current state: fix yaw\n'}
+[1.975620] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.403063068] [waypoint_action_client]: current position: [x: 0.005326, y: 0.018606, z: 0.000025]\n'}
+[1.975989] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.403149068] [waypoint_action_client]: current state: fix yaw\n'}
+[2.009453] (-) TimerEvent: {}
+[2.016336] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.443768412] [waypoint_action_client]: current position: [x: 0.005537, y: 0.018949, z: 0.000028]\n'}
+[2.016690] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.443819737] [waypoint_action_client]: current state: fix yaw\n'}
+[2.057616] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.485038494] [waypoint_action_client]: current position: [x: 0.005890, y: 0.019448, z: 0.000027]\n'}
+[2.064219] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.485116692] [waypoint_action_client]: current state: fix yaw\n'}
+[2.095616] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.522996378] [waypoint_action_client]: current position: [x: 0.006150, y: 0.019785, z: 0.000028]\n'}
+[2.096248] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.523067768] [waypoint_action_client]: current state: fix yaw\n'}
+[2.111287] (-) TimerEvent: {}
+[2.139785] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.565283033] [waypoint_action_client]: current position: [x: 0.006395, y: 0.020108, z: 0.000023]\n'}
+[2.140173] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.565356756] [waypoint_action_client]: current state: fix yaw\n'}
+[2.177524] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.604866630] [waypoint_action_client]: current position: [x: 0.006746, y: 0.020596, z: 0.000023]\n'}
+[2.177852] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.604970390] [waypoint_action_client]: current state: fix yaw\n'}
+[2.213131] (-) TimerEvent: {}
+[2.216072] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.643519105] [waypoint_action_client]: current position: [x: 0.006983, y: 0.020922, z: 0.000029]\n'}
+[2.216391] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.643579277] [waypoint_action_client]: current state: fix yaw\n'}
+[2.257139] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.684348790] [waypoint_action_client]: current position: [x: 0.007343, y: 0.021388, z: 0.000027]\n'}
+[2.257462] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.684414864] [waypoint_action_client]: current state: fix yaw\n'}
+[2.296581] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.724085406] [waypoint_action_client]: current position: [x: 0.007602, y: 0.021704, z: 0.000024]\n'}
+[2.296952] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.724145063] [waypoint_action_client]: current state: fix yaw\n'}
+[2.314987] (-) TimerEvent: {}
+[2.336682] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.764082739] [waypoint_action_client]: current position: [x: 0.007860, y: 0.022015, z: 0.000020]\n'}
+[2.337056] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.764142101] [waypoint_action_client]: current state: fix yaw\n'}
+[2.376534] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.804025098] [waypoint_action_client]: current position: [x: 0.008277, y: 0.022456, z: 0.000029]\n'}
+[2.376849] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.804094456] [waypoint_action_client]: current state: go to point\n'}
+[2.415955] (-) TimerEvent: {}
+[2.416750] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.844097473] [waypoint_action_client]: current position: [x: 0.008647, y: 0.022646, z: 0.000027]\n'}
+[2.417116] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.844161762] [waypoint_action_client]: current state: go to point\n'}
+[2.455589] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.883012709] [waypoint_action_client]: current position: [x: 0.009296, y: 0.022556, z: 0.000026]\n'}
+[2.456203] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.883073051] [waypoint_action_client]: current state: go to point\n'}
+[2.495712] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.923057889] [waypoint_action_client]: current position: [x: 0.010206, y: 0.022196, z: 0.000028]\n'}
+[2.496051] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.923121336] [waypoint_action_client]: current state: go to point\n'}
+[2.517769] (-) TimerEvent: {}
+[2.536792] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.964173087] [waypoint_action_client]: current position: [x: 0.012105, y: 0.021082, z: 0.000028]\n'}
+[2.537213] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969884.964226990] [waypoint_action_client]: current state: go to point\n'}
+[2.576840] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.004370078] [waypoint_action_client]: current position: [x: 0.013693, y: 0.019951, z: 0.000029]\n'}
+[2.577343] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.004434737] [waypoint_action_client]: current state: go to point\n'}
+[2.616484] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.044020502] [waypoint_action_client]: current position: [x: 0.015528, y: 0.018533, z: 0.000028]\n'}
+[2.616997] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.044088453] [waypoint_action_client]: current state: go to point\n'}
+[2.619556] (-) TimerEvent: {}
+[2.656793] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.084027160] [waypoint_action_client]: current position: [x: 0.017627, y: 0.016782, z: 0.000028]\n'}
+[2.657096] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.084102057] [waypoint_action_client]: current state: go to point\n'}
+[2.700746] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.128162638] [waypoint_action_client]: current position: [x: 0.021218, y: 0.013547, z: 0.000029]\n'}
+[2.701113] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.128217082] [waypoint_action_client]: current state: go to point\n'}
+[2.719960] (-) TimerEvent: {}
+[2.736409] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.163975269] [waypoint_action_client]: current position: [x: 0.023882, y: 0.010970, z: 0.000027]\n'}
+[2.736743] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.164052620] [waypoint_action_client]: current state: go to point\n'}
+[2.776391] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.203987235] [waypoint_action_client]: current position: [x: 0.028332, y: 0.006442, z: 0.000029]\n'}
+[2.776888] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.204083730] [waypoint_action_client]: current state: fix yaw\n'}
+[2.816458] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.243964808] [waypoint_action_client]: current position: [x: 0.029927, y: 0.004766, z: 0.000031]\n'}
+[2.816775] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.244044551] [waypoint_action_client]: current state: fix yaw\n'}
+[2.821734] (-) TimerEvent: {}
+[2.859673] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.283579886] [waypoint_action_client]: current position: [x: 0.034326, y: 0.000072, z: 0.000021]\n'}
+[2.860057] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.283629667] [waypoint_action_client]: current state: fix yaw\n'}
+[2.896718] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.324005962] [waypoint_action_client]: current position: [x: 0.038090, y: -0.003957, z: 0.000029]\n'}
+[2.897043] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.324080560] [waypoint_action_client]: current state: fix yaw\n'}
+[2.923568] (-) TimerEvent: {}
+[2.935778] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.363228628] [waypoint_action_client]: current position: [x: 0.040276, y: -0.006287, z: 0.000026]\n'}
+[2.936143] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.363295262] [waypoint_action_client]: current state: fix yaw\n'}
+[2.976570] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.404106167] [waypoint_action_client]: current position: [x: 0.042170, y: -0.008273, z: 0.000021]\n'}
+[2.981052] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.404175836] [waypoint_action_client]: current state: fix yaw\n'}
+[3.015286] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.442715410] [waypoint_action_client]: current position: [x: 0.043838, y: -0.009987, z: 0.000025]\n'}
+[3.019761] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.442772681] [waypoint_action_client]: current state: fix yaw\n'}
+[3.023803] (-) TimerEvent: {}
+[3.056827] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.484243883] [waypoint_action_client]: current position: [x: 0.045272, y: -0.011474, z: 0.000029]\n'}
+[3.057181] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.484305342] [waypoint_action_client]: current state: fix yaw\n'}
+[3.108209] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.524037855] [waypoint_action_client]: current position: [x: 0.046538, y: -0.012850, z: 0.000027]\n'}
+[3.108539] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.524100921] [waypoint_action_client]: current state: fix yaw\n'}
+[3.123974] (-) TimerEvent: {}
+[3.136472] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.564027038] [waypoint_action_client]: current position: [x: 0.047608, y: -0.014102, z: 0.000028]\n'}
+[3.136846] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.564083002] [waypoint_action_client]: current state: fix yaw\n'}
+[3.176068] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.603490544] [waypoint_action_client]: current position: [x: 0.048900, y: -0.015776, z: 0.000023]\n'}
+[3.176468] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.603546107] [waypoint_action_client]: current state: fix yaw\n'}
+[3.216548] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.644028249] [waypoint_action_client]: current position: [x: 0.049541, y: -0.016726, z: 0.000027]\n'}
+[3.216929] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.644088748] [waypoint_action_client]: current state: fix yaw\n'}
+[3.225788] (-) TimerEvent: {}
+[3.256570] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.683985742] [waypoint_action_client]: current position: [x: 0.050182, y: -0.017920, z: 0.000028]\n'}
+[3.256955] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.684063791] [waypoint_action_client]: current state: fix yaw\n'}
+[3.296520] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.724051978] [waypoint_action_client]: current position: [x: 0.050313, y: -0.018264, z: 0.000026]\n'}
+[3.296798] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.724108136] [waypoint_action_client]: current state: fix yaw\n'}
+[3.327616] (-) TimerEvent: {}
+[3.341005] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.767437043] [waypoint_action_client]: current position: [x: 0.050454, y: -0.019088, z: 0.000026]\n'}
+[3.341355] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.767512738] [waypoint_action_client]: current state: fix yaw\n'}
+[3.376952] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.804457494] [waypoint_action_client]: current position: [x: 0.050242, y: -0.019647, z: 0.000024]\n'}
+[3.377276] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.804529216] [waypoint_action_client]: current state: fix yaw\n'}
+[3.418258] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.845553862] [waypoint_action_client]: current position: [x: 0.049750, y: -0.019977, z: 0.000026]\n'}
+[3.418784] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.845618593] [waypoint_action_client]: current state: fix yaw\n'}
+[3.429450] (-) TimerEvent: {}
+[3.456498] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.884025077] [waypoint_action_client]: current position: [x: 0.049424, y: -0.020218, z: 0.000028]\n'}
+[3.462324] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.884091749] [waypoint_action_client]: current state: fix yaw\n'}
+[3.496529] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.924050953] [waypoint_action_client]: current position: [x: 0.048917, y: -0.020565, z: 0.000025]\n'}
+[3.496891] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.924115545] [waypoint_action_client]: current state: fix yaw\n'}
+[3.529853] (-) TimerEvent: {}
+[3.534879] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.962442201] [waypoint_action_client]: current position: [x: 0.048586, y: -0.020806, z: 0.000026]\n'}
+[3.535454] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969885.962500504] [waypoint_action_client]: current state: fix yaw\n'}
+[3.578158] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.005694640] [waypoint_action_client]: current position: [x: 0.048267, y: -0.021038, z: 0.000028]\n'}
+[3.578529] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.005762824] [waypoint_action_client]: current state: fix yaw\n'}
+[3.616567] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.044112601] [waypoint_action_client]: current position: [x: 0.047969, y: -0.021298, z: 0.000028]\n'}
+[3.616891] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.044171354] [waypoint_action_client]: current state: fix yaw\n'}
+[3.631673] (-) TimerEvent: {}
+[3.656599] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.084130190] [waypoint_action_client]: current position: [x: 0.047806, y: -0.021427, z: 0.000028]\n'}
+[3.656954] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.084199383] [waypoint_action_client]: current state: go to point\n'}
+[3.696604] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.124063902] [waypoint_action_client]: current position: [x: 0.047538, y: -0.022014, z: 0.000029]\n'}
+[3.697018] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.124129335] [waypoint_action_client]: current state: go to point\n'}
+[3.731958] (-) TimerEvent: {}
+[3.736400] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.163964905] [waypoint_action_client]: current position: [x: 0.047910, y: -0.023300, z: 0.000027]\n'}
+[3.736872] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.164036354] [waypoint_action_client]: current state: go to point\n'}
+[3.776562] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.204125414] [waypoint_action_client]: current position: [x: 0.048489, y: -0.024544, z: 0.000028]\n'}
+[3.777000] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.204196072] [waypoint_action_client]: current state: go to point\n'}
+[3.816417] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.244021299] [waypoint_action_client]: current position: [x: 0.049330, y: -0.026024, z: 0.000027]\n'}
+[3.816755] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.244097725] [waypoint_action_client]: current state: go to point\n'}
+[3.833789] (-) TimerEvent: {}
+[3.856704] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.284197116] [waypoint_action_client]: current position: [x: 0.050461, y: -0.027803, z: 0.000030]\n'}
+[3.857084] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.284257420] [waypoint_action_client]: current state: go to point\n'}
+[3.898079] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.324035487] [waypoint_action_client]: current position: [x: 0.051893, y: -0.029888, z: 0.000028]\n'}
+[3.898405] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.324098870] [waypoint_action_client]: current state: go to point\n'}
+[3.935622] (-) TimerEvent: {}
+[3.939927] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.367503987] [waypoint_action_client]: current position: [x: 0.054599, y: -0.033431, z: 0.000029]\n'}
+[3.940356] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.367562770] [waypoint_action_client]: current state: go to point\n'}
+[3.978829] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.406086857] [waypoint_action_client]: current position: [x: 0.058037, y: -0.037526, z: 0.000028]\n'}
+[3.979135] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.406149093] [waypoint_action_client]: current state: go to point\n'}
+[4.016172] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.443425684] [waypoint_action_client]: current position: [x: 0.062187, y: -0.042208, z: 0.000028]\n'}
+[4.016591] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.443482218] [waypoint_action_client]: current state: fix yaw\n'}
+[4.035931] (-) TimerEvent: {}
+[4.058630] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.484079850] [waypoint_action_client]: current position: [x: 0.065256, y: -0.045512, z: 0.000029]\n'}
+[4.058900] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.484144530] [waypoint_action_client]: current state: fix yaw\n'}
+[4.096593] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.523992091] [waypoint_action_client]: current position: [x: 0.068036, y: -0.048496, z: 0.000029]\n'}
+[4.096909] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.524064737] [waypoint_action_client]: current state: fix yaw\n'}
+[4.136523] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.564030568] [waypoint_action_client]: current position: [x: 0.070584, y: -0.051199, z: 0.000026]\n'}
+[4.136899] (-) TimerEvent: {}
+[4.137056] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.564101578] [waypoint_action_client]: current state: fix yaw\n'}
+[4.176532] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.604109127] [waypoint_action_client]: current position: [x: 0.073887, y: -0.054728, z: 0.000028]\n'}
+[4.176891] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.604173708] [waypoint_action_client]: current state: fix yaw\n'}
+[4.215157] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.642711776] [waypoint_action_client]: current position: [x: 0.075768, y: -0.056754, z: 0.000030]\n'}
+[4.215564] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.642783234] [waypoint_action_client]: current state: fix yaw\n'}
+[4.238741] (-) TimerEvent: {}
+[4.256876] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.684396815] [waypoint_action_client]: current position: [x: 0.078057, y: -0.059293, z: 0.000028]\n'}
+[4.257244] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.684467148] [waypoint_action_client]: current state: fix yaw\n'}
+[4.296739] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.724256805] [waypoint_action_client]: current position: [x: 0.080056, y: -0.061362, z: 0.000028]\n'}
+[4.297101] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.724327488] [waypoint_action_client]: current state: fix yaw\n'}
+[4.336090] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.763564018] [waypoint_action_client]: current position: [x: 0.081808, y: -0.063002, z: 0.000028]\n'}
+[4.336418] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.763628670] [waypoint_action_client]: current state: fix yaw\n'}
+[4.339958] (-) TimerEvent: {}
+[4.380066] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.804190676] [waypoint_action_client]: current position: [x: 0.082347, y: -0.063463, z: 0.000027]\n'}
+[4.380462] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.804250743] [waypoint_action_client]: current state: fix yaw\n'}
+[4.416541] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.844132567] [waypoint_action_client]: current position: [x: 0.083327, y: -0.064233, z: 0.000025]\n'}
+[4.416950] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.844191454] [waypoint_action_client]: current state: fix yaw\n'}
+[4.441782] (-) TimerEvent: {}
+[4.455024] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.882528211] [waypoint_action_client]: current position: [x: 0.084201, y: -0.064844, z: 0.000028]\n'}
+[4.455469] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.882581890] [waypoint_action_client]: current state: fix yaw\n'}
+[4.496718] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.924179395] [waypoint_action_client]: current position: [x: 0.084955, y: -0.065278, z: 0.000029]\n'}
+[4.497091] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.924235601] [waypoint_action_client]: current state: fix yaw\n'}
+[4.535569] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.963104048] [waypoint_action_client]: current position: [x: 0.085854, y: -0.065616, z: 0.000028]\n'}
+[4.535975] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969886.963172586] [waypoint_action_client]: current state: fix yaw\n'}
+[4.543632] (-) TimerEvent: {}
+[4.576842] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.004096379] [waypoint_action_client]: current position: [x: 0.086500, y: -0.065570, z: 0.000024]\n'}
+[4.577200] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.004168561] [waypoint_action_client]: current state: fix yaw\n'}
+[4.617795] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.045333549] [waypoint_action_client]: current position: [x: 0.086782, y: -0.065303, z: 0.000028]\n'}
+[4.618236] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.045392683] [waypoint_action_client]: current state: fix yaw\n'}
+[4.644156] (-) TimerEvent: {}
+[4.655891] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.083226435] [waypoint_action_client]: current position: [x: 0.087025, y: -0.064990, z: 0.000025]\n'}
+[4.656538] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.083291748] [waypoint_action_client]: current state: fix yaw\n'}
+[4.698308] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.124337817] [waypoint_action_client]: current position: [x: 0.087272, y: -0.064668, z: 0.000026]\n'}
+[4.698640] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.124401580] [waypoint_action_client]: current state: fix yaw\n'}
+[4.736838] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.164364296] [waypoint_action_client]: current position: [x: 0.087272, y: -0.064668, z: 0.000026]\n'}
+[4.737301] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.164426639] [waypoint_action_client]: current state: fix yaw\n'}
+[4.745489] (-) TimerEvent: {}
+[4.776654] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.204167528] [waypoint_action_client]: current position: [x: 0.087510, y: -0.064340, z: 0.000026]\n'}
+[4.777065] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.204219414] [waypoint_action_client]: current state: fix yaw\n'}
+[4.817990] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.245336528] [waypoint_action_client]: current position: [x: 0.087891, y: -0.063860, z: 0.000025]\n'}
+[4.818321] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.245654229] [waypoint_action_client]: current state: fix yaw\n'}
+[4.847315] (-) TimerEvent: {}
+[4.856689] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.284033128] [waypoint_action_client]: current position: [x: 0.088270, y: -0.063398, z: 0.000024]\n'}
+[4.857033] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.284102555] [waypoint_action_client]: current state: fix yaw\n'}
+[4.896545] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.324078103] [waypoint_action_client]: current position: [x: 0.088687, y: -0.062951, z: 0.000027]\n'}
+[4.896900] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.324142723] [waypoint_action_client]: current state: go to point\n'}
+[4.937485] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.365029969] [waypoint_action_client]: current position: [x: 0.089309, y: -0.062721, z: 0.000028]\n'}
+[4.937820] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.365095892] [waypoint_action_client]: current state: go to point\n'}
+[4.947984] (-) TimerEvent: {}
+[4.977281] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.404787116] [waypoint_action_client]: current position: [x: 0.090101, y: -0.062915, z: 0.000023]\n'}
+[4.977615] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.404983964] [waypoint_action_client]: current state: go to point\n'}
+[5.019933] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.447467000] [waypoint_action_client]: current position: [x: 0.091776, y: -0.063760, z: 0.000028]\n'}
+[5.020274] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.447545353] [waypoint_action_client]: current state: go to point\n'}
+[5.049806] (-) TimerEvent: {}
+[5.062097] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.484065841] [waypoint_action_client]: current position: [x: 0.093215, y: -0.064686, z: 0.000028]\n'}
+[5.062434] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.484129486] [waypoint_action_client]: current state: go to point\n'}
+[5.096840] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.524088266] [waypoint_action_client]: current position: [x: 0.095864, y: -0.066651, z: 0.000024]\n'}
+[5.097223] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.524147365] [waypoint_action_client]: current state: go to point\n'}
+[5.137649] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.564148128] [waypoint_action_client]: current position: [x: 0.097939, y: -0.068352, z: 0.000028]\n'}
+[5.138085] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.564217184] [waypoint_action_client]: current state: go to point\n'}
+[5.151621] (-) TimerEvent: {}
+[5.177066] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.603585218] [waypoint_action_client]: current position: [x: 0.100260, y: -0.070403, z: 0.000019]\n'}
+[5.177509] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.603653903] [waypoint_action_client]: current state: go to point\n'}
+[5.216595] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.644164988] [waypoint_action_client]: current position: [x: 0.104149, y: -0.074064, z: 0.000029]\n'}
+[5.216939] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.644231968] [waypoint_action_client]: current state: go to point\n'}
+[5.253432] (-) TimerEvent: {}
+[5.256381] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.683985546] [waypoint_action_client]: current position: [x: 0.107006, y: -0.076936, z: 0.000027]\n'}
+[5.256661] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.684043567] [waypoint_action_client]: current state: go to point\n'}
+[5.296503] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.724035288] [waypoint_action_client]: current position: [x: 0.110118, y: -0.080197, z: 0.000028]\n'}
+[5.296870] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.724136589] [waypoint_action_client]: current state: fix yaw\n'}
+[5.336498] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.764042499] [waypoint_action_client]: current position: [x: 0.113328, y: -0.083654, z: 0.000032]\n'}
+[5.336799] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.764111733] [waypoint_action_client]: current state: fix yaw\n'}
+[5.355292] (-) TimerEvent: {}
+[5.376496] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.804029875] [waypoint_action_client]: current position: [x: 0.117607, y: -0.088322, z: 0.000024]\n'}
+[5.376892] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.804121392] [waypoint_action_client]: current state: fix yaw\n'}
+[5.417021] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.844465346] [waypoint_action_client]: current position: [x: 0.121290, y: -0.092356, z: 0.000030]\n'}
+[5.417446] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.844517117] [waypoint_action_client]: current state: fix yaw\n'}
+[5.455866] (-) TimerEvent: {}
+[5.456535] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.884133678] [waypoint_action_client]: current position: [x: 0.124384, y: -0.095720, z: 0.000030]\n'}
+[5.456884] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.884193152] [waypoint_action_client]: current state: fix yaw\n'}
+[5.497216] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.924648122] [waypoint_action_client]: current position: [x: 0.126892, y: -0.098381, z: 0.000021]\n'}
+[5.497621] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.924712457] [waypoint_action_client]: current state: fix yaw\n'}
+[5.538626] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.966134617] [waypoint_action_client]: current position: [x: 0.128311, y: -0.099912, z: 0.000031]\n'}
+[5.538931] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969887.966197139] [waypoint_action_client]: current state: fix yaw\n'}
+[5.557699] (-) TimerEvent: {}
+[5.577191] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.004730785] [waypoint_action_client]: current position: [x: 0.129540, y: -0.101328, z: 0.000027]\n'}
+[5.577859] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.004790883] [waypoint_action_client]: current state: fix yaw\n'}
+[5.615248] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.042774700] [waypoint_action_client]: current position: [x: 0.131065, y: -0.103243, z: 0.000029]\n'}
+[5.615750] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.042830982] [waypoint_action_client]: current state: fix yaw\n'}
+[5.657025] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.084526760] [waypoint_action_client]: current position: [x: 0.131866, y: -0.104354, z: 0.000028]\n'}
+[5.657299] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.084594225] [waypoint_action_client]: current state: fix yaw\n'}
+[5.659513] (-) TimerEvent: {}
+[5.698112] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.125342512] [waypoint_action_client]: current position: [x: 0.132748, y: -0.105786, z: 0.000023]\n'}
+[5.698651] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.125401631] [waypoint_action_client]: current state: fix yaw\n'}
+[5.736797] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.164118201] [waypoint_action_client]: current position: [x: 0.133120, y: -0.106557, z: 0.000029]\n'}
+[5.737165] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.164175789] [waypoint_action_client]: current state: fix yaw\n'}
+[5.761341] (-) TimerEvent: {}
+[5.776580] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.204109035] [waypoint_action_client]: current position: [x: 0.133381, y: -0.107477, z: 0.000027]\n'}
+[5.776967] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.204165043] [waypoint_action_client]: current state: fix yaw\n'}
+[5.816539] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.244083364] [waypoint_action_client]: current position: [x: 0.133359, y: -0.107926, z: 0.000024]\n'}
+[5.817348] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.244141294] [waypoint_action_client]: current state: fix yaw\n'}
+[5.856364] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.283889456] [waypoint_action_client]: current position: [x: 0.133158, y: -0.108256, z: 0.000029]\n'}
+[5.856670] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.283952116] [waypoint_action_client]: current state: fix yaw\n'}
+[5.863159] (-) TimerEvent: {}
+[5.899202] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.324639775] [waypoint_action_client]: current position: [x: 0.132652, y: -0.108574, z: 0.000025]\n'}
+[5.899527] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.324699608] [waypoint_action_client]: current state: fix yaw\n'}
+[5.935077] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.362562754] [waypoint_action_client]: current position: [x: 0.132170, y: -0.108917, z: 0.000028]\n'}
+[5.935486] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.362628272] [waypoint_action_client]: current state: fix yaw\n'}
+[5.963972] (-) TimerEvent: {}
+[5.977185] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.404293407] [waypoint_action_client]: current position: [x: 0.131841, y: -0.109135, z: 0.000027]\n'}
+[5.977537] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.404357911] [waypoint_action_client]: current state: fix yaw\n'}
+[6.016662] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.444130690] [waypoint_action_client]: current position: [x: 0.131363, y: -0.109513, z: 0.000028]\n'}
+[6.016997] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.444196241] [waypoint_action_client]: current state: fix yaw\n'}
+[6.056126] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.483702292] [waypoint_action_client]: current position: [x: 0.130897, y: -0.109855, z: 0.000028]\n'}
+[6.056441] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.483789260] [waypoint_action_client]: current state: fix yaw\n'}
+[6.064147] (-) TimerEvent: {}
+[6.096387] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.523939984] [waypoint_action_client]: current position: [x: 0.130729, y: -0.109981, z: 0.000026]\n'}
+[6.096696] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.524001820] [waypoint_action_client]: current state: fix yaw\n'}
+[6.136725] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.564030518] [waypoint_action_client]: current position: [x: 0.130231, y: -0.110332, z: 0.000028]\n'}
+[6.137054] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.564092221] [waypoint_action_client]: current state: go to point\n'}
+[6.166011] (-) TimerEvent: {}
+[6.177394] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.604954000] [waypoint_action_client]: current position: [x: 0.129964, y: -0.110635, z: 0.000028]\n'}
+[6.177747] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.605016752] [waypoint_action_client]: current state: go to point\n'}
+[6.216571] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.643980104] [waypoint_action_client]: current position: [x: 0.130120, y: -0.111734, z: 0.000028]\n'}
+[6.216917] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.644053666] [waypoint_action_client]: current state: go to point\n'}
+[6.256625] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.684024507] [waypoint_action_client]: current position: [x: 0.130529, y: -0.112797, z: 0.000028]\n'}
+[6.256999] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.684084169] [waypoint_action_client]: current state: go to point\n'}
+[6.267825] (-) TimerEvent: {}
+[6.295772] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.723149297] [waypoint_action_client]: current position: [x: 0.131671, y: -0.114917, z: 0.000028]\n'}
+[6.296185] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.723205990] [waypoint_action_client]: current state: go to point\n'}
+[6.336600] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.764151800] [waypoint_action_client]: current position: [x: 0.132791, y: -0.116693, z: 0.000022]\n'}
+[6.337455] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.764222407] [waypoint_action_client]: current state: go to point\n'}
+[6.368007] (-) TimerEvent: {}
+[6.377037] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.804103173] [waypoint_action_client]: current position: [x: 0.135064, y: -0.119878, z: 0.000029]\n'}
+[6.377471] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.804154099] [waypoint_action_client]: current state: go to point\n'}
+[6.415765] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.842931681] [waypoint_action_client]: current position: [x: 0.136980, y: -0.122327, z: 0.000031]\n'}
+[6.416300] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.842982451] [waypoint_action_client]: current state: go to point\n'}
+[6.456598] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.884030517] [waypoint_action_client]: current position: [x: 0.138043, y: -0.123630, z: 0.000028]\n'}
+[6.456932] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.884094960] [waypoint_action_client]: current state: go to point\n'}
+[6.469840] (-) TimerEvent: {}
+[6.495694] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.922493922] [waypoint_action_client]: current position: [x: 0.141696, y: -0.127912, z: 0.000030]\n'}
+[6.496106] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.922559351] [waypoint_action_client]: current state: go to point\n'}
+[6.543060] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.970590246] [waypoint_action_client]: current position: [x: 0.144570, y: -0.131091, z: 0.000023]\n'}
+[6.543416] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969888.970668787] [waypoint_action_client]: current state: go to point\n'}
+[6.571670] (-) TimerEvent: {}
+[6.576662] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.004090058] [waypoint_action_client]: current position: [x: 0.147768, y: -0.134513, z: 0.000028]\n'}
+[6.576996] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.004145852] [waypoint_action_client]: current state: fix yaw\n'}
+[6.620463] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.047907555] [waypoint_action_client]: current position: [x: 0.149486, y: -0.136311, z: 0.000029]\n'}
+[6.620823] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.047973248] [waypoint_action_client]: current state: fix yaw\n'}
+[6.656545] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.083746713] [waypoint_action_client]: current position: [x: 0.152767, y: -0.139676, z: 0.000028]\n'}
+[6.656871] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.083806716] [waypoint_action_client]: current state: fix yaw\n'}
+[6.673587] (-) TimerEvent: {}
+[6.696693] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.124180428] [waypoint_action_client]: current position: [x: 0.155811, y: -0.142757, z: 0.000025]\n'}
+[6.697032] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.124241525] [waypoint_action_client]: current state: fix yaw\n'}
+[6.736438] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.163999652] [waypoint_action_client]: current position: [x: 0.159862, y: -0.146849, z: 0.000029]\n'}
+[6.736790] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.164074690] [waypoint_action_client]: current state: fix yaw\n'}
+[6.775414] (-) TimerEvent: {}
+[6.776757] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.204163163] [waypoint_action_client]: current position: [x: 0.163268, y: -0.150292, z: 0.000026]\n'}
+[6.777135] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.204232429] [waypoint_action_client]: current state: fix yaw\n'}
+[6.816872] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.244318039] [waypoint_action_client]: current position: [x: 0.166024, y: -0.153144, z: 0.000023]\n'}
+[6.817187] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.244385092] [waypoint_action_client]: current state: fix yaw\n'}
+[6.856476] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.283970181] [waypoint_action_client]: current position: [x: 0.167528, y: -0.154726, z: 0.000027]\n'}
+[6.856924] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.284046556] [waypoint_action_client]: current state: fix yaw\n'}
+[6.876049] (-) TimerEvent: {}
+[6.898455] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.325950256] [waypoint_action_client]: current position: [x: 0.168936, y: -0.156116, z: 0.000028]\n'}
+[6.898819] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.326020546] [waypoint_action_client]: current state: fix yaw\n'}
+[6.936654] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.364026414] [waypoint_action_client]: current position: [x: 0.170852, y: -0.157867, z: 0.000028]\n'}
+[6.938322] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.364096623] [waypoint_action_client]: current state: fix yaw\n'}
+[6.976497] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.404035852] [waypoint_action_client]: current position: [x: 0.171968, y: -0.158802, z: 0.000028]\n'}
+[6.976814] (-) TimerEvent: {}
+[6.976987] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.404125503] [waypoint_action_client]: current state: fix yaw\n'}
+[7.016832] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.444082353] [waypoint_action_client]: current position: [x: 0.172986, y: -0.159570, z: 0.000027]\n'}
+[7.017191] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.444146963] [waypoint_action_client]: current state: fix yaw\n'}
+[7.060795] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.488324197] [waypoint_action_client]: current position: [x: 0.174264, y: -0.160377, z: 0.000025]\n'}
+[7.061178] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.488393862] [waypoint_action_client]: current state: fix yaw\n'}
+[7.078666] (-) TimerEvent: {}
+[7.096875] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.524317206] [waypoint_action_client]: current position: [x: 0.174967, y: -0.160712, z: 0.000023]\n'}
+[7.097204] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.524475935] [waypoint_action_client]: current state: fix yaw\n'}
+[7.136207] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.563398231] [waypoint_action_client]: current position: [x: 0.175549, y: -0.160872, z: 0.000025]\n'}
+[7.136532] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.563467436] [waypoint_action_client]: current state: fix yaw\n'}
+[7.176659] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.604174400] [waypoint_action_client]: current position: [x: 0.176182, y: -0.160796, z: 0.000023]\n'}
+[7.176977] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.604241307] [waypoint_action_client]: current state: fix yaw\n'}
+[7.180470] (-) TimerEvent: {}
+[7.217136] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.644404085] [waypoint_action_client]: current position: [x: 0.176447, y: -0.160534, z: 0.000028]\n'}
+[7.217839] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.644463152] [waypoint_action_client]: current state: fix yaw\n'}
+[7.256982] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.684430103] [waypoint_action_client]: current position: [x: 0.176570, y: -0.160373, z: 0.000028]\n'}
+[7.257453] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.684489386] [waypoint_action_client]: current state: fix yaw\n'}
+[7.282305] (-) TimerEvent: {}
+[7.296762] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.724264387] [waypoint_action_client]: current position: [x: 0.176820, y: -0.160048, z: 0.000028]\n'}
+[7.297082] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.724344603] [waypoint_action_client]: current state: fix yaw\n'}
+[7.336874] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.764295836] [waypoint_action_client]: current position: [x: 0.177184, y: -0.159553, z: 0.000022]\n'}
+[7.337244] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.764357134] [waypoint_action_client]: current state: fix yaw\n'}
+[7.375349] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.802819860] [waypoint_action_client]: current position: [x: 0.177455, y: -0.159243, z: 0.000022]\n'}
+[7.375777] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.802874561] [waypoint_action_client]: current state: fix yaw\n'}
+[7.383196] (-) TimerEvent: {}
+[7.416852] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.844350989] [waypoint_action_client]: current position: [x: 0.177705, y: -0.158918, z: 0.000029]\n'}
+[7.417202] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.844412378] [waypoint_action_client]: current state: fix yaw\n'}
+[7.457076] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.884531656] [waypoint_action_client]: current position: [x: 0.178085, y: -0.158459, z: 0.000029]\n'}
+[7.457580] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.884587423] [waypoint_action_client]: current state: fix yaw\n'}
+[7.483960] (-) TimerEvent: {}
+[7.496607] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.924194837] [waypoint_action_client]: current position: [x: 0.178325, y: -0.158148, z: 0.000027]\n'}
+[7.497075] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.924253542] [waypoint_action_client]: current state: fix yaw\n'}
+[7.535296] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.962885521] [waypoint_action_client]: current position: [x: 0.178735, y: -0.157697, z: 0.000027]\n'}
+[7.535732] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969889.962939991] [waypoint_action_client]: current state: go to point\n'}
+[7.576408] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.003828896] [waypoint_action_client]: current position: [x: 0.179068, y: -0.157453, z: 0.000028]\n'}
+[7.576758] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.003909460] [waypoint_action_client]: current state: go to point\n'}
+[7.585652] (-) TimerEvent: {}
+[7.616643] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.044152274] [waypoint_action_client]: current position: [x: 0.179703, y: -0.157501, z: 0.000028]\n'}
+[7.616979] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.044213173] [waypoint_action_client]: current state: go to point\n'}
+[7.656508] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.084032566] [waypoint_action_client]: current position: [x: 0.180563, y: -0.157812, z: 0.000028]\n'}
+[7.656909] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.084089808] [waypoint_action_client]: current state: go to point\n'}
+[7.687024] (-) TimerEvent: {}
+[7.696780] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.124054894] [waypoint_action_client]: current position: [x: 0.181729, y: -0.158414, z: 0.000026]\n'}
+[7.697109] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.124120278] [waypoint_action_client]: current state: go to point\n'}
+[7.742478] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.169841712] [waypoint_action_client]: current position: [x: 0.183180, y: -0.159352, z: 0.000028]\n'}
+[7.742788] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.169910541] [waypoint_action_client]: current state: go to point\n'}
+[7.774883] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.202311764] [waypoint_action_client]: current position: [x: 0.185841, y: -0.161311, z: 0.000025]\n'}
+[7.775238] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.202372370] [waypoint_action_client]: current state: go to point\n'}
+[7.788815] (-) TimerEvent: {}
+[7.816507] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.244042378] [waypoint_action_client]: current position: [x: 0.187906, y: -0.163006, z: 0.000025]\n'}
+[7.816875] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.244131485] [waypoint_action_client]: current state: go to point\n'}
+[7.856648] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.283896783] [waypoint_action_client]: current position: [x: 0.191499, y: -0.166186, z: 0.000028]\n'}
+[7.857123] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.283959861] [waypoint_action_client]: current state: go to point\n'}
+[7.890646] (-) TimerEvent: {}
+[7.896665] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.324051192] [waypoint_action_client]: current position: [x: 0.195614, y: -0.170112, z: 0.000029]\n'}
+[7.897107] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.324123572] [waypoint_action_client]: current state: go to point\n'}
+[7.936476] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.364027181] [waypoint_action_client]: current position: [x: 0.200202, y: -0.174790, z: 0.000024]\n'}
+[7.936814] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.364084289] [waypoint_action_client]: current state: fix yaw\n'}
+[7.976094] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.403657897] [waypoint_action_client]: current position: [x: 0.204939, y: -0.179844, z: 0.000028]\n'}
+[7.976505] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.403715860] [waypoint_action_client]: current state: fix yaw\n'}
+[7.991055] (-) TimerEvent: {}
+[8.015462] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.442895221] [waypoint_action_client]: current position: [x: 0.207773, y: -0.182892, z: 0.000028]\n'}
+[8.015949] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.442960837] [waypoint_action_client]: current state: fix yaw\n'}
+[8.056778] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.484053719] [waypoint_action_client]: current position: [x: 0.211479, y: -0.186890, z: 0.000028]\n'}
+[8.057107] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.484121720] [waypoint_action_client]: current state: fix yaw\n'}
+[8.093717] (-) TimerEvent: {}
+[8.096411] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.523947856] [waypoint_action_client]: current position: [x: 0.213620, y: -0.189189, z: 0.000026]\n'}
+[8.096697] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.524007850] [waypoint_action_client]: current state: fix yaw\n'}
+[8.137829] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.564643295] [waypoint_action_client]: current position: [x: 0.215495, y: -0.191167, z: 0.000027]\n'}
+[8.138103] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.564701452] [waypoint_action_client]: current state: fix yaw\n'}
+[8.176607] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.604024661] [waypoint_action_client]: current position: [x: 0.217845, y: -0.193623, z: 0.000024]\n'}
+[8.176969] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.604084817] [waypoint_action_client]: current state: fix yaw\n'}
+[8.195561] (-) TimerEvent: {}
+[8.216580] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.643996008] [waypoint_action_client]: current position: [x: 0.219744, y: -0.195760, z: 0.000029]\n'}
+[8.216891] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.644068002] [waypoint_action_client]: current state: fix yaw\n'}
+[8.257030] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.684193829] [waypoint_action_client]: current position: [x: 0.220804, y: -0.197037, z: 0.000029]\n'}
+[8.257340] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.684259078] [waypoint_action_client]: current state: fix yaw\n'}
+[8.296540] (-) TimerEvent: {}
+[8.297575] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.724987049] [waypoint_action_client]: current position: [x: 0.221692, y: -0.198203, z: 0.000025]\n'}
+[8.297897] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.725042154] [waypoint_action_client]: current state: fix yaw\n'}
+[8.336655] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.764073258] [waypoint_action_client]: current position: [x: 0.222401, y: -0.199246, z: 0.000026]\n'}
+[8.337015] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.764125206] [waypoint_action_client]: current state: fix yaw\n'}
+[8.376428] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.803864956] [waypoint_action_client]: current position: [x: 0.222949, y: -0.200152, z: 0.000028]\n'}
+[8.377106] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.803912845] [waypoint_action_client]: current state: fix yaw\n'}
+[8.398366] (-) TimerEvent: {}
+[8.420497] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.847846189] [waypoint_action_client]: current position: [x: 0.223325, y: -0.200928, z: 0.000028]\n'}
+[8.421325] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.847927142] [waypoint_action_client]: current state: fix yaw\n'}
+[8.455993] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.883475332] [waypoint_action_client]: current position: [x: 0.223589, y: -0.201861, z: 0.000028]\n'}
+[8.456327] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.883539836] [waypoint_action_client]: current state: fix yaw\n'}
+[8.496559] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.924004991] [waypoint_action_client]: current position: [x: 0.223572, y: -0.202322, z: 0.000028]\n'}
+[8.496907] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.924082180] [waypoint_action_client]: current state: fix yaw\n'}
+[8.500028] (-) TimerEvent: {}
+[8.536574] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.964080161] [waypoint_action_client]: current position: [x: 0.223231, y: -0.202778, z: 0.000028]\n'}
+[8.537024] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969890.964147625] [waypoint_action_client]: current state: fix yaw\n'}
+[8.584130] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.011565340] [waypoint_action_client]: current position: [x: 0.222733, y: -0.203102, z: 0.000028]\n'}
+[8.584450] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.011628652] [waypoint_action_client]: current state: fix yaw\n'}
+[8.601084] (-) TimerEvent: {}
+[8.616555] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.044117773] [waypoint_action_client]: current position: [x: 0.222412, y: -0.203359, z: 0.000028]\n'}
+[8.616977] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.044181591] [waypoint_action_client]: current state: fix yaw\n'}
+[8.668293] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.095844383] [waypoint_action_client]: current position: [x: 0.221934, y: -0.203753, z: 0.000027]\n'}
+[8.668620] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.095946839] [waypoint_action_client]: current state: fix yaw\n'}
+[8.696760] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.124095884] [waypoint_action_client]: current position: [x: 0.221435, y: -0.204112, z: 0.000028]\n'}
+[8.697099] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.124159971] [waypoint_action_client]: current state: fix yaw\n'}
+[8.702867] (-) TimerEvent: {}
+[8.735540] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.163051455] [waypoint_action_client]: current position: [x: 0.221277, y: -0.204231, z: 0.000025]\n'}
+[8.735911] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.163118155] [waypoint_action_client]: current state: fix yaw\n'}
+[8.776502] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.204060468] [waypoint_action_client]: current position: [x: 0.220973, y: -0.204501, z: 0.000030]\n'}
+[8.776954] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.204128553] [waypoint_action_client]: current state: fix yaw\n'}
+[8.803959] (-) TimerEvent: {}
+[8.815748] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.243282119] [waypoint_action_client]: current position: [x: 0.220480, y: -0.204875, z: 0.000025]\n'}
+[8.816195] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.243352772] [waypoint_action_client]: current state: go to point\n'}
+[8.856529] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.284019591] [waypoint_action_client]: current position: [x: 0.220237, y: -0.205229, z: 0.000023]\n'}
+[8.856838] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.284090670] [waypoint_action_client]: current state: go to point\n'}
+[8.899949] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.324184486] [waypoint_action_client]: current position: [x: 0.220241, y: -0.205831, z: 0.000027]\n'}
+[8.900289] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.324247641] [waypoint_action_client]: current state: go to point\n'}
+[8.905763] (-) TimerEvent: {}
+[8.937391] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.364934190] [waypoint_action_client]: current position: [x: 0.220548, y: -0.206772, z: 0.000026]\n'}
+[8.937779] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.364999541] [waypoint_action_client]: current state: go to point\n'}
+[8.976479] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.404002876] [waypoint_action_client]: current position: [x: 0.221479, y: -0.208686, z: 0.000023]\n'}
+[8.976812] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.404063411] [waypoint_action_client]: current state: go to point\n'}
+[9.007594] (-) TimerEvent: {}
+[9.016582] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.444042435] [waypoint_action_client]: current position: [x: 0.221479, y: -0.208686, z: 0.000023]\n'}
+[9.016948] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.444106877] [waypoint_action_client]: current state: go to point\n'}
+[9.056491] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.484053071] [waypoint_action_client]: current position: [x: 0.223109, y: -0.211253, z: 0.000027]\n'}
+[9.056862] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.484121680] [waypoint_action_client]: current state: go to point\n'}
+[9.096551] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.524082360] [waypoint_action_client]: current position: [x: 0.225401, y: -0.214424, z: 0.000026]\n'}
+[9.096901] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.524141115] [waypoint_action_client]: current state: go to point\n'}
+[9.108697] (-) TimerEvent: {}
+[9.136694] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.564129201] [waypoint_action_client]: current position: [x: 0.227306, y: -0.216838, z: 0.000023]\n'}
+[9.137047] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.564191094] [waypoint_action_client]: current state: go to point\n'}
+[9.177770] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.603952765] [waypoint_action_client]: current position: [x: 0.229543, y: -0.219532, z: 0.000027]\n'}
+[9.180020] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.604007031] [waypoint_action_client]: current state: go to point\n'}
+[9.210545] (-) TimerEvent: {}
+[9.216466] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.643980045] [waypoint_action_client]: current position: [x: 0.233459, y: -0.223974, z: 0.000027]\n'}
+[9.216830] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.644055667] [waypoint_action_client]: current state: go to point\n'}
+[9.256565] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.684093640] [waypoint_action_client]: current position: [x: 0.238139, y: -0.228946, z: 0.000028]\n'}
+[9.256871] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.684158956] [waypoint_action_client]: current state: fix yaw\n'}
+[9.296438] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.724005952] [waypoint_action_client]: current position: [x: 0.241561, y: -0.232435, z: 0.000024]\n'}
+[9.296769] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.724072050] [waypoint_action_client]: current state: fix yaw\n'}
+[9.312015] (-) TimerEvent: {}
+[9.336465] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.764026137] [waypoint_action_client]: current position: [x: 0.246253, y: -0.237123, z: 0.000026]\n'}
+[9.336866] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.764086058] [waypoint_action_client]: current state: fix yaw\n'}
+[9.377120] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.804120316] [waypoint_action_client]: current position: [x: 0.249044, y: -0.239893, z: 0.000026]\n'}
+[9.377461] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.804175377] [waypoint_action_client]: current state: fix yaw\n'}
+[9.414012] (-) TimerEvent: {}
+[9.416564] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.844116723] [waypoint_action_client]: current position: [x: 0.250319, y: -0.241165, z: 0.000030]\n'}
+[9.416900] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.844210512] [waypoint_action_client]: current state: fix yaw\n'}
+[9.456614] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.884115428] [waypoint_action_client]: current position: [x: 0.252704, y: -0.243537, z: 0.000030]\n'}
+[9.457106] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.884170331] [waypoint_action_client]: current state: fix yaw\n'}
+[9.496248] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.923525362] [waypoint_action_client]: current position: [x: 0.255714, y: -0.246566, z: 0.000025]\n'}
+[9.496638] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.923615501] [waypoint_action_client]: current state: fix yaw\n'}
+[9.515912] (-) TimerEvent: {}
+[9.536678] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.964060499] [waypoint_action_client]: current position: [x: 0.258063, y: -0.249006, z: 0.000026]\n'}
+[9.537018] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969891.964127938] [waypoint_action_client]: current state: fix yaw\n'}
+[9.574894] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.002377966] [waypoint_action_client]: current position: [x: 0.260161, y: -0.251010, z: 0.000027]\n'}
+[9.575225] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.002437872] [waypoint_action_client]: current state: fix yaw\n'}
+[9.616448] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.043834674] [waypoint_action_client]: current position: [x: 0.261407, y: -0.252119, z: 0.000028]\n'}
+[9.616749] (-) TimerEvent: {}
+[9.616904] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.043892084] [waypoint_action_client]: current state: fix yaw\n'}
+[9.656304] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.083792189] [waypoint_action_client]: current position: [x: 0.263080, y: -0.253455, z: 0.000028]\n'}
+[9.656663] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.083846647] [waypoint_action_client]: current state: fix yaw\n'}
+[9.697688] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.124289972] [waypoint_action_client]: current position: [x: 0.264453, y: -0.254380, z: 0.000029]\n'}
+[9.698001] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.124342354] [waypoint_action_client]: current state: fix yaw\n'}
+[9.718599] (-) TimerEvent: {}
+[9.736300] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.163754668] [waypoint_action_client]: current position: [x: 0.265214, y: -0.254788, z: 0.000024]\n'}
+[9.736726] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.163806719] [waypoint_action_client]: current state: fix yaw\n'}
+[9.778609] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.204038265] [waypoint_action_client]: current position: [x: 0.266142, y: -0.255091, z: 0.000028]\n'}
+[9.778877] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.204107296] [waypoint_action_client]: current state: fix yaw\n'}
+[9.818450] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.244288708] [waypoint_action_client]: current position: [x: 0.266386, y: -0.255107, z: 0.000027]\n'}
+[9.818740] (-) TimerEvent: {}
+[9.818889] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.244348545] [waypoint_action_client]: current state: fix yaw\n'}
+[9.856797] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.284094975] [waypoint_action_client]: current position: [x: 0.266774, y: -0.254995, z: 0.000021]\n'}
+[9.857361] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.284165346] [waypoint_action_client]: current state: fix yaw\n'}
+[9.897311] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.324701284] [waypoint_action_client]: current position: [x: 0.267175, y: -0.254557, z: 0.000030]\n'}
+[9.898267] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.324864725] [waypoint_action_client]: current state: fix yaw\n'}
+[9.919958] (-) TimerEvent: {}
+[9.938267] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.365534576] [waypoint_action_client]: current position: [x: 0.267520, y: -0.254064, z: 0.000023]\n'}
+[9.938591] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.365591175] [waypoint_action_client]: current state: fix yaw\n'}
+[9.982805] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.410370264] [waypoint_action_client]: current position: [x: 0.267893, y: -0.253594, z: 0.000023]\n'}
+[9.983106] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.410440253] [waypoint_action_client]: current state: fix yaw\n'}
+[10.016905] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.444497404] [waypoint_action_client]: current position: [x: 0.268272, y: -0.253117, z: 0.000029]\n'}
+[10.017336] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.444622035] [waypoint_action_client]: current state: fix yaw\n'}
+[10.021775] (-) TimerEvent: {}
+[10.056464] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.484031741] [waypoint_action_client]: current position: [x: 0.268541, y: -0.252818, z: 0.000028]\n'}
+[10.056776] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.484090135] [waypoint_action_client]: current state: fix yaw\n'}
+[10.096521] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.524021563] [waypoint_action_client]: current position: [x: 0.268919, y: -0.252329, z: 0.000027]\n'}
+[10.096906] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.524072129] [waypoint_action_client]: current state: fix yaw\n'}
+[10.123606] (-) TimerEvent: {}
+[10.136962] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.564503058] [waypoint_action_client]: current position: [x: 0.269182, y: -0.252021, z: 0.000028]\n'}
+[10.137294] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.564567375] [waypoint_action_client]: current state: fix yaw\n'}
+[10.177734] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.605101550] [waypoint_action_client]: current position: [x: 0.269597, y: -0.251567, z: 0.000024]\n'}
+[10.178140] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.605165363] [waypoint_action_client]: current state: go to point\n'}
+[10.216842] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.644074067] [waypoint_action_client]: current position: [x: 0.269964, y: -0.251338, z: 0.000026]\n'}
+[10.217138] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.644136700] [waypoint_action_client]: current state: go to point\n'}
+[10.223965] (-) TimerEvent: {}
+[10.256644] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.684023142] [waypoint_action_client]: current position: [x: 0.270994, y: -0.251552, z: 0.000027]\n'}
+[10.256941] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.684086419] [waypoint_action_client]: current state: go to point\n'}
+[10.295921] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.723118078] [waypoint_action_client]: current position: [x: 0.272642, y: -0.252412, z: 0.000029]\n'}
+[10.296391] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.723179910] [waypoint_action_client]: current state: go to point\n'}
+[10.325285] (-) TimerEvent: {}
+[10.337119] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.764419489] [waypoint_action_client]: current position: [x: 0.274882, y: -0.253892, z: 0.000028]\n'}
+[10.337489] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.764507669] [waypoint_action_client]: current state: go to point\n'}
+[10.376573] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.804077813] [waypoint_action_client]: current position: [x: 0.277729, y: -0.256121, z: 0.000022]\n'}
+[10.376927] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.804138707] [waypoint_action_client]: current state: go to point\n'}
+[10.414958] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.842481523] [waypoint_action_client]: current position: [x: 0.279932, y: -0.258002, z: 0.000023]\n'}
+[10.415374] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.842537856] [waypoint_action_client]: current state: go to point\n'}
+[10.427111] (-) TimerEvent: {}
+[10.456527] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.883988728] [waypoint_action_client]: current position: [x: 0.282364, y: -0.260206, z: 0.000021]\n'}
+[10.456998] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.884052435] [waypoint_action_client]: current state: go to point\n'}
+[10.496412] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.923977980] [waypoint_action_client]: current position: [x: 0.286443, y: -0.264110, z: 0.000029]\n'}
+[10.496872] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.924056054] [waypoint_action_client]: current state: go to point\n'}
+[10.529931] (-) TimerEvent: {}
+[10.536838] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.964122831] [waypoint_action_client]: current position: [x: 0.287901, y: -0.265593, z: 0.000029]\n'}
+[10.537439] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969892.964178579] [waypoint_action_client]: current state: go to point\n'}
+[10.576573] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.004086017] [waypoint_action_client]: current position: [x: 0.291000, y: -0.268815, z: 0.000027]\n'}
+[10.576975] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.004157659] [waypoint_action_client]: current state: go to point\n'}
+[10.615753] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.043199904] [waypoint_action_client]: current position: [x: 0.296035, y: -0.274310, z: 0.000027]\n'}
+[10.616396] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.043260091] [waypoint_action_client]: current state: fix yaw\n'}
+[10.631609] (-) TimerEvent: {}
+[10.660426] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.084453950] [waypoint_action_client]: current position: [x: 0.299524, y: -0.278253, z: 0.000020]\n'}
+[10.660739] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.084855115] [waypoint_action_client]: current state: fix yaw\n'}
+[10.696748] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.124314515] [waypoint_action_client]: current position: [x: 0.301168, y: -0.280167, z: 0.000022]\n'}
+[10.697123] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.124392855] [waypoint_action_client]: current state: fix yaw\n'}
+[10.731762] (-) TimerEvent: {}
+[10.736684] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.164042658] [waypoint_action_client]: current position: [x: 0.307053, y: -0.287025, z: 0.000026]\n'}
+[10.737128] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.164097356] [waypoint_action_client]: current state: fix yaw\n'}
+[10.776585] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.204065904] [waypoint_action_client]: current position: [x: 0.310764, y: -0.291394, z: 0.000030]\n'}
+[10.777032] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.204120236] [waypoint_action_client]: current state: fix yaw\n'}
+[10.817171] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.244021908] [waypoint_action_client]: current position: [x: 0.312913, y: -0.293935, z: 0.000028]\n'}
+[10.817748] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.244073602] [waypoint_action_client]: current state: fix yaw\n'}
+[10.831976] (-) TimerEvent: {}
+[10.860056] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.287620186] [waypoint_action_client]: current position: [x: 0.314814, y: -0.296143, z: 0.000024]\n'}
+[10.860564] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.287692173] [waypoint_action_client]: current state: fix yaw\n'}
+[10.899007] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.324023937] [waypoint_action_client]: current position: [x: 0.316485, y: -0.298048, z: 0.000025]\n'}
+[10.899334] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.324125433] [waypoint_action_client]: current state: fix yaw\n'}
+[10.933798] (-) TimerEvent: {}
+[10.936432] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.364000689] [waypoint_action_client]: current position: [x: 0.317937, y: -0.299687, z: 0.000022]\n'}
+[10.936747] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.364074711] [waypoint_action_client]: current state: fix yaw\n'}
+[10.980550] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.408111305] [waypoint_action_client]: current position: [x: 0.319778, y: -0.301928, z: 0.000025]\n'}
+[10.980866] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.408174883] [waypoint_action_client]: current state: fix yaw\n'}
+[11.016632] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.444182315] [waypoint_action_client]: current position: [x: 0.321229, y: -0.303891, z: 0.000022]\n'}
+[11.017005] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.444256941] [waypoint_action_client]: current state: fix yaw\n'}
+[11.035650] (-) TimerEvent: {}
+[11.056201] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.483617527] [waypoint_action_client]: current position: [x: 0.321989, y: -0.305035, z: 0.000030]\n'}
+[11.056658] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.483676556] [waypoint_action_client]: current state: fix yaw\n'}
+[11.096773] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.524028167] [waypoint_action_client]: current position: [x: 0.322584, y: -0.306040, z: 0.000030]\n'}
+[11.097240] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.524088596] [waypoint_action_client]: current state: fix yaw\n'}
+[11.135986] (-) TimerEvent: {}
+[11.137077] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.564277197] [waypoint_action_client]: current position: [x: 0.323172, y: -0.307292, z: 0.000028]\n'}
+[11.137454] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.564336470] [waypoint_action_client]: current state: fix yaw\n'}
+[11.174954] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.602449300] [waypoint_action_client]: current position: [x: 0.323366, y: -0.307955, z: 0.000027]\n'}
+[11.176005] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.602535485] [waypoint_action_client]: current state: fix yaw\n'}
+[11.216526] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.644080468] [waypoint_action_client]: current position: [x: 0.323375, y: -0.308711, z: 0.000028]\n'}
+[11.216877] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.644138767] [waypoint_action_client]: current state: fix yaw\n'}
+[11.237810] (-) TimerEvent: {}
+[11.256553] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.683996018] [waypoint_action_client]: current position: [x: 0.323024, y: -0.309207, z: 0.000026]\n'}
+[11.256871] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.684055528] [waypoint_action_client]: current state: fix yaw\n'}
+[11.296530] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.724073775] [waypoint_action_client]: current position: [x: 0.322686, y: -0.309430, z: 0.000021]\n'}
+[11.296927] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.724148939] [waypoint_action_client]: current state: fix yaw\n'}
+[11.336143] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.763595862] [waypoint_action_client]: current position: [x: 0.322343, y: -0.309667, z: 0.000026]\n'}
+[11.337121] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.763650021] [waypoint_action_client]: current state: fix yaw\n'}
+[11.337946] (-) TimerEvent: {}
+[11.376681] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.804097018] [waypoint_action_client]: current position: [x: 0.321830, y: -0.309976, z: 0.000023]\n'}
+[11.377088] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.804149477] [waypoint_action_client]: current state: fix yaw\n'}
+[11.416800] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.844168085] [waypoint_action_client]: current position: [x: 0.321320, y: -0.310325, z: 0.000025]\n'}
+[11.417265] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.844232822] [waypoint_action_client]: current state: fix yaw\n'}
+[11.439282] (-) TimerEvent: {}
+[11.455323] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.882608182] [waypoint_action_client]: current position: [x: 0.320834, y: -0.310690, z: 0.000028]\n'}
+[11.455669] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.882674003] [waypoint_action_client]: current state: fix yaw\n'}
+[11.496496] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.923936623] [waypoint_action_client]: current position: [x: 0.320346, y: -0.311056, z: 0.000028]\n'}
+[11.496835] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.924003275] [waypoint_action_client]: current state: fix yaw\n'}
+[11.537296] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.964864279] [waypoint_action_client]: current position: [x: 0.320025, y: -0.311290, z: 0.000020]\n'}
+[11.537734] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969893.964924717] [waypoint_action_client]: current state: fix yaw\n'}
+[11.539940] (-) TimerEvent: {}
+[11.576643] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.003990058] [waypoint_action_client]: current position: [x: 0.319701, y: -0.311539, z: 0.000029]\n'}
+[11.576935] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.004069905] [waypoint_action_client]: current state: fix yaw\n'}
+[11.616484] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.043964877] [waypoint_action_client]: current position: [x: 0.319533, y: -0.311647, z: 0.000026]\n'}
+[11.616853] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.044029768] [waypoint_action_client]: current state: fix yaw\n'}
+[11.641825] (-) TimerEvent: {}
+[11.656767] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.084053951] [waypoint_action_client]: current position: [x: 0.319214, y: -0.311899, z: 0.000026]\n'}
+[11.657131] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.084149033] [waypoint_action_client]: current state: fix yaw\n'}
+[11.696235] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.123751623] [waypoint_action_client]: current position: [x: 0.318732, y: -0.312258, z: 0.000028]\n'}
+[11.696570] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.123803041] [waypoint_action_client]: current state: go to point\n'}
+[11.736822] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.164285650] [waypoint_action_client]: current position: [x: 0.318487, y: -0.312892, z: 0.000022]\n'}
+[11.737220] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.164342550] [waypoint_action_client]: current state: go to point\n'}
+[11.743681] (-) TimerEvent: {}
+[11.776598] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.204110537] [waypoint_action_client]: current position: [x: 0.318639, y: -0.313666, z: 0.000024]\n'}
+[11.776916] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.204176456] [waypoint_action_client]: current state: go to point\n'}
+[11.815556] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.243097668] [waypoint_action_client]: current position: [x: 0.319446, y: -0.315421, z: 0.000025]\n'}
+[11.815882] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.243156405] [waypoint_action_client]: current state: go to point\n'}
+[11.845513] (-) TimerEvent: {}
+[11.856481] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.284031308] [waypoint_action_client]: current position: [x: 0.320897, y: -0.317784, z: 0.000027]\n'}
+[11.856753] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.284088311] [waypoint_action_client]: current state: go to point\n'}
+[11.895802] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.323329596] [waypoint_action_client]: current position: [x: 0.322989, y: -0.320700, z: 0.000025]\n'}
+[11.896166] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.323393694] [waypoint_action_client]: current state: go to point\n'}
+[11.936971] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.364061258] [waypoint_action_client]: current position: [x: 0.324761, y: -0.322945, z: 0.000028]\n'}
+[11.937313] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.364117718] [waypoint_action_client]: current state: go to point\n'}
+[11.947325] (-) TimerEvent: {}
+[11.976605] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.404060564] [waypoint_action_client]: current position: [x: 0.328051, y: -0.326805, z: 0.000028]\n'}
+[11.976965] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.404112213] [waypoint_action_client]: current state: go to point\n'}
+[12.017910] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.444049336] [waypoint_action_client]: current position: [x: 0.330600, y: -0.329616, z: 0.000025]\n'}
+[12.018329] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.444129594] [waypoint_action_client]: current state: go to point\n'}
+[12.047960] (-) TimerEvent: {}
+[12.057539] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.484093861] [waypoint_action_client]: current position: [x: 0.333519, y: -0.332704, z: 0.000027]\n'}
+[12.057925] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.484145459] [waypoint_action_client]: current state: fix yaw\n'}
+[12.096934] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.524153235] [waypoint_action_client]: current position: [x: 0.338134, y: -0.337442, z: 0.000027]\n'}
+[12.097266] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.524583054] [waypoint_action_client]: current state: fix yaw\n'}
+[12.135435] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.562920332] [waypoint_action_client]: current position: [x: 0.342160, y: -0.341529, z: 0.000029]\n'}
+[12.135818] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.562970252] [waypoint_action_client]: current state: fix yaw\n'}
+[12.149782] (-) TimerEvent: {}
+[12.182909] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.610447399] [waypoint_action_client]: current position: [x: 0.344513, y: -0.343905, z: 0.000030]\n'}
+[12.183232] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.610521915] [waypoint_action_client]: current state: fix yaw\n'}
+[12.214858] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.642433072] [waypoint_action_client]: current position: [x: 0.347497, y: -0.346951, z: 0.000028]\n'}
+[12.215156] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.642504148] [waypoint_action_client]: current state: fix yaw\n'}
+[12.251635] (-) TimerEvent: {}
+[12.256591] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.683928940] [waypoint_action_client]: current position: [x: 0.348337, y: -0.347834, z: 0.000029]\n'}
+[12.256905] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.683989531] [waypoint_action_client]: current state: fix yaw\n'}
+[12.296461] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.724020546] [waypoint_action_client]: current position: [x: 0.349842, y: -0.349431, z: 0.000029]\n'}
+[12.296787] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.724077872] [waypoint_action_client]: current state: fix yaw\n'}
+[12.336145] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.763554158] [waypoint_action_client]: current position: [x: 0.351901, y: -0.351447, z: 0.000027]\n'}
+[12.336471] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.763625285] [waypoint_action_client]: current state: fix yaw\n'}
+[12.351965] (-) TimerEvent: {}
+[12.376726] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.804277588] [waypoint_action_client]: current position: [x: 0.353732, y: -0.353067, z: 0.000028]\n'}
+[12.377152] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.804346724] [waypoint_action_client]: current state: fix yaw\n'}
+[12.416608] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.844055743] [waypoint_action_client]: current position: [x: 0.355283, y: -0.354283, z: 0.000025]\n'}
+[12.416944] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.844108723] [waypoint_action_client]: current state: fix yaw\n'}
+[12.453786] (-) TimerEvent: {}
+[12.457283] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.884027397] [waypoint_action_client]: current position: [x: 0.356167, y: -0.354873, z: 0.000023]\n'}
+[12.457526] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.884088405] [waypoint_action_client]: current state: fix yaw\n'}
+[12.495748] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.923115604] [waypoint_action_client]: current position: [x: 0.357276, y: -0.355431, z: 0.000028]\n'}
+[12.496108] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.923178455] [waypoint_action_client]: current state: fix yaw\n'}
+[12.536468] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.964035497] [waypoint_action_client]: current position: [x: 0.358123, y: -0.355620, z: 0.000029]\n'}
+[12.536788] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969894.964098114] [waypoint_action_client]: current state: fix yaw\n'}
+[12.555670] (-) TimerEvent: {}
+[12.576430] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.003866689] [waypoint_action_client]: current position: [x: 0.358685, y: -0.355426, z: 0.000021]\n'}
+[12.576739] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.003935286] [waypoint_action_client]: current state: fix yaw\n'}
+[12.618621] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.044218792] [waypoint_action_client]: current position: [x: 0.358934, y: -0.355101, z: 0.000023]\n'}
+[12.618864] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.044300897] [waypoint_action_client]: current state: fix yaw\n'}
+[12.655981] (-) TimerEvent: {}
+[12.656886] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.084150779] [waypoint_action_client]: current position: [x: 0.359052, y: -0.354921, z: 0.000027]\n'}
+[12.657168] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.084211690] [waypoint_action_client]: current state: fix yaw\n'}
+[12.696801] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.124260234] [waypoint_action_client]: current position: [x: 0.359523, y: -0.354275, z: 0.000026]\n'}
+[12.697250] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.124329864] [waypoint_action_client]: current state: fix yaw\n'}
+[12.736511] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.164049556] [waypoint_action_client]: current position: [x: 0.359782, y: -0.353957, z: 0.000022]\n'}
+[12.737009] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.164108643] [waypoint_action_client]: current state: fix yaw\n'}
+[12.757794] (-) TimerEvent: {}
+[12.776505] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.204104574] [waypoint_action_client]: current position: [x: 0.360145, y: -0.353479, z: 0.000029]\n'}
+[12.776982] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.204173712] [waypoint_action_client]: current state: fix yaw\n'}
+[12.816527] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.244075363] [waypoint_action_client]: current position: [x: 0.360405, y: -0.353160, z: 0.000028]\n'}
+[12.817121] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.244129604] [waypoint_action_client]: current state: fix yaw\n'}
+[12.860755] (-) TimerEvent: {}
+[12.861173] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.287867600] [waypoint_action_client]: current position: [x: 0.360545, y: -0.353021, z: 0.000028]\n'}
+[12.861434] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.287965962] [waypoint_action_client]: current state: fix yaw\n'}
+[12.896538] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.324108219] [waypoint_action_client]: current position: [x: 0.360689, y: -0.352868, z: 0.000018]\n'}
+[12.896872] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.324178336] [waypoint_action_client]: current state: fix yaw\n'}
+[12.936783] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.364227836] [waypoint_action_client]: current position: [x: 0.361075, y: -0.352397, z: 0.000028]\n'}
+[12.937079] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.364287507] [waypoint_action_client]: current state: go to point\n'}
+[12.962907] (-) TimerEvent: {}
+[12.976690] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.404044102] [waypoint_action_client]: current position: [x: 0.361419, y: -0.352170, z: 0.000027]\n'}
+[12.977101] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.404100645] [waypoint_action_client]: current state: go to point\n'}
+[13.017169] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.444618303] [waypoint_action_client]: current position: [x: 0.362495, y: -0.352387, z: 0.000028]\n'}
+[13.017492] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.444681605] [waypoint_action_client]: current state: go to point\n'}
+[13.060160] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.487624802] [waypoint_action_client]: current position: [x: 0.364155, y: -0.353217, z: 0.000023]\n'}
+[13.060480] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.487696312] [waypoint_action_client]: current state: go to point\n'}
+[13.064721] (-) TimerEvent: {}
+[13.096657] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.524063474] [waypoint_action_client]: current position: [x: 0.366431, y: -0.354731, z: 0.000028]\n'}
+[13.097196] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.524125152] [waypoint_action_client]: current state: go to point\n'}
+[13.138266] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.564170532] [waypoint_action_client]: current position: [x: 0.368235, y: -0.356089, z: 0.000023]\n'}
+[13.138606] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.564238962] [waypoint_action_client]: current state: go to point\n'}
+[13.166567] (-) TimerEvent: {}
+[13.176588] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.604071403] [waypoint_action_client]: current position: [x: 0.370295, y: -0.357776, z: 0.000027]\n'}
+[13.176959] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.604133464] [waypoint_action_client]: current state: go to point\n'}
+[13.216580] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.644066053] [waypoint_action_client]: current position: [x: 0.372575, y: -0.359811, z: 0.000027]\n'}
+[13.216903] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.644126923] [waypoint_action_client]: current state: go to point\n'}
+[13.255485] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.682865935] [waypoint_action_client]: current position: [x: 0.375141, y: -0.362202, z: 0.000029]\n'}
+[13.255810] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.682929208] [waypoint_action_client]: current state: go to point\n'}
+[13.268380] (-) TimerEvent: {}
+[13.305515] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.732911928] [waypoint_action_client]: current position: [x: 0.379384, y: -0.366386, z: 0.000029]\n'}
+[13.305908] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.732973712] [waypoint_action_client]: current state: go to point\n'}
+[13.336741] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.764187162] [waypoint_action_client]: current position: [x: 0.382487, y: -0.369611, z: 0.000027]\n'}
+[13.337192] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.764243116] [waypoint_action_client]: current state: go to point\n'}
+[13.369163] (-) TimerEvent: {}
+[13.377133] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.804206925] [waypoint_action_client]: current position: [x: 0.385777, y: -0.373179, z: 0.000029]\n'}
+[13.377487] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.804259520] [waypoint_action_client]: current state: fix yaw\n'}
+[13.417047] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.844097414] [waypoint_action_client]: current position: [x: 0.390771, y: -0.378767, z: 0.000028]\n'}
+[13.417380] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.844162390] [waypoint_action_client]: current state: fix yaw\n'}
+[13.456742] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.884074026] [waypoint_action_client]: current position: [x: 0.395142, y: -0.383766, z: 0.000024]\n'}
+[13.457036] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.884132026] [waypoint_action_client]: current state: fix yaw\n'}
+[13.470974] (-) TimerEvent: {}
+[13.495268] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.922765615] [waypoint_action_client]: current position: [x: 0.398909, y: -0.388099, z: 0.000021]\n'}
+[13.495592] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.922832412] [waypoint_action_client]: current state: fix yaw\n'}
+[13.544042] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.964081341] [waypoint_action_client]: current position: [x: 0.402078, y: -0.391747, z: 0.000027]\n'}
+[13.544388] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969895.964150331] [waypoint_action_client]: current state: fix yaw\n'}
+[13.571959] (-) TimerEvent: {}
+[13.576423] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.004032268] [waypoint_action_client]: current position: [x: 0.403025, y: -0.392827, z: 0.000028]\n'}
+[13.576847] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.004097880] [waypoint_action_client]: current state: fix yaw\n'}
+[13.615371] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.042790362] [waypoint_action_client]: current position: [x: 0.405467, y: -0.395549, z: 0.000028]\n'}
+[13.615779] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.042855965] [waypoint_action_client]: current state: fix yaw\n'}
+[13.658791] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.086328560] [waypoint_action_client]: current position: [x: 0.406848, y: -0.397117, z: 0.000029]\n'}
+[13.659506] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.086396947] [waypoint_action_client]: current state: fix yaw\n'}
+[13.673800] (-) TimerEvent: {}
+[13.696834] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.124205876] [waypoint_action_client]: current position: [x: 0.408043, y: -0.398570, z: 0.000029]\n'}
+[13.697181] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.124298843] [waypoint_action_client]: current state: fix yaw\n'}
+[13.736723] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.164066943] [waypoint_action_client]: current position: [x: 0.409516, y: -0.400521, z: 0.000020]\n'}
+[13.737018] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.164116151] [waypoint_action_client]: current state: fix yaw\n'}
+[13.775609] (-) TimerEvent: {}
+[13.776526] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.203742719] [waypoint_action_client]: current position: [x: 0.410283, y: -0.401653, z: 0.000025]\n'}
+[13.776811] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.203793978] [waypoint_action_client]: current state: fix yaw\n'}
+[13.816605] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.244038182] [waypoint_action_client]: current position: [x: 0.410877, y: -0.402644, z: 0.000028]\n'}
+[13.816902] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.244090863] [waypoint_action_client]: current state: fix yaw\n'}
+[13.857456] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.284724104] [waypoint_action_client]: current position: [x: 0.411119, y: -0.403091, z: 0.000029]\n'}
+[13.857811] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.284781621] [waypoint_action_client]: current state: fix yaw\n'}
+[13.875979] (-) TimerEvent: {}
+[13.896704] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.324116628] [waypoint_action_client]: current position: [x: 0.411602, y: -0.404222, z: 0.000028]\n'}
+[13.897002] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.324179042] [waypoint_action_client]: current state: fix yaw\n'}
+[13.936488] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.363985142] [waypoint_action_client]: current position: [x: 0.411723, y: -0.404806, z: 0.000029]\n'}
+[13.936899] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.364060743] [waypoint_action_client]: current state: fix yaw\n'}
+[13.976737] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.404036300] [waypoint_action_client]: current position: [x: 0.411630, y: -0.405468, z: 0.000028]\n'}
+[13.977025] (-) TimerEvent: {}
+[13.977210] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.404106095] [waypoint_action_client]: current state: fix yaw\n'}
+[14.016493] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.444025754] [waypoint_action_client]: current position: [x: 0.411343, y: -0.405739, z: 0.000023]\n'}
+[14.016801] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.444089457] [waypoint_action_client]: current state: fix yaw\n'}
+[14.057553] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.484107572] [waypoint_action_client]: current position: [x: 0.410830, y: -0.406062, z: 0.000029]\n'}
+[14.057907] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.484163153] [waypoint_action_client]: current state: fix yaw\n'}
+[14.079524] (-) TimerEvent: {}
+[14.095284] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.522803341] [waypoint_action_client]: current position: [x: 0.410324, y: -0.406395, z: 0.000026]\n'}
+[14.095589] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.522861062] [waypoint_action_client]: current state: fix yaw\n'}
+[14.136406] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.563935729] [waypoint_action_client]: current position: [x: 0.409974, y: -0.406606, z: 0.000028]\n'}
+[14.136822] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.563992640] [waypoint_action_client]: current state: fix yaw\n'}
+[14.176513] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.604058752] [waypoint_action_client]: current position: [x: 0.409484, y: -0.406970, z: 0.000024]\n'}
+[14.176889] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.604109010] [waypoint_action_client]: current state: fix yaw\n'}
+[14.179935] (-) TimerEvent: {}
+[14.216898] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.644408755] [waypoint_action_client]: current position: [x: 0.409001, y: -0.407327, z: 0.000021]\n'}
+[14.217303] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.644478315] [waypoint_action_client]: current state: fix yaw\n'}
+[14.255420] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.682940304] [waypoint_action_client]: current position: [x: 0.408521, y: -0.407714, z: 0.000021]\n'}
+[14.255720] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.683036861] [waypoint_action_client]: current state: fix yaw\n'}
+[14.281449] (-) TimerEvent: {}
+[14.297964] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.725264283] [waypoint_action_client]: current position: [x: 0.408194, y: -0.407940, z: 0.000027]\n'}
+[14.298486] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.725319117] [waypoint_action_client]: current state: fix yaw\n'}
+[14.336561] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.763990125] [waypoint_action_client]: current position: [x: 0.407735, y: -0.408316, z: 0.000026]\n'}
+[14.336932] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.764066838] [waypoint_action_client]: current state: fix yaw\n'}
+[14.376885] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.804338515] [waypoint_action_client]: current position: [x: 0.407589, y: -0.408453, z: 0.000027]\n'}
+[14.377241] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.804389200] [waypoint_action_client]: current state: fix yaw\n'}
+[14.383272] (-) TimerEvent: {}
+[14.416908] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.844084086] [waypoint_action_client]: current position: [x: 0.407263, y: -0.408689, z: 0.000028]\n'}
+[14.417331] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.844143536] [waypoint_action_client]: current state: fix yaw\n'}
+[14.456974] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.884548035] [waypoint_action_client]: current position: [x: 0.406808, y: -0.409070, z: 0.000026]\n'}
+[14.457561] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.884617138] [waypoint_action_client]: current state: go to point\n'}
+[14.483979] (-) TimerEvent: {}
+[14.496689] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.923919361] [waypoint_action_client]: current position: [x: 0.406560, y: -0.409385, z: 0.000025]\n'}
+[14.498865] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.923986812] [waypoint_action_client]: current state: go to point\n'}
+[14.537194] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.964435374] [waypoint_action_client]: current position: [x: 0.406618, y: -0.410036, z: 0.000027]\n'}
+[14.537521] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969896.964531494] [waypoint_action_client]: current state: go to point\n'}
+[14.577459] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.004887999] [waypoint_action_client]: current position: [x: 0.406942, y: -0.410950, z: 0.000028]\n'}
+[14.577830] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.004948674] [waypoint_action_client]: current state: go to point\n'}
+[14.586847] (-) TimerEvent: {}
+[14.620297] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.044182904] [waypoint_action_client]: current position: [x: 0.407543, y: -0.412141, z: 0.000029]\n'}
+[14.620682] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.044237172] [waypoint_action_client]: current state: go to point\n'}
+[14.656596] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.084126658] [waypoint_action_client]: current position: [x: 0.408467, y: -0.413624, z: 0.000028]\n'}
+[14.656964] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.084195065] [waypoint_action_client]: current state: go to point\n'}
+[14.688024] (-) TimerEvent: {}
+[14.695865] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.123149344] [waypoint_action_client]: current position: [x: 0.410408, y: -0.416310, z: 0.000028]\n'}
+[14.696297] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.123215641] [waypoint_action_client]: current state: go to point\n'}
+[14.736578] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.164155855] [waypoint_action_client]: current position: [x: 0.412073, y: -0.418409, z: 0.000028]\n'}
+[14.736969] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.164221766] [waypoint_action_client]: current state: go to point\n'}
+[14.776493] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.204081079] [waypoint_action_client]: current position: [x: 0.415215, y: -0.422047, z: 0.000028]\n'}
+[14.776963] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.204141791] [waypoint_action_client]: current state: go to point\n'}
+[14.789841] (-) TimerEvent: {}
+[14.817033] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.244521908] [waypoint_action_client]: current position: [x: 0.419100, y: -0.426201, z: 0.000022]\n'}
+[14.817406] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.244580544] [waypoint_action_client]: current state: go to point\n'}
+[14.856655] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.284146752] [waypoint_action_client]: current position: [x: 0.422094, y: -0.429235, z: 0.000030]\n'}
+[14.856991] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.284207707] [waypoint_action_client]: current state: go to point\n'}
+[14.891671] (-) TimerEvent: {}
+[14.895515] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.322867699] [waypoint_action_client]: current position: [x: 0.427244, y: -0.434206, z: 0.000029]\n'}
+[14.895936] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.322919959] [waypoint_action_client]: current state: go to point\n'}
+[14.936522] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.364064682] [waypoint_action_client]: current position: [x: 0.433210, y: -0.439635, z: 0.000028]\n'}
+[14.937214] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.364132824] [waypoint_action_client]: current state: fix yaw\n'}
+[14.980379] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.407873991] [waypoint_action_client]: current position: [x: 0.437495, y: -0.443365, z: 0.000030]\n'}
+[14.980679] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.407939629] [waypoint_action_client]: current state: fix yaw\n'}
+[14.993709] (-) TimerEvent: {}
+[15.020904] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.447981775] [waypoint_action_client]: current position: [x: 0.441542, y: -0.446845, z: 0.000035]\n'}
+[15.021289] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.448061898] [waypoint_action_client]: current state: fix yaw\n'}
+[15.056608] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.484126106] [waypoint_action_client]: current position: [x: 0.443461, y: -0.448471, z: 0.000030]\n'}
+[15.056950] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.484197710] [waypoint_action_client]: current state: fix yaw\n'}
+[15.093843] (-) TimerEvent: {}
+[15.096621] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.524047562] [waypoint_action_client]: current position: [x: 0.448786, y: -0.452950, z: 0.000029]\n'}
+[15.096983] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.524109590] [waypoint_action_client]: current state: fix yaw\n'}
+[15.137181] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.564645584] [waypoint_action_client]: current position: [x: 0.453445, y: -0.456812, z: 0.000029]\n'}
+[15.137584] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.564701591] [waypoint_action_client]: current state: fix yaw\n'}
+[15.176456] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.603997189] [waypoint_action_client]: current position: [x: 0.456172, y: -0.459074, z: 0.000031]\n'}
+[15.176808] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.604063802] [waypoint_action_client]: current state: fix yaw\n'}
+[15.194384] (-) TimerEvent: {}
+[15.216707] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.644157659] [waypoint_action_client]: current position: [x: 0.459672, y: -0.461989, z: 0.000030]\n'}
+[15.217182] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.644219125] [waypoint_action_client]: current state: fix yaw\n'}
+[15.258762] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.686147617] [waypoint_action_client]: current position: [x: 0.462465, y: -0.464387, z: 0.000028]\n'}
+[15.259091] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.686212093] [waypoint_action_client]: current state: fix yaw\n'}
+[15.296112] (-) TimerEvent: {}
+[15.296536] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.724022733] [waypoint_action_client]: current position: [x: 0.464053, y: -0.465720, z: 0.000028]\n'}
+[15.296830] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.724087364] [waypoint_action_client]: current state: fix yaw\n'}
+[15.343008] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.764177152] [waypoint_action_client]: current position: [x: 0.465540, y: -0.466898, z: 0.000024]\n'}
+[15.343363] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.764237967] [waypoint_action_client]: current state: fix yaw\n'}
+[15.376810] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969897.804076787] [waypoint_action_client]: result: true\n'}
+[15.397930] (-) TimerEvent: {}
+[15.500084] (-) TimerEvent: {}
+[15.594732] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [       OK ] WaypointActionServerTest.ErrorTest (15332 ms)\n'}
+[15.595082] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [ RUN      ] WaypointActionServerTest.CancelGoal\n'}
+[15.601892] (-) TimerEvent: {}
+[15.642585] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [INFO] [1701969898.070110869] [waypoint_action_client]: Sending goal\n'}
+[15.643564] (tortoisebot_waypoints) StdoutLine: {'line': b'1: /home/user/ros2_ws/src/tortoisebot_waypoints/test/tortoisebot_waypoints_test.cpp:201: Failure\n'}
+[15.644697] (tortoisebot_waypoints) StdoutLine: {'line': b'1: Value of: false\n'}
+[15.645071] (tortoisebot_waypoints) StdoutLine: {'line': b'1:   Actual: false\n'}
+[15.645264] (tortoisebot_waypoints) StdoutLine: {'line': b'1: Expected: true\n'}
+[15.703724] (-) TimerEvent: {}
+[15.805831] (-) TimerEvent: {}
+[15.838198] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [  FAILED  ] WaypointActionServerTest.CancelGoal (247 ms)\n'}
+[15.838938] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [----------] 2 tests from WaypointActionServerTest (15579 ms total)\n'}
+[15.839144] (tortoisebot_waypoints) StdoutLine: {'line': b'1: \n'}
+[15.839278] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [----------] Global test environment tear-down\n'}
+[15.839410] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [==========] 2 tests from 1 test suite ran. (15579 ms total)\n'}
+[15.839533] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [  PASSED  ] 1 test.\n'}
+[15.839663] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [  FAILED  ] 1 test, listed below:\n'}
+[15.839793] (tortoisebot_waypoints) StdoutLine: {'line': b'1: [  FAILED  ] WaypointActionServerTest.CancelGoal\n'}
+[15.839951] (tortoisebot_waypoints) StdoutLine: {'line': b'1: \n'}
+[15.840071] (tortoisebot_waypoints) StdoutLine: {'line': b'1:  1 FAILED TEST\n'}
+[15.840543] (tortoisebot_waypoints) StdoutLine: {'line': b'1: -- run_test.py: return code 1\n'}
+[15.841202] (tortoisebot_waypoints) StdoutLine: {'line': b"1: -- run_test.py: inject classname prefix into gtest result file '/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml'\n"}
+[15.841496] (tortoisebot_waypoints) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/user/ros2_ws/build/tortoisebot_waypoints/test_results/tortoisebot_waypoints/tortoisebot_waypoints_test.gtest.xml'\n"}
+[15.875187] (tortoisebot_waypoints) StdoutLine: {'line': b'1/1 Test #1: tortoisebot_waypoints_test .......***Failed   15.76 sec\n'}
+[15.875752] (tortoisebot_waypoints) StdoutLine: {'line': b'\n'}
+[15.876024] (tortoisebot_waypoints) StdoutLine: {'line': b'0% tests passed\x1b[0;0m, \x1b[0;31m1 tests failed\x1b[0;0m out of 1\n'}
+[15.876276] (tortoisebot_waypoints) StdoutLine: {'line': b'\n'}
+[15.876472] (tortoisebot_waypoints) StdoutLine: {'line': b'Label Time Summary:\n'}
+[15.876642] (tortoisebot_waypoints) StdoutLine: {'line': b'gtest    =  15.76 sec*proc (1 test)\n'}
+[15.876826] (tortoisebot_waypoints) StdoutLine: {'line': b'\n'}
+[15.876961] (tortoisebot_waypoints) StdoutLine: {'line': b'Total Test time (real) =  15.76 sec\n'}
+[15.877128] (tortoisebot_waypoints) StdoutLine: {'line': b'\n'}
+[15.877260] (tortoisebot_waypoints) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[15.877479] (tortoisebot_waypoints) StdoutLine: {'line': b'\t\x1b[0;31m  1 - tortoisebot_waypoints_test (Failed)\x1b[0;0m\n'}
+[15.883966] (tortoisebot_waypoints) StderrLine: {'line': b'Errors while running CTest\n'}
+[15.885624] (tortoisebot_waypoints) CommandEnded: {'returncode': 8}
+[15.886677] (tortoisebot_waypoints) TestFailure: {'identifier': 'tortoisebot_waypoints'}
+[15.886903] (tortoisebot_waypoints) JobEnded: {'identifier': 'tortoisebot_waypoints', 'rc': 0}
+[15.888007] (-) EventReactorShutdown: {}

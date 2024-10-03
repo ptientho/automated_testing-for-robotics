@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtortoisebot_waypoints_lib.a  CMakeFiles/tortoisebot_waypoints_lib.dir/src/tortoisebot_action_server.cpp.o
+/usr/bin/ranlib libtortoisebot_waypoints_lib.a

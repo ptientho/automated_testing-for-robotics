@@ -1,0 +1,26 @@
+[0.110s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_bringup': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tortoisebot_bringup -- -j8 -l8
+[0.192s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tortoisebot_bringup -- -j8 -l8
+[0.322s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_bringup': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tortoisebot_bringup
+[0.335s] -- Install configuration: ""
+[0.336s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/launch
+[0.336s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/launch/autobringup.launch.py
+[0.336s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/launch/bringup.launch.py
+[0.336s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/maps
+[0.336s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/maps/room2.yaml
+[0.336s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/maps/room2.pgm
+[0.337s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_bringup/share/ament_index/resource_index/package_run_dependencies/tortoisebot_bringup
+[0.337s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_bringup/share/ament_index/resource_index/parent_prefix_path/tortoisebot_bringup
+[0.338s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/environment/ament_prefix_path.sh
+[0.338s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/environment/ament_prefix_path.dsv
+[0.338s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/environment/path.sh
+[0.338s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/environment/path.dsv
+[0.338s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/local_setup.bash
+[0.338s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/local_setup.sh
+[0.338s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/local_setup.zsh
+[0.338s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/local_setup.dsv
+[0.338s] -- Installing: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/package.dsv
+[0.339s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_bringup/share/ament_index/resource_index/packages/tortoisebot_bringup
+[0.339s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/cmake/tortoisebot_bringupConfig.cmake
+[0.340s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/cmake/tortoisebot_bringupConfig-version.cmake
+[0.340s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_bringup/share/tortoisebot_bringup/package.xml
+[0.370s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tortoisebot_bringup
